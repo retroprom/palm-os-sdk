@@ -1,0 +1,8 @@
+version=2.0
+sdk=${prefix}/sdk-2
+includedir=${sdk}/include
+
+Name: palmos-sdk-2.0
+Description: PalmOS SDK 2.0
+Version: ${version}
+Cflags: -I${includedir} -I${includedir}/Core -I${includedir}/Core/Hardware -I${includedir}/Core/System -I${includedir}/Core/System/Unix -I${includedir}/Core/UI

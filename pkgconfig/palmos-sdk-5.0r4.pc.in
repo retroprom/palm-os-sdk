@@ -1,0 +1,10 @@
+version=5.0r4
+sdk=${prefix}/sdk-5r4
+includedir=${sdk}/include
+libdir=${sdk}/lib/m68k-palmos-coff
+
+Name: palmos-sdk-5.0r4
+Description: PalmOS 5.0 SDK R4
+Version: ${version}
+Cflags: -I${includedir} -I${includedir}/Core -I${includedir}/Core/Hardware -I${includedir}/Core/System -I${includedir}/Core/System/Unix -I${includedir}/Core/UI -I${includedir}/Dynamic -I${includedir}/Extensions -I${includedir}/Extensions/Bluetooth -I${includedir}/Extensions/ExpansionMgr -I${includedir}/Libraries -I${includedir}/Libraries/ExgLocal -I${includedir}/Libraries/INet -I${includedir}/Locale -I${includedir}/Libraries/Lz77 -I${includedir}/Libraries/PalmOSGlue -I${includedir}/Libraries/Pdi -I${includedir}/Libraries/Sms -I${includedir}/Libraries/Telephony
+Libs: -L${libdir}

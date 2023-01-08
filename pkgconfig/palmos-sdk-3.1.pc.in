@@ -1,0 +1,8 @@
+version=3.1
+sdk=${prefix}/sdk-3.1
+includedir=${sdk}/include
+
+Name: palmos-sdk-3.1
+Description: PalmOS SDK 3.1
+Version: ${version}
+Cflags: -I${includedir} -I${includedir}/Core -I${includedir}/Core/Hardware -I${includedir}/Core/International -I${includedir}/Core/System -I${includedir}/Core/System/Unix -I${includedir}/Core/UI

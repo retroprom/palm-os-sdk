@@ -1,0 +1,10 @@
+version=3.5
+sdk=${prefix}/sdk-3.5
+includedir=${sdk}/include
+libdir=${sdk}/lib/m68k-palmos-coff
+
+Name: palmos-sdk-3.5
+Description: PalmOS SDK 3.5
+Version: ${version}
+Cflags: -I${includedir} -I${includedir}/Core -I${includedir}/Core/Hardware -I${includedir}/Core/System -I${includedir}/Core/System/Unix -I${includedir}/Core/UI -I${includedir}/Dynamic -I${includedir}/Libraries -I${includedir}/Libraries/INet -I${includedir}/Libraries/PalmOSGlue
+Libs: -L${libdir}
