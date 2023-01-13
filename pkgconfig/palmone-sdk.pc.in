@@ -1,0 +1,8 @@
+version=1.0
+sdk=${prefix}/PalmOne
+includedir=${sdk}/Incs
+
+Name: palmone-sdk
+Description: PalmOne SDK
+Version: ${version}
+Cflags: -I${includedir} -I${includedir}/Common -I${includedir}/Common/System -I${includedir}/68K -I${includedir}/68K/System
