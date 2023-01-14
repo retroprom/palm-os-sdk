@@ -1,0 +1,8 @@
+version=3.0
+sdk=${prefix}/clie-3.0
+includedir=${sdk}/Incs
+
+Name: clie-sdk-3.0
+Description: Sony Clie SDK 3.0
+Version: ${version}
+Cflags: -I${includedir} -I${includedir}/System -I${includedir}/Libraries
