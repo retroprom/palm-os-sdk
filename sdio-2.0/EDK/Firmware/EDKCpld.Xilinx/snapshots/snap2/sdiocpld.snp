@@ -1,0 +1,23 @@
+JDF D
+// Created by iSE ver 1.0
+PROJECT Untitled
+DESIGN sdiocpld Normal
+DEVKIT XCR3064XL VQ44
+FLOW XST Verilog
+MODULE sdio_cpld.v
+MODSTYLE SDIO Normal
+TESTFIXTURE SDIO Test.tf
+MODULE addrctlr.v
+MODSTYLE ADDR_CTLR Normal
+MODULE spi_shift_out.v
+MODSTYLE SPI_SHIFT_OUT Normal
+MODULE state_ctlr.v
+
+[STRATEGY-LIST]
+Normal=True, 1000609104
+
+[Normal]
+xplaReadUCF=vlgxst.xcrplaff3s6710a, Implementation.TASKfitDes, 1002315174, C:\Xilinx_WebPACK\Projects\EDKCpld.Xilinx\sdio.ucf
+xplaResISP=vlgxst.xcrplaff3s6710a, Implementation.TASKfitDes, 1000614340, False
+xplaFIO=vlgxst.xcrplaff3s6710a, Implementation.TASKfitDes, 1000651940, False
+_VerilSimRunTime=vlgxst.xcrplaff3s6710a, Module Test Fixture.TASKpreSimMdl2, 1000637904, 4 ms

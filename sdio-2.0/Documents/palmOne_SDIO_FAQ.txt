@@ -1,0 +1,220 @@
+
+====================================
+palmOne DTS Team
+http://pluggedin.palmone.com
+====================================
+
+***This information is subject to the palmOne Prototype
+   License/Confidentiality Agreement.
+
+------------------------------------------
+palmOne SDIO SDK 2.0
+------------------------------------------
+
+1. What kind of SD/SDIO support is available on palmOne handhelds?
+
+a) The latest palmOne handhelds (Palm OS 5.X) have the SD driver and the SDIO driver
+in the ROM. Out of the box these handhelds can recognize MultiMedia Cards,
+SD Cards, and SDIO Cards.
+
+b) The palmOne handhelds m130 and m515 have the SD driver and the SDIO driver in
+ROM. Out of the box these handhelds can recognize MultiMedia Cards, SD Cards,
+and SDIO Cards.
+
+c) The palm handhelds m125, m500, m505, and i705 have the SD driver in ROM.
+They do not have the SDIO driver in ROM. Out of the box these handhelds can
+recognize MultiMedia Cards and SD Cards, but they cannot recognize SDIO Cards.
+The SDIO driver must be installed in RAM on these handhelds before inserting
+any SDIO card into the expansion slot or else the SDIO card will not be
+recognized.
+
+---------------------------------------------------------------------------------------------------
+
+2. Can you provide information about SDIO pin descriptions, handshaking, etc?
+
+This level of detail requires membership in SD Card Association
+(www.sdcard.org). You must join the association before they will provide the
+low-level documentation on SD Cards and SDIO Cards.
+
+---------------------------------------------------------------------------------------------------
+
+3. I would like to know how to use the SDIO Development Card #1?
+
+Any PluggedIn member can buy this tool from the Expansion Parts Store,
+
+Read the file "SDIODevelopmentCard1.pdf" contained in this SDK.
+The document contains instructions
+for its use (reprogram the PIC, CPLD, etc.).
+
+Technical support is limited to: the SDIO card in its present hardware
+configuration, the present implementation of the firmware's
+source code (PIC & CPLD), and the present implementation of the Palm OS
+application's source code (uploaded to the handheld from flash memory
+when the SDIO card is inserted into the expansion slot).
+
+The serial port (DB-9) and some unused exposed signals (from the PIC & CPLD)
+are not enabled to work by the existing firmware, so their use is not supported
+by palmOne, Inc. These were put there for developers to use for experimentation.
+
+NOTE:
+The SDIO Development Card #1 was tested with palmOne handhelds by inserting the
+card to verify that plug and play happens without a problem.
+
+---------------------------------------------------------------------------------------------------
+
+4. How do you determine if a handheld with and expansion slot has SDIO support?
+
+A simple clean straight forward statement cannot be made to developers regarding
+how to check to determine if a handheld has SDIO support or not because of the
+following:
+
+* Adding the SDIO patch does not change the Palm OS version reported on
+  m500 (Palm OS 4.0), m505 (Palm OS 4.0), m125 (Palm OS 4.0.1).
+* SDIO is not a supported feature in i705, adding the SDIO patch does not change
+  the version (Palm OS 4.1) reported.
+* SDIO is a supported feature in m130 (Palm OS 4.1).
+* SDIO is a supported feature in m515 (Palm OS 4.1).
+
+Search for the OS version:
+1. Palm OS 5.X
+SDIO support is in the ROM.
+
+2. Palm OS 4.0 or Palm OS 4.0.1
+The handheld needs the SDIO patch.
+Search for the SDIO patch file name.
+If found, the SDIO patch is already installed.
+If not found, install the SDIO patch.
+
+3. Palm OS 4.1
+a. If the handheld is an i705, it needs the SDIO patch.
+Search for the SDIO patch file name.
+If found the SDIO patch is already installed.
+If not found, install the SDIO patch.
+
+b. If the handheld is not an i705, the SDIO patch is not needed.
+SDIO support is in the ROM.
+
+---------------------------------------------------------------------------------------------------
+
+5. My application produces a 'Fatal Alert' "Fatal Exception" message box, why?
+
+A Palm OS application should check the Form ID before attempting to write to a
+Form. If not, then a 'Fatal Alert' "Fatal Exception" message box appears when
+it attempts to write to the wrong Form.
+
+For example. An SDIO card with plug and play is inserted into the expansion
+slot. The application is loaded. The application is launched. The SDIO card is
+removed. The SDIO card is inserted. A 'Handheld Error' message box appears. The
+SDIO card is removed. A 'Fatal Alert' "Fatal Exception" message box appears.
+
+---------------------------------------------------------------------------------------------------
+
+6. Is there any API to put the palmOne handheld in the SDIO SPI mode?
+   How can I use SDIO SPI mode on a palmOne handheld?
+
+A  There is no API to force the palmOne handheld into SPI mode. The palmOne handheld starts off in
+   SDIO SD-1 Bit. It tries to communicate with the SDIO card in SDIO SD-1 Bit by sending a CMD0. If the
+   communication fails (response has errors) then the palmOne handheld tries to communicate with the SDIO card in SDIO
+   SPI mode. If that works then the palmOne handheld will operate in SDIO SPI mode.
+
+---------------------------------------------------------------------------------------------------
+
+7. Are there any known issues with SDIORWExtendedBlock API on palmOne Handhelds?
+
+A  On some palmOne handhelds including Tungsten C, the SDIORWExtendedBlock may not
+function with some cards. palmOne recommends using SDIORWExtendedByte instead.
+
+---------------------------------------------------------------------------------------------------
+
+8. Why can't I get interrupts from the card on various palmOne handhelds like
+   Zire 72, Tungsten T5, etc.?
+
+A  Some of the palmOne handhelds like Zire 72, Tungsten T5, etc. have interrupts
+   disabled by default. Interrupts have to be explicitly enabled using
+   SDIOEnableHandheldInterrupt in your Application.
+
+   FtrGet( sysFtrCreator, sysFtrNumOEMDeviceID, &deviceID );
+   if ( deviceID == 'Zi72' || deviceID == 'TnT5' )
+   {
+       SDIOEnableHandheldInterrupt( gSlotLibRefNum );
+   }
+
+---------------------------------------------------------------------------------------------------
+
+9. How do I use the SDIOGetAutoRun API on a palmOne handheld?
+
+A. The following code snippet show how to use the SDIOGetAutoRun.
+
+
+Err CheckCardInserted( )
+{
+	Err					 	err;
+	UInt32				 	slotIterator;
+	UInt16				 	slotRefNum;
+	UInt16				 	slotLibRefNum;
+	UInt32				 	mediaType;
+	UInt16				 	count				= 0;	
+	SDIOAutoRunInfoType		autoRun;
+
+	
+	slotIterator = expIteratorStart;
+	while ( slotIterator != expIteratorStop )
+	{	
+		err = ExpSlotEnumerate( &slotRefNum, &slotIterator );
+		if ( err )
+		{
+			// Failed to enumerate the slot
+			break;
+		}
+		
+		err = ExpSlotLibFind(slotRefNum,  &slotLibRefNum);
+		if ( !err )
+		{
+			
+			err = SlotMediaType( slotLibRefNum, slotRefNum, &mediaType );
+			
+			if ( !err )
+			{
+			
+				if ( mediaType == expMediaType_SecureDigital )
+				{
+					gSlotLibRefNum		= slotLibRefNum;
+					autoRun.sdioSlotNum = sdioSlotFunc1; //only look in function 1
+					err					= SDIOGetAutoRun( slotLibRefNum, &autoRun );
+					
+					if ( err == errNone )
+					{
+						// The autoRun has valid values for the following:
+						// autoRun.oemManufacturer
+						// autoRun.oemID
+						// autoRun.oemFunctionStandard
+						// autoRun.oemFunctionNum
+						// autoRun.media
+					}				
+										
+				}
+			
+
+			}
+		}
+	}	
+	
+	return 0;
+}
+
+---------------------------------------------------------------------------------------------------
+
+10. What kind of SDIO support (SPI, SD-1 bit or SD-4 bit) is available on palmOne handhelds?
+
+A. Please refer to the palmOne Developer Guide for more details regarding the SDIO support
+available on the latest palmOne handhelds.
+
+---------------------------------------------------------------------------------------------------
+
+11. Does the palmOne EDK work on Palm OS 5.X? How come the palmOne EDK does not work on some of the
+    palmOne devices?
+
+A. The palmOne EDK supports SDIO SPI mode only. It works on all the palmOne devices, including the
+   Palm OS 5.X devices, that support SDIO SPI mode.
+
+---------------------------------------------------------------------------------------------------

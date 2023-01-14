@@ -1,0 +1,21 @@
+iSE Auto-Make Log File
+-----------------------
+
+Starting: 'C:\XILINX_WEBPACK\BIN\NT\jhdparse.exe @sdio_cpld.jp'
+
+
+JHDPARSE - VHDL/Verilog Parser.
+iSE 1.0 Copyright(c) 1999 Xilinx, Inc.  All rights reserved. 
+
+Unable to find library file C:\Xilinx_WebPACK\data\webpack\simprim.lst.
+Scanning    C:\Xilinx_WebPACK\verilog\src\iSE\unisim_comp.v
+Scanning    sdio_cpld.v
+Scanning    fifo.v
+Scanning    addrctlr.v
+Scanning    spi_shift_out.v
+Scanning    state_ctlr.v
+Writing sdio_cpld.jhd.
+
+JHDPARSE complete -    0 errors,    0 warnings.
+
+Done: completed successfully.

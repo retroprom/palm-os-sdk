@@ -1,0 +1,16 @@
+The following SDIO Drivers can be used on m125, m500, m505 and i705:
+
+ 1. SlotDrvrSDIO_deDE.prc
+ 2. SlotDrvrSDIO_enUS.prc
+ 3. SlotDrvrSDIO_esES.prc
+ 4. SlotDrvrSDIO_frFR.prc
+ 5. SlotDrvrSDIO_itIT.prc
+ 6. SlotDrvrSDIO_jpJP.prc
+ 7. SlotDrvrSDIODbg_deDE.prc
+ 8. SlotDrvrSDIODbg_enUS.prc
+ 9. SlotDrvrSDIODbg_esES.prc
+10. SlotDrvrSDIODbg_frFR.prc
+11. SlotDrvrSDIODbg_itIT.prc
+12. SlotDrvrSDIODbg_jpJP.prc
+
+NOTE: The m130 and m515 have the drivers in ROM.

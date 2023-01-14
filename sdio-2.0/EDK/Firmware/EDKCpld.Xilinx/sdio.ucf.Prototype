@@ -1,0 +1,85 @@
+#
+# User Constraints File for EDK Prototype Card.
+# DO NOT USE WITH RELEASE EDK CARD
+# FOR PALM, INC. USE ONLY
+
+#PINLOCK_BEGIN
+
+
+#Wed Jul 18 09:26:12 2001
+
+
+NET "DI"             LOC =  ":PIN43";
+
+NET "CD"             LOC =  ":PIN42";
+
+NET "DO"             LOC =  ":PIN44";
+
+NET "ICLK"           LOC =  ":PIN40";
+
+NET "SCLK"           LOC =  ":PIN39";
+
+NET "PCLK"           LOC =  ":PIN38";
+
+NET "NC"             LOC =  ":PIN37";
+
+NET "addr[0]"        LOC =  ":PIN2";
+
+NET "addr[1]"        LOC =  ":PIN3";
+
+NET "addr[2]"        LOC =  ":PIN5";
+
+NET "addr[3]"        LOC =  ":PIN6";
+
+NET "addr[4]"        LOC =  ":PIN25";
+
+NET "addr[5]"        LOC =  ":PIN23";
+
+NET "addr[6]"        LOC =  ":PIN22";
+
+NET "addr[7]"        LOC =  ":PIN21";
+
+NET "addr[8]"        LOC =  ":PIN20";
+
+NET "addr[9]"        LOC =  ":PIN19";
+
+NET "addr[10]"       LOC =  ":PIN18";
+
+NET "addr[11]"       LOC =  ":PIN8";
+
+NET "addr[12]"       LOC =  ":PIN10";
+
+NET "addr[13]"       LOC =  ":PIN11";
+
+NET "addr[14]"       LOC =  ":PIN12";
+
+NET "addr[15]"       LOC =  ":PIN13";
+
+NET "addr[16]"       LOC =  ":PIN14";
+
+NET "csabus[0]"      LOC =  ":PIN32";
+
+NET "csabus[1]"      LOC =  ":PIN35";
+
+NET "csabus[2]"      LOC =  ":PIN34";
+
+NET "csabus[3]"      LOC =  ":PIN33";
+
+NET "csabus[4]"      LOC =  ":PIN31";
+
+NET "csabus[5]"      LOC =  ":PIN30";
+
+NET "csabus[6]"      LOC =  ":PIN28";
+
+NET "csabus[7]"      LOC =  ":PIN27";
+
+NET "WriteN"         LOC =  ":PIN15";
+
+NET "ResetN"         LOC =  ":PIN7";
+
+NET "CmdN"           LOC =  ":PIN26";
+
+NET "RdyN"           LOC =  ":PIN1";
+
+#PINLOCK_END
+

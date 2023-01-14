@@ -1,0 +1,79 @@
+
+#PINLOCK_BEGIN
+
+
+#Wed Jul 18 09:26:12 2001
+
+
+NET "DI"             LOC =  ":PIN99";
+
+NET "CD"             LOC =  ":PIN98";
+
+NET "DO"             LOC =  ":PIN100";
+
+NET "ICLK"           LOC =  ":PIN90";
+
+NET "SCLK"           LOC =  ":PIN89";
+
+NET "PCLK"           LOC =  ":PIN41";
+
+NET "addr[0]"        LOC =  ":PIN5";
+
+NET "addr[1]"        LOC =  ":PIN6";
+
+NET "addr[2]"        LOC =  ":PIN7";
+
+NET "addr[3]"        LOC =  ":PIN8";
+
+NET "addr[4]"        LOC =  ":PIN9";
+
+NET "addr[5]"        LOC =  ":PIN10";
+
+NET "addr[6]"        LOC =  ":PIN12";
+
+NET "addr[7]"        LOC =  ":PIN13";
+
+NET "addr[8]"        LOC =  ":PIN14";
+
+NET "addr[9]"        LOC =  ":PIN16";
+
+NET "addr[10]"       LOC =  ":PIN17";
+
+NET "addr[11]"       LOC =  ":PIN19";
+
+NET "addr[12]"       LOC =  ":PIN20";
+
+NET "addr[13]"       LOC =  ":PIN21";
+
+NET "addr[14]"       LOC =  ":PIN22";
+
+NET "addr[15]"       LOC =  ":PIN23";
+
+NET "addr[16]"       LOC =  ":PIN24";
+
+NET "csabus[0]"      LOC =  ":PIN97";
+
+NET "csabus[1]"      LOC =  ":PIN96";
+
+NET "csabus[2]"      LOC =  ":PIN94";
+
+NET "csabus[3]"      LOC =  ":PIN93";
+
+NET "csabus[4]"      LOC =  ":PIN92";
+
+NET "csabus[5]"      LOC =  ":PIN84";
+
+NET "csabus[6]"      LOC =  ":PIN83";
+
+NET "csabus[7]"      LOC =  ":PIN81";
+
+NET "WriteN"         LOC =  ":PIN44";
+
+NET "ResetN"         LOC =  ":PIN42";
+
+NET "CmdN"           LOC =  ":PIN85";
+
+NET "RdyN"           LOC =  ":PIN40";
+
+#PINLOCK_END
+

@@ -1,0 +1,20 @@
+JDF D
+// Created by iSE ver 1.0
+PROJECT Untitled
+DESIGN sdiocpld Normal
+DEVKIT XCR3128XL VQ100
+FLOW XST Verilog
+MODULE sdio_cpld.v
+MODSTYLE SDIO Normal
+TESTFIXTURE SDIO Test.tf
+MODULE addrctlr.v
+MODSTYLE ADDR_CTLR Normal
+MODULE spi_shift_out.v
+MODSTYLE SPI_SHIFT_OUT Normal
+MODULE state_ctlr.v
+MODSTYLE STATE_CTLR Normal
+[STRATEGY-LIST]
+Normal=True, 1007149725
+[Normal]
+xplaReadUCF=vlgxst.xcrplaff3s710a, Verilog.TASKfitDes, 1007149791, sdio.ucf
+xplaFIO=vlgxst.xcrplaff3s710a, Verilog.TASKfitDes, 1000651940, False

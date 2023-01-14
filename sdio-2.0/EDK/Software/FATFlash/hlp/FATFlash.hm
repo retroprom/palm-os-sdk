@@ -1,0 +1,18 @@
+ 
+// Commands (ID_* and IDM_*) 
+HID_FILE_EXPORT_FILESYSTEM              0x10065
+HID_FILE_SETROOTDIR                     0x10066
+HID_EXPORT_FILESYSTEM                   0x18003
+HID_EXPORT_FILESYSTEM_PDB               0x18004
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_FATFLATYPE                         0x20081
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_FATFLASH_FORM                      0x20065
+ 
+// Frame Controls (IDW_*) 
