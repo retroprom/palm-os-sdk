@@ -1,0 +1,8 @@
+version=2.0
+sdk=${prefix}/clie-2.0
+includedir=${sdk}/Incs
+
+Name: clie-sdk-2.0
+Description: Sony Clie SDK 2.0
+Version: ${version}
+Cflags: -I${includedir} -I${includedir}/System -I${includedir}/Libraries
