@@ -1,0 +1,8 @@
+version=1.0
+sdk=${prefix}/sdio-1.0
+includedir=${sdk}/Incs
+
+Name: palmos-sdio-1.0
+Description: PalmOS SDIO SDK 1.0
+Version: ${version}
+Cflags: -I${includedir}
