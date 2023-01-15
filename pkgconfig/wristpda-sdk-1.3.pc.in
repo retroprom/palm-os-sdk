@@ -1,0 +1,8 @@
+version=1.3
+sdk=${prefix}/wristpda-1.3
+includedir=${sdk}/Include
+
+Name: wristpda-sdk-1.3
+Description: Fossil Wrist PDA SDK 1.3
+Version: ${version}
+Cflags: -I${includedir}

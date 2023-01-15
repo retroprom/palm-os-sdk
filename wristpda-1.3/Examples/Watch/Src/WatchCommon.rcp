@@ -1,0 +1,26 @@
+
+// Watch.rcp
+
+
+// Icon bitmaps for alarm triggered and low battery.
+
+bitmap id   100 "Bitmaps/Alarm.bmp"
+
+bitmap id   101 "Bitmaps/BatteryLow.bmp"
+
+bitmap id   102 "Bitmaps/BatteryVeryLow.bmp"
+
+bitmap id   103 "Bitmaps/BatteryEmpty.bmp"
+
+
+// Common analog watch face
+
+bitmap id  6100 "Bitmaps/Analog2.bmp"
+
+
+// Dummy form (needed so Attention Manager doesn't crash)
+
+form id 150 at ( 0 0 160 160 )
+noframe
+begin
+end
