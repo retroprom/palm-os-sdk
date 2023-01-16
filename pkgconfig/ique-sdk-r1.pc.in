@@ -1,0 +1,8 @@
+version=1
+sdk=${prefix}/ique-r1
+includedir=${sdk}/Incs
+
+Name: ique-sdk-r1
+Description: Garmin iQue SDK R1
+Version: ${version}
+Cflags: -I${includedir}

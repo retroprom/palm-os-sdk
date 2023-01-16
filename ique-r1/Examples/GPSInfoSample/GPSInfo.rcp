@@ -1,0 +1,69 @@
+#include "GPSInfo_res.h"
+
+// Forms and Alerts
+FORM ID SatStatusForm AT (0 0 160 160)
+MENUID MainMenuBar
+BEGIN
+  TITLE "GPS Information"
+  POPUPTRIGGER "Status" ID SatStatusModePopTrigger AT (115 1 44 11) FONT 0 RIGHTANCHOR
+  POPUPLIST SatStatusModePopTrigger SatStatusModeList
+  LIST "Status" "Data" ID SatStatusModeList AT (120 3 39 AUTO) FONT 0 NONUSABLE DISABLED VISIBLEITEMS 2
+END
+
+FORM ID AboutForm AT (2 50 156 108)
+MODAL
+BEGIN
+  TITLE "About GPS Information"
+  FORMBITMAP AT (7 19) BITMAP ApplicationIconBitmap
+  LABEL "GPS Information" ID AboutApplicationTitleLabel AT (36 18) FONT 2
+  LABEL "Sample Application\nVersion1.0" ID AboutVersionLabel AT (40 33) FONT 0
+  LABEL "\2512001 GARMIN Corp.\nAll Rights Reserved" ID AboutCopyrightLabel AT (36 58) FONT 0
+  BUTTON "OK" ID AboutOKButton AT (CENTER 87 36 12) FONT 0 LEFTANCHOR
+END
+
+FORM ID SatDataForm AT (0 0 160 160)
+BEGIN
+  TITLE "GPS Information"
+  POPUPTRIGGER "Data" ID SatDataModePopTrigger AT (122 1 37 11) FONT 0 RIGHTANCHOR
+  POPUPLIST SatDataModePopTrigger SatDataModeList
+  LIST "Status" "Data" ID SatDataModeList AT (120 3 39 AUTO) FONT 0 NONUSABLE DISABLED VISIBLEITEMS 2
+END
+
+
+// Bitmaps and Icons
+ICONFAMILY "1lrg_icon.bmp" "2lrg_icon.bmp" "" "8lrg_icon.bmp" TRANSPARENT 0 255 0
+SMALLICONFAMILY "1sml_icon.bmp" "2sml_icon.bmp" "" "8sml_icon.bmp" TRANSPARENT 0 255 0
+
+BITMAP ID ApplicationIconBitmap "1lrg_icon.bmp"
+
+// Strings
+STRING ID d3DiffFixString "3D Differential Location"
+STRING ID d2DiffFixString "2D Differential Location"
+STRING ID lostSatRecepString "Lost Satellite Reception"
+STRING ID d3FixString "3D GPS Location"
+STRING ID d2FixString "2D GPS Location"
+STRING ID neswString "NESW"
+STRING ID azimString "azim"
+STRING ID elevString "elev"
+STRING ID svidString "svid"
+STRING ID snrString "snr"
+STRING ID pmString "PM"
+STRING ID amString "AM"
+STRING ID diffCharString "D"
+STRING ID rString "r"
+STRING ID uString "u"
+STRING ID dString "d"
+STRING ID eString "e"
+
+// Menus
+MENU id MainMenuBar
+Begin
+  Pulldown "Options"
+  Begin
+    MenuItem "About..." id OptionsAbout
+  End
+End
+
+// Other stuff
+APPLICATIONICONNAME id ApplicationIconBitmap "GPS Info"
+LAUNCHERCATEGORY ID 1000 "GPS"
