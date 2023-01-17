@@ -21,7 +21,7 @@
 #include <Bitmap.h>	// for RGBColorType
 
 #if 0
-#pragma mark -------- HS-Specific -------------
+//#pragma mark -------- HS-Specific -------------
 #endif
 
 //*********************************************************
@@ -87,14 +87,14 @@ typedef UInt16 FrmNavFocusRingStyleEnum;
 #endif // PALMOS_SDK_VERSION < 0x0541
 
 #if 0
-#pragma mark -------- Incs:Core:UI:UIResources.h -------------
+//#pragma mark -------- Incs:Core:UI:UIResources.h -------------
 #endif
 
 #define formNavRscType                      'fnav'
 
 
 #if 0
-#pragma mark -------- Incs:Core:System:TextMgr.h ---------------
+//#pragma mark -------- Incs:Core:System:TextMgr.h ---------------
 #endif
 
 //*********************************************************
@@ -108,7 +108,7 @@ typedef UInt16 FrmNavFocusRingStyleEnum;
 
 
 #if 0
-#pragma mark -------- Incs:Core:CoreTraps.h ----------------
+//#pragma mark -------- Incs:Core:CoreTraps.h ----------------
 #endif
 
 //*********************************************************
@@ -135,7 +135,7 @@ typedef UInt16 FrmNavFocusRingStyleEnum;
 
 
 #if 0
-#pragma mark ------- Incs:Core:System:ErrorBase.h --------
+//#pragma mark ------- Incs:Core:System:ErrorBase.h --------
 #endif
 
 //*********************************************************
@@ -157,7 +157,7 @@ typedef UInt16 FrmNavFocusRingStyleEnum;
 
 
 #if 0
-#pragma mark -------- Incs:Core:UI:Form.h -----------
+//#pragma mark -------- Incs:Core:UI:Form.h -----------
 #endif
 
 //*********************************************************
@@ -209,7 +209,7 @@ typedef UInt32	FrmNavStateFlagsType;
 
 
 #if 0
-#pragma mark -------- Incs:Core:System:SystemMgr.h -----------
+//#pragma mark -------- Incs:Core:System:SystemMgr.h -----------
 #endif
 
 #if PALMOS_SDK_VERSION < 0x0541
@@ -220,7 +220,7 @@ typedef UInt32	FrmNavStateFlagsType;
 
 
 #if 0
-#pragma mark --------  Public Structures   ----------------
+//#pragma mark --------  Public Structures   ----------------
 #endif
 
 #if PALMOS_SDK_VERSION < 0x0541

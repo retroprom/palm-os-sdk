@@ -561,7 +561,7 @@ typedef DlpGenericArgType*			DlpGenericArgPtr;
 /************************************************************
  * DLP function argument structures
  *************************************************************/
-#pragma mark *** DLP Command Arguments ****
+//#pragma mark *** DLP Command Arguments ****
 
 //////////////////////////////////////////////////////////////////////////
 // dlpReadUserInfo
@@ -1724,7 +1724,7 @@ typedef struct DlpWriteResourceReqType {
 //			dlpRespErrNotEnoughSpace,
 //			dlpRespErrParam,
 //			dlpRespErrNoneOpen
-#pragma mark Dm Write Resource Stream
+//#pragma mark Dm Write Resource Stream
 
 //
 // Callback parameters
@@ -1773,7 +1773,7 @@ typedef DlpWriteResourceStreamReqType* DlpWriteResourceStreamReqPtr;
 //			dlpRespErrNotSupported
 //			dlpRespErrReadOnly
 //			dlpRespErrNoneOpen
-#pragma mark Dm Write Record Stream
+//#pragma mark Dm Write Record Stream
 
 //
 // Callback parameters
@@ -2634,7 +2634,7 @@ typedef struct DlpSetDBInfoReqType {
 //		Possible error codes
 //			
 //			
-#pragma mark Exp Slot Enumerate
+//#pragma mark Exp Slot Enumerate
 // Response argument structure:
 //
 #define dlpExpSlotsEnumerateRespArgID		dlpFirstArgID
@@ -2665,7 +2665,7 @@ typedef DlpExpSlotsEnumerateRespType*		DlpExpSlotsEnumerateRespPtr;
 //		Possible error codes
 //			
 //			
-#pragma mark Exp Card Present
+//#pragma mark Exp Card Present
 // Request argument structure:
 //
 #define dlpExpCardPresentReqArgID			dlpFirstArgID
@@ -2685,7 +2685,7 @@ typedef DlpExpCardPresentReqType*	DlpExpCardPresentReqPtr;
 //
 //		Possible error codes
 //		Fill in later.
-#pragma mark Exp Card Info
+//#pragma mark Exp Card Info
 
 // Request argument structure:
 //
@@ -2729,7 +2729,7 @@ typedef DlpExpCardInfoRespType*		DlpExpCardInfoRespPtr;
 //
 //		Possible error codes
 //		Fill in later.
-#pragma mark VFS File Custom Control
+//#pragma mark VFS File Custom Control
 
 // Request argument structure:
 //
@@ -2784,7 +2784,7 @@ typedef DlpVFSFileCustomControlRespType*		DlpVFSFileCustomControlRespPtr;
 //
 //		Possible error codes
 
-#pragma mark VFS Get Default Directory
+//#pragma mark VFS Get Default Directory
 
 // Request argument structure:
 //
@@ -2832,7 +2832,7 @@ typedef DlpVFSGetDefaultDirRespType*		DlpVFSGetDefaultDirRespPtr;
 //
 //		Possible error codes
 
-#pragma mark VFS Import DB From File
+//#pragma mark VFS Import DB From File
 
 // Request argument structure:
 //
@@ -2873,7 +2873,7 @@ typedef struct DlpVFSImportDBFromFileRespType {
 //
 //		Possible error codes
 
-#pragma mark VFS Export DB To File
+//#pragma mark VFS Export DB To File
 
 // Request argument structure:
 //
@@ -2905,7 +2905,7 @@ typedef DlpVFSExportDBToFileReqType*		DlpVFSExportDBToFileReqPtr;
 //
 //		Possible error codes
 //		Fill in later.
-#pragma mark VFS File Create
+//#pragma mark VFS File Create
 
 // Request argument structure:
 //
@@ -2939,7 +2939,7 @@ typedef DlpVFSFileCreateReqType*	DlpVFSFileCreateReqPtr;
 //		Possible error codes
 //
 //
-#pragma mark VFS File Open
+//#pragma mark VFS File Open
 
 // Request argument structure:
 //
@@ -2996,7 +2996,7 @@ typedef struct DlpVFSFileOpenRespType {
 //			dlpRespErrNotEnoughSpace,
 //			dlpRespErrParam,
 //			dlpRespErrNoneOpen
-#pragma mark Loopback Test
+//#pragma mark Loopback Test
 
 // Request argument structure:
 //
@@ -3044,7 +3044,7 @@ typedef struct DlpLoopBackTestRespType {
 //		Possible error codes
 //			
 //			
-#pragma mark VFS File Close
+//#pragma mark VFS File Close
 // Request argument structure:
 //
 #define dlpVFSFileCloseReqArgID			dlpFirstArgID
@@ -3066,7 +3066,7 @@ typedef DlpVFSFileCloseReqType*	DlpVFSFileCloseReqPtr;
 //		Possible error codes
 //			
 //			
-#pragma mark VFS File Write
+//#pragma mark VFS File Write
 
 // Write calback parameters
 typedef struct DlpVFSFileWriteCallbackParamType{
@@ -3108,7 +3108,7 @@ typedef struct DlpVFSFileWriteRespType {
 //		Possible error codes
 //			
 //			
-#pragma mark VFS File Read
+//#pragma mark VFS File Read
 
 // Write calback parameters
 typedef struct DlpVFSFileReadCallbackParamType{
@@ -3149,7 +3149,7 @@ typedef struct DlpVFSFileReadRespType {
 //
 //		Possible error codes
 
-#pragma mark VFS File Delete
+//#pragma mark VFS File Delete
 
 
 // Request argument structure:
@@ -3180,7 +3180,7 @@ typedef DlpVFSFileDeleteReqType*		DlpVFSFileDeleteReqPtr;
 //
 //		Possible error codes
 //		Fill in later.
-#pragma mark VFS File Rename
+//#pragma mark VFS File Rename
 
 // Request argument structure:
 //
@@ -3214,7 +3214,7 @@ typedef DlpVFSFileRenameReqType*		DlpVFSFileRenameReqPtr;
 //		Possible error codes
 //			
 //			
-#pragma mark VFS File EOF
+//#pragma mark VFS File EOF
 // Request argument structure:
 //
 #define dlpVFSFileEOFReqArgID			dlpFirstArgID
@@ -3238,7 +3238,7 @@ typedef DlpVFSFileEOFReqType*	DlpVFSFileEOFReqPtr;
 //		Possible error codes
 //			
 //			
-#pragma mark VFS File Tell
+//#pragma mark VFS File Tell
 // Request argument structure:
 //
 #define dlpVFSFileTellReqArgID			dlpFirstArgID
@@ -3269,7 +3269,7 @@ typedef struct DlpVFSFileTellRespType {
 //		Possible error codes
 //			
 //			
-#pragma mark VFS File Resize
+//#pragma mark VFS File Resize
 // Request argument structure:
 //
 #define dlpVFSFileResizeReqArgID		dlpFirstArgID
@@ -3292,7 +3292,7 @@ typedef DlpVFSFileResizeReqType*	DlpVFSFileResizeReqPtr;
 //		Possible error codes
 //			
 //			
-#pragma mark VFS File Get Attributes
+//#pragma mark VFS File Get Attributes
 // Request argument structure:
 //
 #define dlpVFSGetAttributesReqArgID		dlpFirstArgID
@@ -3323,7 +3323,7 @@ typedef struct DlpVFSGetAttributesRespType {
 //		Possible error codes
 //			
 //			
-#pragma mark VFS File Set Attributes
+//#pragma mark VFS File Set Attributes
 // Request argument structure:
 //
 #define dlpVFSSetAttributesReqArgID		dlpFirstArgID
@@ -3346,7 +3346,7 @@ typedef DlpVFSSetAttributesReqType*	DlpVFSSetAttributesReqPtr;
 //		Possible error codes
 //			
 //			
-#pragma mark VFS File Get Dates
+//#pragma mark VFS File Get Dates
 // Request argument structure:
 //
 #define dlpVFSGetDatesReqArgID		dlpFirstArgID
@@ -3378,7 +3378,7 @@ typedef struct DlpVFSGetDatesRespType {
 //		Possible error codes
 //			
 //			
-#pragma mark VFS File Set Dates
+//#pragma mark VFS File Set Dates
 // Request argument structure:
 //
 #define dlpVFSSetDatesReqArgID		dlpFirstArgID
@@ -3402,7 +3402,7 @@ typedef DlpVFSSetDatesReqType*	DlpVFSSetDatesReqPtr;
 //		Possible error codes
 //			
 //			
-#pragma mark VFS File Size
+//#pragma mark VFS File Size
 // Request argument structure:
 //
 #define dlpVFSGetFileSizeReqArgID		dlpFirstArgID
@@ -3431,7 +3431,7 @@ typedef struct DlpVFSGetFileSizeRespType {
 //
 //		Possible error codes
 
-#pragma mark VFS Directory Create
+//#pragma mark VFS Directory Create
 
 
 // Request argument structure:
@@ -3466,7 +3466,7 @@ typedef DlpVFSDirCreateReqType*		DlpVFSDirCreateReqPtr;
 
 // NEED To have some state information
 
-#pragma mark VFS Directory Enumerate
+//#pragma mark VFS Directory Enumerate
 
 // Request argument structure:
 //
@@ -3521,7 +3521,7 @@ typedef DlpVFSDirEntryEnumerateRespType*		DlpVFSDirEntryEnumerateRespPtr;
 //		Possible error codes
 //			
 //			
-#pragma mark VFS Volume Format
+//#pragma mark VFS Volume Format
 // Request argument structure:
 //
 #define dlpVFSVolumeFormatReqArgID			dlpFirstArgID
@@ -3552,7 +3552,7 @@ typedef DlpVFSVolumeFormatReqType*		DlpVFSVolumeFormatReqPtr;
 //
 //		Possible error codes
 
-#pragma mark VFS Volume Enumerate
+//#pragma mark VFS Volume Enumerate
 
 // Response argument structure:
 //
@@ -3585,7 +3585,7 @@ typedef DlpVFSVolumeEnumerateRespType*		DlpVFSVolumeEnumerateRespPtr;
 //		Possible error codes
 //			
 //			
-#pragma mark VFS Volume Info
+//#pragma mark VFS Volume Info
 // Request argument structure:
 //
 #define dlpVFSVolumeInfoReqArgID			dlpFirstArgID
@@ -3624,7 +3624,7 @@ typedef struct DlpVFSVolumeInfoRespType {
 //
 //		Possible error codes
 
-#pragma mark VFS Volume Get Label
+//#pragma mark VFS Volume Get Label
 
 
 // Request argument structure:
@@ -3656,7 +3656,7 @@ typedef struct DlpVFSVolumeGetLabelRespType {
 //
 //		Possible error codes
 
-#pragma mark VFS Volume Set Label
+//#pragma mark VFS Volume Set Label
 
 
 // Request argument structure:
@@ -3689,7 +3689,7 @@ typedef DlpVFSVolumeSetLabelReqType*		DlpVFSVolumeSetLabelReqPtr;
 //		Possible error codes
 //			
 //			
-#pragma mark VFS Volume Size
+//#pragma mark VFS Volume Size
 // Request argument structure:
 //
 #define dlpVFSVolumeSizeReqArgID			dlpFirstArgID
@@ -3721,7 +3721,7 @@ typedef struct DlpVFSVolumeSizeRespType {
 //		Possible error codes
 //			
 //			
-#pragma mark VFS File Seek
+//#pragma mark VFS File Seek
 // Request argument structure:
 //
 #define dlpVFSFileSeekReqArgID		dlpFirstArgID
@@ -3745,7 +3745,7 @@ typedef DlpVFSFileSeekReqType*	DlpVFSFileSeekReqPtr;
 //		Possible error codes
 //			
 //			
-#pragma mark Slot Media Type
+//#pragma mark Slot Media Type
 // Request argument structure:
 //
 #define dlpExpSlotMediaTypeReqArgID		dlpFirstArgID

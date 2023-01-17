@@ -29,7 +29,7 @@
  * DLK result codes
  * (dlkErrorClass is defined in SystemMgr.h)
  *************************************************************/
-#pragma mark *Error Codes*
+//#pragma mark *Error Codes*
 
 #define dlkErrParam			(dlkErrorClass | 1)	// invalid parameter
 #define dlkErrMemory			(dlkErrorClass | 2)	// memory allocation error
@@ -47,7 +47,7 @@
  * Desktop Link system preferences resource for user info
  * id = sysResIDDlkUserInfo, defined in SystemMgr.rh
  ********************************************************************/
-#pragma mark *User Info Preference*
+//#pragma mark *User Info Preference*
 
 #define dlkMaxUserNameLength			40
 #define dlkUserNameBufSize				(dlkMaxUserNameLength + 1)
@@ -101,7 +101,7 @@ typedef DlkUserInfoType*		DlkUserInfoPtr;		// user info pointer
  * Desktop Link system preferences resource for the Conduit Filter Table
  * id = sysResIDDlkCondFilterTab, defined in SystemMgr.rh
  ********************************************************************/
-#pragma mark *Conduit Filter Preference*
+//#pragma mark *Conduit Filter Preference*
 
 //
 // Table for specifying conduits to "filter out" during HotSync
@@ -134,7 +134,7 @@ typedef DlkCondFilterTableType*	DlkCondFilterTablePtr;
 /********************************************************************
  * DLK Session Structures
  ********************************************************************/
-#pragma mark *Session Structures*
+//#pragma mark *Session Structures*
 
 
 // DesktopLink event notification callback.  If non-zero is returned,
@@ -260,7 +260,7 @@ typedef DlkServerSessionType*	DlkServerSessionPtr;
 /********************************************************************
  * DLK Function Parameter Structures
  ********************************************************************/
-#pragma mark *Function Parameter Structures*
+//#pragma mark *Function Parameter Structures*
 
 //
 // Parameter passed to DlkControl()
@@ -358,7 +358,7 @@ typedef struct DlkCallAppReplyParamType {
 /********************************************************************
  * DesktopLink Server Routines
  ********************************************************************/
-#pragma mark *Function Prototypes*
+//#pragma mark *Function Prototypes*
 
 #ifdef __cplusplus
 extern "C" {

@@ -424,7 +424,7 @@ typedef struct {
  *		or for obtaining statistics from the Net Library.
  * 
  ********************************************************************/
-#pragma mark Master
+//#pragma mark Master
 typedef enum {
 	// These calls return info
 	netMasterInterfaceInfo,
@@ -601,7 +601,7 @@ typedef struct NetMasterPBType {
 //-----------------------------------------------------------------------------
 // Enumeration of Net settings as passed to NetLibSettingGet/Set. 
 //-----------------------------------------------------------------------------
-#pragma mark Settings
+//#pragma mark Settings
 //::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 // Global environment settings common to all attached network interfaces,
 //   passed to NetLibSettingGet/Set
@@ -845,7 +845,7 @@ typedef UInt32					NetFDSetType;
 //-----------------------------------------------------------------------------
 // Net error codes
 //-----------------------------------------------------------------------------
-#pragma mark ErrorCodes
+//#pragma mark ErrorCodes
 #define	netErrAlreadyOpen					(netErrorClass | 1)
 #define	netErrNotOpen						(netErrorClass | 2)
 #define	netErrStillOpen					(netErrorClass | 3)
@@ -1090,7 +1090,7 @@ typedef UInt32					NetFDSetType;
 
 #else
 
-#pragma mark Traps
+//#pragma mark Traps
 typedef enum {
 	netLibTrapAddrINToA = sysLibTrapCustom,
 	netLibTrapAddrAToIN,
@@ -1183,7 +1183,7 @@ typedef enum {
 /************************************************************
  * Net Library procedures.
  *************************************************************/ 
-#pragma mark Functions
+//#pragma mark Functions
 #ifdef __cplusplus
 extern "C" {
 #endif

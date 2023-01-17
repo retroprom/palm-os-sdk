@@ -28,7 +28,7 @@
  * Serial Manager Errors
  * the constant serErrorClass is defined in SystemMgr.h
  ********************************************************************/
-#pragma mark -Error Codes-
+//#pragma mark -Error Codes-
 
 #define	serErrBadParam				(serErrorClass | 1)
 #define	serErrBadPort				(serErrorClass | 2)
@@ -45,7 +45,7 @@
 /********************************************************************
  * Serial Port Definitions
  ********************************************************************/
-#pragma mark -Port Definitions-
+//#pragma mark -Port Definitions-
 
 #define	serPortDefault				0x0000	// Use prefDefSerialPlugIn
 #define	serPortLocalHotSync		0x8000	// Use physical HotSync port
@@ -55,7 +55,7 @@
 /********************************************************************
  * Serial Settings Descriptor
  ********************************************************************/
-#pragma mark -Configuration Settings-
+//#pragma mark -Configuration Settings-
 
 typedef struct SerSettingsType {
 	ULong			baudRate;			// baud rate
@@ -91,7 +91,7 @@ typedef SerSettingsType*	SerSettingsPtr;
 //
 // mask values for the lineErrors  from SerGetStatus
 //
-#pragma mark -Line Errors-
+//#pragma mark -Line Errors-
 
 #define	serLineErrorParity		0x0001			// parity error
 #define	serLineErrorHWOverrun	0x0002			// HW overrun
@@ -129,7 +129,7 @@ typedef Boolean (*SerBlockingHookHandler)  (DWord userRef);
 /********************************************************************
  * Serial Library Control Enumerations (Pilot 2.0)
  ********************************************************************/
-#pragma mark -Control Enumerations-
+//#pragma mark -Control Enumerations-
 
 /********************************************************************
  * Structure for specifying callback routines.
@@ -206,7 +206,7 @@ typedef enum SerCtlEnum {
  *  under native mode from the module that actually installs the trap
  *  vectors
  ********************************************************************/
-#pragma mark -API Functions-
+//#pragma mark -API Functions-
 
 #ifdef __cplusplus
 extern "C" {

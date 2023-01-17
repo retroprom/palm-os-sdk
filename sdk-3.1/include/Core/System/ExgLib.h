@@ -38,7 +38,7 @@
 // WARNING!!! This order of these traps MUST match the order of the dispatch
 //  table in and Exchange library!!!
 //-----------------------------------------------------------------------------
-#pragma mark Traps
+//#pragma mark Traps
 typedef enum {
 	exgLibTrapHandleEvent = sysLibTrapCustom,
 	exgLibTrapConnect,
@@ -57,7 +57,7 @@ typedef enum {
 /************************************************************
  * Net Library procedures.
  *************************************************************/ 
-#pragma mark Functions
+//#pragma mark Functions
 #ifdef __cplusplus
 extern "C" {
 #endif

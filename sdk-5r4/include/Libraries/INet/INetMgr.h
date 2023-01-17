@@ -25,7 +25,7 @@
 #define INETLIB_TRAP SYS_TRAP
 #endif
 
-#pragma mark Constants
+//#pragma mark Constants
 
 // Creator. Used for both the database that contains the INet Library and
 //  it's features for the feature manager. 
@@ -70,7 +70,7 @@
 #define netProxyIPDefaultHGA				netProxyIPManhattanHGA
 #define netProxyIPDefaultHGAStr			"10.1.134.165"		//Should correspond to above value
 
-#pragma mark ErrorCodes
+//#pragma mark ErrorCodes
 /********************************************************************
  * Error codes
  ********************************************************************/
@@ -207,7 +207,7 @@
 //
 #define 	inetErrCacheInvalidSort			(inetErrorClass | 95)
 
-#pragma mark Types
+//#pragma mark Types
 
 // The following are used and bit field parameters to the sort routine.  They
 // are additive but ordered.  Precendence is given to the lowest ordered bit.
@@ -659,7 +659,7 @@ typedef enum {
  * INet Library functions. 
  ********************************************************************/
 
-#pragma mark Traps
+//#pragma mark Traps
 
 #define inetLibTrapSettingGet					(sysLibTrapCustom)
 #define inetLibTrapSettingSet					(sysLibTrapCustom+1)
@@ -775,7 +775,7 @@ typedef struct
 } INetCacheInfoType, *INetCacheInfoPtr;
 
 
-#pragma mark Functions
+//#pragma mark Functions
 
 #ifdef __cplusplus
 extern "C" {

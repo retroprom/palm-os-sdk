@@ -73,7 +73,7 @@ typedef struct {
 // WARNING!!! This order of these traps MUST match the order of the dispatch
 //  table in IrLibDispatch.c!!!
 //-----------------------------------------------------------------------------
-#pragma mark Traps
+//#pragma mark Traps
 typedef enum {
 	irLibTrapBind = exgLibTrapLast,  // these start after the ObxLib interface...
 	irLibTrapUnBind,
@@ -107,7 +107,7 @@ typedef enum {
 /************************************************************
  * Net Library procedures.
  *************************************************************/ 
-#pragma mark Functions
+//#pragma mark Functions
 #ifdef __cplusplus
 extern "C" {
 #endif

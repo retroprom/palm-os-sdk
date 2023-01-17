@@ -118,7 +118,7 @@ typedef struct {
 
 #else
 
-#pragma mark Traps
+//#pragma mark Traps
 typedef enum {
 	irLibTrapBind = exgLibTrapLast,  // these start after the ObxLib interface...
 	irLibTrapUnBind,

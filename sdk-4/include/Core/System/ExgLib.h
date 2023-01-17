@@ -66,7 +66,7 @@
 /************************************************************
  * Net Library procedures.
  *************************************************************/ 
-#pragma mark Functions
+//#pragma mark Functions
 #ifdef __cplusplus
 extern "C" {
 #endif

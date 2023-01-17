@@ -22,7 +22,7 @@
 #include <DataMgr.h>
 #include <SystemResources.h>
 
-#pragma mark Constants
+//#pragma mark Constants
 
 // Creator. Used for both the database that contains the INet Library and
 //  it's features for the feature manager. 
@@ -67,7 +67,7 @@
 #define netProxyIPDefaultHGAStrCanada			"10.1.134.165"		//Should correspond to above value
 
 
-#pragma mark ErrorCodes
+//#pragma mark ErrorCodes
 /********************************************************************
  * Error codes
  ********************************************************************/
@@ -203,7 +203,7 @@
 #define 	inetErrLinkNotFound				(inetErrorClass | 94)
 //
 
-#pragma mark Types
+//#pragma mark Types
 
 /********************************************************************
  * Input flags
@@ -666,7 +666,7 @@ typedef enum {
 
 #else
 
-#pragma mark Traps
+//#pragma mark Traps
 typedef enum {
 	inetLibTrapSettingGet = sysLibTrapCustom,
 	inetLibTrapSettingSet,
@@ -770,7 +770,7 @@ typedef struct {
 
 
 
-#pragma mark Functions
+//#pragma mark Functions
 
 #ifdef __cplusplus
 extern "C" {

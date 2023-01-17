@@ -40,7 +40,7 @@
 #include <PalmTypes.h>
 
 #if 0
-#pragma mark -------- Constants --------
+//#pragma mark -------- Constants --------
 #endif
 
 /**

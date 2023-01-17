@@ -26,7 +26,7 @@ extern "C" {
 #endif
 
 #if 0
-#pragma mark --------   Basic Lib API  ----------------
+//#pragma mark --------   Basic Lib API  ----------------
 #endif
 
 /**
@@ -52,7 +52,7 @@ PmUIUtilLibClose (UInt16 refNum)
 
 
 #if 0
-#pragma mark -------- List API --------
+//#pragma mark -------- List API --------
 #endif
 
 void
@@ -65,7 +65,7 @@ PmUIUtilLstGetTempSelection (UInt16 refNum, const FormType* formP, UInt16 listID
 
 
 #if 0
-#pragma mark -------- Attr API --------
+//#pragma mark -------- Attr API --------
 #endif
 
 Err
@@ -78,7 +78,7 @@ PmUIUtilAttrSet (UInt16 refNum, UInt16 /*PmUIUtilAttrEnum*/ attr, UInt32 flags, 
 
 
 #if 0
-#pragma mark -------- PalmOne-Specific Nav API --------
+//#pragma mark -------- PalmOne-Specific Nav API --------
 #endif
 
 void

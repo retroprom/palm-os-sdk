@@ -96,7 +96,7 @@
  * Sms Error
  *
  ****************************************************************************/
-#pragma mark Sms Error
+//#pragma mark Sms Error
 
 #define kSmsErrMaxSizeExceeded		(smsErrorClass | 0x01)	/* Message exceeds maximum size supported by network */
 
@@ -106,7 +106,7 @@
  *
  ****************************************************************************/
 
-#pragma mark Report Param
+//#pragma mark Report Param
 /****************************************************************************
  * Report parameters
  ****************************************************************************/
@@ -124,7 +124,7 @@ typedef struct SmsReportParamsTag
 } SmsReportParamsType, *SmsReportParamsPtr;
 
 
-#pragma mark Send Param
+//#pragma mark Send Param
 /****************************************************************************
  * Send parameters
  ****************************************************************************/
@@ -193,7 +193,7 @@ typedef struct SmsSendParamsTag
 } SmsSendParamsType, *SmsSendParamsPtr;
 
 
-#pragma mark Receive Param
+//#pragma mark Receive Param
 /****************************************************************************
  * Receive parameters
  ****************************************************************************/
@@ -260,7 +260,7 @@ typedef struct SmsReceiveParamsTag
 } SmsReceiveParamsType, *SmsReceiveParamsPtr;
 
 
-#pragma mark Sms Param
+//#pragma mark Sms Param
 /****************************************************************************
  * Sms parameters
  ****************************************************************************/

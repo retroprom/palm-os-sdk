@@ -37,7 +37,7 @@
 extern "C" {
 #endif
 
-#pragma mark *---------Library Common------*
+//#pragma mark *---------Library Common------*
 /********************************************************************
  * Library Common
  ********************************************************************/
@@ -102,7 +102,7 @@ Err BtLibHandleEvent (UInt16 btLibRefNum, void *eventP)
 void BtLibHandleTransportEvent(UInt16 btLibRefNum, void *transportEventP)
 	BTLIB_TRAP(btLibTrapHandleTransportEvent);
 	
-#pragma mark *---------Management----------*
+//#pragma mark *---------Management----------*
 /********************************************************************
  * Management
  * 
@@ -536,7 +536,7 @@ Err BtLibSetGeneralPreference( UInt16 btLibRefNum, BtLibGeneralPrefEnum pref, vo
 Err BtLibGetGeneralPreference( UInt16 btLibRefNum, BtLibGeneralPrefEnum pref, void* prefValue, UInt16 prefValueSize)
  BTLIB_TRAP(btLibTrapGetGeneralPreference);
 
-#pragma mark *---------Sockets--------------*
+//#pragma mark *---------Sockets--------------*
 /********************************************************************
  * Sockets
  *
@@ -1179,7 +1179,7 @@ Err BtLibSdpServiceRecordGetNumLists( UInt16 btLibRefNum, BtLibSdpRecordHandle r
 Err BtLibSdpCompareUuids(UInt16 btLibRefNum, BtLibSdpUuidType *uuid1, BtLibSdpUuidType *uuid2)
 	BTLIB_TRAP(btLibTrapSdpCompareUuids);
 
-#pragma mark *--------Raw SDP----------*
+//#pragma mark *--------Raw SDP----------*
 // Raw SDP APIs - If you have a profile or application specific SDP attribute then you
 // will need to use the Raw SDP APIs to form and parse SDP protocol data yourself. (Refer
 // to the bluetooth 1.1 specification to see how SDP data is formatted.) 
@@ -1344,7 +1344,7 @@ Err BtLibSdpVerifyRawDataElement(UInt16 btLibRefNum, const UInt8 *value, UInt16 
 //
 #define BtLibSdpGetRawDataElementSize(header) ((header) & btLibDESD_MASK)   
 
-#pragma mark *--------Security----------*
+//#pragma mark *--------Security----------*
 
 //---------------------------------------------------------------------------
 // Search the device database for the device with the specified
@@ -1546,7 +1546,7 @@ Err	BtLibAddrBtdToA(UInt16 libRefNum, BtLibDeviceAddressType *btDevP, Char *spac
 Err BtLibAddrAToBtd(UInt16 libRefNum, const Char *a, BtLibDeviceAddressType *btDevP)
 	BTLIB_TRAP(btLibTrapAddrAToBtd);
 	
-#pragma mark *--------Service----------*
+//#pragma mark *--------Service----------*
 // ** The Service's API is not yet documented **//
 
 //--------------------------------------------------------------------	

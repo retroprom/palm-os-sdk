@@ -66,7 +66,7 @@ typedef	Err	Lz77ErrorType ;
 #include <LibTraps.h>
 #include <SystemResources.h>
 
-#pragma mark Constants
+//#pragma mark Constants
 
 // Creator. Used for both the database that contains the LZ77 Library and
 //  it's features for the feature manager. 

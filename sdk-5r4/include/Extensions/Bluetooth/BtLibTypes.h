@@ -1322,7 +1322,7 @@ typedef union BtLibSdpAttributeDataType {
                               	  * Element to return the element's size.
                               	  */
                           
-#pragma mark *---------Sockets--------------*
+//#pragma mark *---------Sockets--------------*
 /********************************************************************
  * Sockets
  ********************************************************************/
@@ -1645,7 +1645,7 @@ typedef struct BtLibSocketConnectInfoType {
  
  } BtLibSocketConnectInfoType;
 
-#pragma mark *---------Services-------------*
+//#pragma mark *---------Services-------------*
 
 #define BtLibServiceNotifyType		'btsv'
 

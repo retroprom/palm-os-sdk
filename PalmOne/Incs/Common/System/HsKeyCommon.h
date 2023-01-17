@@ -17,7 +17,7 @@
 
 
 #if 0
-#pragma mark -------- Incs:Core:System:Chars.h -----------
+//#pragma mark -------- Incs:Core:System:Chars.h -----------
 #endif
 
 #define vchrHardRockerCenter			0x013D	// Character tied directly to rocker-
@@ -27,7 +27,7 @@
 												//	of rocker-center hardware key).
 
 #if 0
-#pragma mark -------- Incs:Core:System:KeyMgr.h -----------
+//#pragma mark -------- Incs:Core:System:KeyMgr.h -----------
 #endif
 
 //*********************************************************
@@ -47,7 +47,7 @@
 
 
 #if 0
-#pragma mark -------- Incs:Core:System:SystemMgr.h ---------
+//#pragma mark -------- Incs:Core:System:SystemMgr.h ---------
 #endif
 
 //*********************************************************
@@ -63,8 +63,8 @@
 
 
 #if 0
-#pragma mark -------- Incs:Core:System:SysEvent.h (68K) -------
-#pragma mark ------ Incs:Core:Common:CmnKeyTypes.h (ARM) ------
+//#pragma mark -------- Incs:Core:System:SysEvent.h (68K) -------
+//#pragma mark ------ Incs:Core:Common:CmnKeyTypes.h (ARM) ------
 #endif
 
 //*********************************************************

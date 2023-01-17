@@ -54,7 +54,7 @@
 
 #else
 
-#pragma mark Traps
+//#pragma mark Traps
 typedef enum {
 	exgLibTrapHandleEvent = sysLibTrapCustom,
 	exgLibTrapConnect,
@@ -75,7 +75,7 @@ typedef enum {
 /************************************************************
  * Net Library procedures.
  *************************************************************/ 
-#pragma mark Functions
+//#pragma mark Functions
 #ifdef __cplusplus
 extern "C" {
 #endif

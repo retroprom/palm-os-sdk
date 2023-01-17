@@ -21,7 +21,7 @@
 #define	  __HS_EXT_COMMON_H__
 
 #if 0
-#pragma mark --------  Public Defines   ----------------
+//#pragma mark --------  Public Defines   ----------------
 #endif
 
 
@@ -31,7 +31,7 @@
 
 ////////////////////////////////////////
 #if 0
-#pragma mark Version String
+//#pragma mark Version String
 #endif
 ////////////////////////////////////////
 
@@ -40,7 +40,7 @@
 
 ////////////////////////////////////////
 #if 0
-#pragma mark Attributes
+//#pragma mark Attributes
 #endif
 ////////////////////////////////////////
 
@@ -79,7 +79,7 @@
 
 ////////////////////////////////////////
 #if 0
-#pragma mark Errors
+//#pragma mark Errors
 #endif
 ////////////////////////////////////////
 
@@ -148,7 +148,7 @@
 
 ////////////////////////////////////////
 #if 0
-#pragma mark Libraries
+//#pragma mark Libraries
 #endif
 ////////////////////////////////////////
 
@@ -179,7 +179,7 @@
 
 ////////////////////////////////////////
 #if 0
-#pragma mark Features
+//#pragma mark Features
 #endif
 ////////////////////////////////////////
 
@@ -416,7 +416,7 @@
 
 ////////////////////////////////////////
 #if 0
-#pragma mark Utilities
+//#pragma mark Utilities
 #endif
 ////////////////////////////////////////
 
@@ -426,7 +426,7 @@
 
 
 #if 0
-#pragma mark --------  Public Enums   ----------------
+//#pragma mark --------  Public Enums   ----------------
 #endif
 
 /******************************************************************************
@@ -435,7 +435,7 @@
 
 ////////////////////////////////////////
 #if 0
-#pragma mark Version String
+//#pragma mark Version String
 #endif
 ////////////////////////////////////////
 
@@ -456,7 +456,7 @@ typedef enum
 
 ////////////////////////////////////////
 #if 0
-#pragma mark Attributes
+//#pragma mark Attributes
 #endif
 ////////////////////////////////////////
 
@@ -553,7 +553,7 @@ typedef enum
 
 ////////////////////////////////////////
 #if 0
-#pragma mark Preferences
+//#pragma mark Preferences
 #endif
 ////////////////////////////////////////
 
@@ -661,7 +661,7 @@ typedef enum
 
 ////////////////////////////////////////
 #if 0
-#pragma mark Status Gadgets
+//#pragma mark Status Gadgets
 #endif
 ////////////////////////////////////////
 
@@ -678,7 +678,7 @@ typedef enum
 
 ////////////////////////////////////////
 #if 0
-#pragma mark Light Manager
+//#pragma mark Light Manager
 #endif
 ////////////////////////////////////////
 
@@ -760,7 +760,7 @@ HsLightCircumstanceEnum;
 
 ////////////////////////////////////////
 #if 0
-#pragma mark Indicators
+//#pragma mark Indicators
 #endif
 ////////////////////////////////////////
 
@@ -847,7 +847,7 @@ HsIndicatorStateEnum;
 
 ////////////////////////////////////////
 #if 0
-#pragma mark Company / HAL / Device IDs
+//#pragma mark Company / HAL / Device IDs
 #endif
 ////////////////////////////////////////
 

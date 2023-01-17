@@ -32,7 +32,7 @@
 
 
 #if 0
-#pragma mark -------- Constants -------- 
+//#pragma mark -------- Constants -------- 
 #endif
 
 #define kCCLibType					  'libr'                        /**< Standard library type */

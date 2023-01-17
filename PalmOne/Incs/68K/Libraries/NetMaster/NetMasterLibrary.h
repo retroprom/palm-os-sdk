@@ -223,7 +223,7 @@ NetMasterNetLibIsLoggingIn (UInt16 refNum, Boolean* isLogonActiveP,
 //-------------------------------------------------------------------------
 
 #if 0
-#pragma mark -- Data Session Control API --
+//#pragma mark -- Data Session Control API --
 #endif
 
 

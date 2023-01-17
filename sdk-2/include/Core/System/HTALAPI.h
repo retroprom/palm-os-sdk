@@ -27,7 +27,7 @@
 /********************************************************************
  * Type and creator of HTAL Library databases
  ********************************************************************/
-#pragma mark -Creator and Type-
+//#pragma mark -Creator and Type-
 
 // Creator. Used for both the database that contains the HTAL Library and
 //  it's preferences database.
@@ -43,7 +43,7 @@
  * HTAL result codes
  * (htalErrorClass is defined in SystemMgr.h)
  *************************************************************/
-#pragma mark -Result Codes-
+//#pragma mark -Result Codes-
 
 #define htalErrTimeOut			(htalErrorClass | 1)		// call timed out(INTERNAL ERROR CODE)
 #define htalErrParam				(htalErrorClass | 2)		// invalid parameter
@@ -86,7 +86,7 @@
 // WARNING!!! The order of these traps MUST match the order of the dispatch
 //  table in xxxHTALDispatch.c (where xxx is PAD, TCP, etc.)!!!
 //-----------------------------------------------------------------------------
-#pragma mark -Traps-
+//#pragma mark -Traps-
 
 typedef enum {
 	htalLibTrapSetOption = sysLibTrapCustom,
@@ -112,13 +112,13 @@ typedef enum {
 /********************************************************************
  * HTAL Session Structures
  ********************************************************************/
-#pragma mark -Session Structures-
+//#pragma mark -Session Structures-
 
  
 //-----------------------------------------------------------------------------
 // Option id's used by HtalLib/Set/Get/Option
 //-----------------------------------------------------------------------------
-#pragma mark ---Option Enums-
+//#pragma mark ---Option Enums-
 
 typedef enum HtalOptEnum {
 	htalOptFirst = 0,
@@ -151,7 +151,7 @@ typedef enum HtalOptEnum {
 //-----------------------------------------------------------------------------
 // Control id's used by HtalLibControl
 //-----------------------------------------------------------------------------
-#pragma mark ---Control Enums-
+//#pragma mark ---Control Enums-
 
 typedef enum HtalCtlEnum {
 	htalCtlFirst = 0,
@@ -180,7 +180,7 @@ typedef enum HtalCtlEnum {
 //-----------------------------------------------------------------------------
 // Temporary data structures which will need to be defined elsewhere
 //-----------------------------------------------------------------------------
-#pragma mark ---Temporary Data Structures-
+//#pragma mark ---Temporary Data Structures-
 
 // parameter for sysDialLaunchCmdDial
 typedef struct DialLaunchCmdDialType {
@@ -212,7 +212,7 @@ typedef DialLaunchCmdDialType*		DialLaunchCmdDialPtr;
 // it is not practical(and sometimes not possible) to allocate a single data buffer to
 // contain all that information contiguously.
 //-----------------------------------------------------------------------------
-#pragma mark ---Data Segment Descriptor-
+//#pragma mark ---Data Segment Descriptor-
 
 typedef struct HtalDataSegmentType {
 	VoidPtr		dataP;				// ptr to segment data
@@ -230,7 +230,7 @@ typedef HtalDataSegmentType*		HtalDataSegmentPtr;
 //-----------------------------------------------------------------------------
 // HTAL callback function prototypes
 //-----------------------------------------------------------------------------
-#pragma mark ---Callback Prototypes-
+//#pragma mark ---Callback Prototypes-
 
 
 // Prototype for the "blocking hook"  callback function
@@ -289,7 +289,7 @@ typedef HtalMakeAsyncReqCallbackType* HtalMakeAsyncReqCallbackPtr;
 
 
 
-#pragma mark ---Function Parameter Structures-
+//#pragma mark ---Function Parameter Structures-
 
 //-----------------------------------------------------------------------------
 // HtalLibConnectPhase1 function parameter
@@ -351,7 +351,7 @@ typedef HtalServiceEntryType*		HtalServiceEntryPtr;
 
 
 
-#pragma mark -API Prototypes-
+//#pragma mark -API Prototypes-
 
 #ifdef __cplusplus
 extern "C" {
@@ -455,7 +455,7 @@ extern HtalLibAddSegmentSizesFunc HtalLibAddSegmentSizes
 /********************************************************************
  * HTAL Macros
  ********************************************************************/
-#pragma mark -Macros-
+//#pragma mark -Macros-
 
 
 
