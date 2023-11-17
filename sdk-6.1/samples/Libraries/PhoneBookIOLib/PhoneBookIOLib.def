@@ -1,0 +1,21 @@
+EXPORTS
+	ExgPhoneBookIOLibMain			@1
+SysGetRefNum				@2
+__ExportDispatchTable		@3
+__GetRefNum			@4
+__SetPreloadedDispatchTable	@5
+__SetRefNum		@6
+	ExgPhoneBookIOLibOpen
+	ExgPhoneBookIOLibClose
+	ExgPhoneBookIOLibSleep
+	ExgPhoneBookIOLibWake
+	ExgPhoneBookIOLibHandleEvent
+	ExgPhoneBookIOLibAccept
+	ExgPhoneBookIOLibConnect
+	ExgPhoneBookIOLibDisconnect
+	ExgPhoneBookIOLibPut
+	ExgPhoneBookIOLibGet
+	ExgPhoneBookIOLibSend
+	ExgPhoneBookIOLibReceive
+	ExgPhoneBookIOLibControl
+	ExgPhoneBookIOLibRequest

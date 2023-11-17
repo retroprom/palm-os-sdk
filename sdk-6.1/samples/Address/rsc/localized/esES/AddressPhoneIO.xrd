@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2007" LOCALE="esES" COMMENT="PhoneIOImportAlert">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Elim. contenido de categoría" </TITLE>
+		<MESSAGE>
+			"Se eliminarán todos los registros pertenecientes únicamente a la "
+			"categoría \"^1\". ¿Desea continuar?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+			<TEXT> "Cancelar" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<FORM_RESOURCE RESOURCE_ID="2400" LOCALE="esES" COMMENT="PhoneIOImportPhoneDirectory">
+		<FORM_ID> 2400 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 48 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 110 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 2400 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 2410 </DEFAULT_BUTTON>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "Imp. lista de teléfonos" </TEXT>
+			</FORM_TITLE>
+			<FORM_LABEL COMMENT="ImportLabel">
+				<ID> 2402 </ID>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 52 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT>
+					"Nota: Los contactos de la \n"
+					"categoría mostrada arriba \n"
+					"se eliminarán."
+				</TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 2403 </ID>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 20 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Lista de teléfonos:" </TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP_TRIGGER>
+				<ID> 2404 </ID>
+				<BOUNDS>
+					<LEFT> 99 </LEFT>
+					<TOP> 20 </TOP>
+					<WIDTH> 17 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_LIST>
+				<ID> 2405 </ID>
+				<BOUNDS>
+					<LEFT> 99 </LEFT>
+					<TOP> 20 </TOP>
+					<WIDTH> 42 </WIDTH>
+					<HEIGHT> 22 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 2 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "SIM" </TEXT>
+					<TEXT> "Interna" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_POPUP>
+				<CONTROL_ID> 2404 </CONTROL_ID>
+				<LIST_ID> 2405 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LABEL>
+				<ID> 2406 </ID>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 34 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Categoría:" </TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP_TRIGGER COMMENT="CategoryTrigger">
+				<ID> 2407 </ID>
+				<BOUNDS>
+					<LEFT> 57 </LEFT>
+					<TOP> 34 </TOP>
+					<WIDTH> 17 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_LIST COMMENT="CategoryList">
+				<ID> 2408 </ID>
+				<BOUNDS>
+					<LEFT> 57 </LEFT>
+					<TOP> 34 </TOP>
+					<WIDTH> 72 </WIDTH>
+					<HEIGHT> 0 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 0 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_POPUP>
+				<CONTROL_ID> 2407 </CONTROL_ID>
+				<LIST_ID> 2408 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_BUTTON COMMENT="Ok">
+				<ID> 2409 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 93 </TOP>
+					<WIDTH> 36 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "OK" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Cancel">
+				<ID> 2410 </ID>
+				<BOUNDS>
+					<LEFT> 47 </LEFT>
+					<TOP> 93 </TOP>
+					<WIDTH> 42 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Cancelar" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<FORM_RESOURCE RESOURCE_ID="2401" LOCALE="esES" COMMENT="PhoneIOExportPhoneDirectory">
+		<FORM_ID> 2401 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 48 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 110 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 2401 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 2410 </DEFAULT_BUTTON>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "Exp. lista de teléfonos" </TEXT>
+			</FORM_TITLE>
+			<FORM_LABEL COMMENT="ExportLabel">
+				<ID> 2402 </ID>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 52 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT>
+					"Nota: Los contactos de la \n"
+					"lista de teléfonos mostrada \n"
+					"arriba se eliminarán."
+				</TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 2403 </ID>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 20 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Lista de teléfonos:" </TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP_TRIGGER>
+				<ID> 2404 </ID>
+				<BOUNDS>
+					<LEFT> 99 </LEFT>
+					<TOP> 20 </TOP>
+					<WIDTH> 17 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_LIST>
+				<ID> 2405 </ID>
+				<BOUNDS>
+					<LEFT> 99 </LEFT>
+					<TOP> 20 </TOP>
+					<WIDTH> 55 </WIDTH>
+					<HEIGHT> 22 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 2 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "SIM" </TEXT>
+					<TEXT> "Interna" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_POPUP>
+				<CONTROL_ID> 2404 </CONTROL_ID>
+				<LIST_ID> 2405 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LABEL>
+				<ID> 2406 </ID>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 34 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Categoría:" </TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP_TRIGGER COMMENT="CategoryTrigger">
+				<ID> 2407 </ID>
+				<BOUNDS>
+					<LEFT> 57 </LEFT>
+					<TOP> 34 </TOP>
+					<WIDTH> 17 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_LIST COMMENT="CategoryList">
+				<ID> 2408 </ID>
+				<BOUNDS>
+					<LEFT> 57 </LEFT>
+					<TOP> 34 </TOP>
+					<WIDTH> 72 </WIDTH>
+					<HEIGHT> 0 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 0 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_POPUP>
+				<CONTROL_ID> 2407 </CONTROL_ID>
+				<LIST_ID> 2408 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_BUTTON COMMENT="Ok">
+				<ID> 2409 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 93 </TOP>
+					<WIDTH> 36 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "OK" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Cancel">
+				<ID> 2410 </ID>
+				<BOUNDS>
+					<LEFT> 47 </LEFT>
+					<TOP> 93 </TOP>
+					<WIDTH> 42 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Cancelar" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2400" LOCALE="esES" COMMENT="Import Directory: Help">
+		<TEXT>
+			" Importa todas las entradas de una lista de teléfonos a una categoría.\n"
+			"Las entradas se pueden importar a una categoría existente o a una "
+			"nueva.\n"
+			"\n"
+			"¡Importante! Si selecciona una categoría existente, todos los "
+			"registros asociados únicamente a esta categoría serán sustituidos por los "
+			"registros del teléfono."
+		</TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2401" LOCALE="esES" COMMENT="Export Directory: Help">
+		<TEXT>
+			"Seleccione la categoría de la libreta de direcciones que se exportará "
+			"a una lista de teléfonos.\n"
+			"\n"
+			"¡Importante! Todos los registros del teléfono pertenecientes a la "
+			"lista (en SIM o interna) serán sustituidos por los registros del "
+			"dispositivo."
+		</TEXT>
+	</STRING_RESOURCE>
+
+	<WINDOW_CONSTRAINTS_RESOURCE RESOURCE_ID="2400" LOCALE="esES">
+		<VERSION> 1 </VERSION>
+<WINDOW_CREATE_FLAGS> 0x00000000 </WINDOW_CREATE_FLAGS>
+		<WINDOW_X_POS> -32768 </WINDOW_X_POS>
+		<WINDOW_Y_POS> -32768 </WINDOW_Y_POS>
+		<WINDOW_WIDTH_MIN> 156 </WINDOW_WIDTH_MIN>
+		<WINDOW_WIDTH_MAX> 156 </WINDOW_WIDTH_MAX>
+		<WINDOW_WIDTH_PREF> 156 </WINDOW_WIDTH_PREF>
+		<WINDOW_HEIGHT_MIN> 110 </WINDOW_HEIGHT_MIN>
+		<WINDOW_HEIGHT_MAX> 110 </WINDOW_HEIGHT_MAX>
+		<WINDOW_HEIGHT_PREF> 110 </WINDOW_HEIGHT_PREF>
+	</WINDOW_CONSTRAINTS_RESOURCE>
+
+	<WINDOW_CONSTRAINTS_RESOURCE RESOURCE_ID="2401" LOCALE="esES">
+		<VERSION> 1 </VERSION>
+<WINDOW_CREATE_FLAGS> 0x00000000 </WINDOW_CREATE_FLAGS>
+		<WINDOW_X_POS> -32768 </WINDOW_X_POS>
+		<WINDOW_Y_POS> -32768 </WINDOW_Y_POS>
+		<WINDOW_WIDTH_MIN> 156 </WINDOW_WIDTH_MIN>
+		<WINDOW_WIDTH_MAX> 156 </WINDOW_WIDTH_MAX>
+		<WINDOW_WIDTH_PREF> 156 </WINDOW_WIDTH_PREF>
+		<WINDOW_HEIGHT_MIN> 110 </WINDOW_HEIGHT_MIN>
+		<WINDOW_HEIGHT_MAX> 110 </WINDOW_HEIGHT_MAX>
+		<WINDOW_HEIGHT_PREF> 110 </WINDOW_HEIGHT_PREF>
+	</WINDOW_CONSTRAINTS_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

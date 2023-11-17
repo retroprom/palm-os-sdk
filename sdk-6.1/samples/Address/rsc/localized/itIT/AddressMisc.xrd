@@ -1,0 +1,776 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"GenerateXRD from 'C:\\Dev\\Palmgate\\DeviceNew\\Apps\\Address\\5.0\\68K\\rsc\\Localized\\itIT\\.AddressMisc.rsrc'\n"
+	</COMMENT_TEXT>
+
+	<ALERT_RESOURCE RESOURCE_ID="2000" LOCALE="itIT" COMMENT="Delete Record">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "Elimina indirizzo" </TITLE>
+		<MESSAGE> "Eliminare l'indirizzo?" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "Sì" </TEXT>
+			<TEXT> "No" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2001" LOCALE="itIT" COMMENT="Delete Note">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "Elimina nota" </TITLE>
+		<MESSAGE> "Eliminare la nota corrente?" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "Sì" </TEXT>
+			<TEXT> "No" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2004" LOCALE="itIT" COMMENT="Select Business Card">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "Seleziona biglietto da visita" </TITLE>
+		<MESSAGE>
+			"Utilizzare questo nome come biglietto da visita?\nQuesto nome sarà trasmesso via IR ad altro palmare quando si selezionerà \"Trasmetti biglietto da visita via IR\" o si terrà premuto il pulsante Rubrica."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "Sì" </TEXT>
+			<TEXT> "No" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2005" LOCALE="itIT" COMMENT="Send Business Card">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Seleziona biglietto da visita" </TITLE>
+		<MESSAGE>
+			"Nessun biglietto da visita selezionato. Per assegnare un nome posizionarsi su quello desiderato e scegliere \"Seleziona biglietto da visita\"."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2006" LOCALE="itIT" COMMENT="Attach alert">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Allega record" </TITLE>
+		<MESSAGE>
+			"Nessun record selezionato. Selezionare e allegare un record."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2008" LOCALE="itIT" COMMENT="Empty record alert">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Record vuoto" </TITLE>
+		<MESSAGE>
+			"Il record selezionato è vuoto e verrà pertanto eliminato."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="4000" LOCALE="itIT" COMMENT="DeleteALertnatetoTextData">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "Elimina informazioni" </TITLE>
+		<MESSAGE>
+			"Con questa operazione verranno eliminate le informazioni.\nContinuare?"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "Sì" </TEXT>
+			<TEXT> "No" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+
+	<MENU_BAR_RESOURCE RESOURCE_ID="1000" LOCALE="itIT" COMMENT="List View Menu Bar">
+		<VISIBLE> TRUE </VISIBLE>
+		<MENUS>
+			<MENU COMMENT="List View Record Menu">
+				<TITLE> "Record" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 6 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 140 </WIDTH>
+					<HEIGHT> 60 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 4 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 49 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 100 </ID>
+						<TITLE> "Elimina indirizzo..." </TITLE>
+						<COMMAND> "E" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 101 </ID>
+						<TITLE> "Duplica indirizzo" </TITLE>
+						<COMMAND> "D" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 102 </ID>
+						<TITLE> "Chiama..." </TITLE>
+						<COMMAND> "M" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 103 </ID>
+						<TITLE> "-" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 104 </ID>
+						<TITLE> "Importa directory telefono" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 105 </ID>
+						<TITLE> "Esporta categ. nel telefono" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 106 </ID>
+						<TITLE> "-" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 107 </ID>
+						<TITLE> "Trasmetti categoria via IR" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 108 </ID>
+						<TITLE> "Invia categoria" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 109 </ID>
+						<TITLE> "Trasm. bigl. da visita via IR" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 110 </ID>
+						<TITLE> "Allega record" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> TRUE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 111 </ID>
+						<TITLE> "Allega categoria" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> TRUE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+			<MENU COMMENT="Edit View Edit Menu">
+				<TITLE> "Modifica" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 41 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 117 </WIDTH>
+					<HEIGHT> 82 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 53 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 51 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 10000 </ID>
+						<TITLE> "Annulla" </TITLE>
+						<COMMAND> "Z" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10001 </ID>
+						<TITLE> "Taglia" </TITLE>
+						<COMMAND> "X" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10002 </ID>
+						<TITLE> "Copia" </TITLE>
+						<COMMAND> "C" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10003 </ID>
+						<TITLE> "Incolla" </TITLE>
+						<COMMAND> "V" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10004 </ID>
+						<TITLE> "Seleziona tutto" </TITLE>
+						<COMMAND> "A" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10005 </ID>
+						<TITLE> "-" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10006 </ID>
+						<TITLE> "Tastiera" </TITLE>
+						<COMMAND> "T" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10007 </ID>
+						<TITLE> "Guida di Graffiti 2" </TITLE>
+						<COMMAND> "G" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+			<MENU COMMENT="List View Options Menu">
+				<TITLE> "Opzioni" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 35 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 123 </WIDTH>
+					<HEIGHT> 55 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 104 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 44 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 300 </ID>
+						<TITLE> "Carattere..." </TITLE>
+						<COMMAND> "F" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 301 </ID>
+						<TITLE> "Preferenze..." </TITLE>
+						<COMMAND> "P" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 302 </ID>
+						<TITLE> "Rinomina campi pers..." </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 303 </ID>
+						<TITLE> "Privacy..." </TITLE>
+						<COMMAND> "H" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 304 </ID>
+						<TITLE> "Informazioni su Rubrica" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+		</MENUS>
+	</MENU_BAR_RESOURCE>
+
+	<MENU_BAR_RESOURCE RESOURCE_ID="1100" LOCALE="itIT" COMMENT="Record View Menu Bar">
+		<VISIBLE> TRUE </VISIBLE>
+		<MENUS>
+			<MENU COMMENT="Record View Info Menu">
+				<TITLE> "Record" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 6 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 138 </WIDTH>
+					<HEIGHT> 109 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 4 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 49 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 100 </ID>
+						<TITLE> "Elimina indirizzo..." </TITLE>
+						<COMMAND> "E" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 101 </ID>
+						<TITLE> "Duplica indirizzo" </TITLE>
+						<COMMAND> "D" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 102 </ID>
+						<TITLE> "Trasm. indirizzo via IR" </TITLE>
+						<COMMAND> "I" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 103 </ID>
+						<TITLE> "Invia indirizzo" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 104 </ID>
+						<TITLE> "Chiama..." </TITLE>
+						<COMMAND> "M" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 105 </ID>
+						<TITLE> "-" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 106 </ID>
+						<TITLE> "Allega nota" </TITLE>
+						<COMMAND> "O" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 107 </ID>
+						<TITLE> "Elimina nota..." </TITLE>
+						<COMMAND> "L" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 108 </ID>
+						<TITLE> "-" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 109 </ID>
+						<TITLE> "Seleziona biglietto da visita..." </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 110 </ID>
+						<TITLE> "Trasm. bigl. da visita via IR" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 111 </ID>
+						<TITLE> "Allega record" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> TRUE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+			<MENU COMMENT="Record View Options Menu">
+				<TITLE> "Opzioni" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 35 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 123 </WIDTH>
+					<HEIGHT> 33 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 53 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 44 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 200 </ID>
+						<TITLE> "Carattere..." </TITLE>
+						<COMMAND> "F" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 201 </ID>
+						<TITLE> "Rinom. campi pers..." </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 202 </ID>
+						<TITLE> "Informazioni su Rubrica" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+		</MENUS>
+	</MENU_BAR_RESOURCE>
+
+	<MENU_BAR_RESOURCE RESOURCE_ID="1200" LOCALE="itIT" COMMENT="Edit View Menu Bar">
+		<VISIBLE> TRUE </VISIBLE>
+		<MENUS>
+			<MENU COMMENT="Edit View Record Menu">
+				<TITLE> "Record" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 6 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 138 </WIDTH>
+					<HEIGHT> 109 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 4 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 49 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 100 </ID>
+						<TITLE> "Elimina indirizzo..." </TITLE>
+						<COMMAND> "E" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 101 </ID>
+						<TITLE> "Duplica indirizzo" </TITLE>
+						<COMMAND> "D" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 102 </ID>
+						<TITLE> "Trasm. indirizzo via IR" </TITLE>
+						<COMMAND> "I" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 103 </ID>
+						<TITLE> "Invia indirizzo" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 104 </ID>
+						<TITLE> "Chiama..." </TITLE>
+						<COMMAND> "M" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 105 </ID>
+						<TITLE> "-" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 106 </ID>
+						<TITLE> "Allega nota" </TITLE>
+						<COMMAND> "O" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 107 </ID>
+						<TITLE> "Elimina nota..." </TITLE>
+						<COMMAND> "L" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 108 </ID>
+						<TITLE> "-" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 109 </ID>
+						<TITLE> "Seleziona biglietto da visita..." </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 110 </ID>
+						<TITLE> "Trasm. bigl. da visita via IR" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 111 </ID>
+						<TITLE> "Allega record" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> TRUE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+			<MENU COMMENT="Edit View Edit Menu">
+				<TITLE> "Modifica" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 41 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 117 </WIDTH>
+					<HEIGHT> 82 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 53 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 51 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 10000 </ID>
+						<TITLE> "Annulla" </TITLE>
+						<COMMAND> "Z" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10001 </ID>
+						<TITLE> "Taglia" </TITLE>
+						<COMMAND> "X" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10002 </ID>
+						<TITLE> "Copia" </TITLE>
+						<COMMAND> "C" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10003 </ID>
+						<TITLE> "Incolla" </TITLE>
+						<COMMAND> "V" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10004 </ID>
+						<TITLE> "Seleziona tutto" </TITLE>
+						<COMMAND> "A" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10005 </ID>
+						<TITLE> "-" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10006 </ID>
+						<TITLE> "Tastiera" </TITLE>
+						<COMMAND> "T" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10007 </ID>
+						<TITLE> "Guida di Graffiti 2" </TITLE>
+						<COMMAND> "G" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+			<MENU COMMENT="Edit View Options Menu">
+				<TITLE> "Opzioni" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 35 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 123 </WIDTH>
+					<HEIGHT> 33 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 104 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 44 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 300 </ID>
+						<TITLE> "Carattere..." </TITLE>
+						<COMMAND> "F" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 301 </ID>
+						<TITLE> "Rinom. campi pers..." </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 302 </ID>
+						<TITLE> "Informazioni su Rubrica" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+		</MENUS>
+	</MENU_BAR_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="100" LOCALE="itIT" COMMENT="Find Header Title">
+		<TEXT> "Indirizzi" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1000" LOCALE="itIT" COMMENT="Unnamed String">
+		<TEXT> "-Senza nome-" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1001" LOCALE="itIT" COMMENT="Beam Description String">
+		<TEXT> "un indirizzo" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1002" LOCALE="itIT" COMMENT="Beam Filename String">
+		<TEXT> "Indirizzi.vcf" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1003" LOCALE="itIT" COMMENT="Replicated Address Signifier">
+		<TEXT> "Copia" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1004" LOCALE="itIT" COMMENT="Date(^0) and Time(^1) Template">
+		<TEXT> "^0, ^1" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1005" LOCALE="itIT" COMMENT="Delete Address...">
+		<TEXT> "Elimina indirizzo..." </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1006" LOCALE="itIT" COMMENT="Beam Address">
+		<TEXT> "Trasm. Indirizzo via IR" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1007" LOCALE="itIT" COMMENT="Exchange Description String">
+		<TEXT> "Biglietto da visita" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1008" LOCALE="itIT" COMMENT="Exchange Multiple Description String">
+		<TEXT> "Biglietti da visita" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1009" LOCALE="itIT" COMMENT="Set Date Title">
+		<TEXT> "Imposta data" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1010" LOCALE="itIT" COMMENT="Set Time Title">
+		<TEXT> "Imposta ora" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1011" LOCALE="itIT" COMMENT="Label Suffix Colon">
+		<TEXT> ":" </TEXT>
+	</STRING_RESOURCE>
+	
+	<STRING_RESOURCE RESOURCE_ID="1012" LOCALE="itIT" COMMENT="TabName(^0) ColumnName(^1) template">
+		<TEXT> "^0 ^1" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1700" LOCALE="itIT" COMMENT="TabNameAllStr">
+		<TEXT> "Tutti" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="4000" LOCALE="itIT" COMMENT="Alternate DataField default string">
+		<TEXT> "Tocca per immettere..." </TEXT>
+	</STRING_RESOURCE>
+
+	<!-- List View Abbreviations - Family suffix for Home / Work / Other -->
+	<STRING_LIST_RESOURCE RESOURCE_ID="1850" LOCALE="itIT" COMMENT="Family Suffix">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<TEXT> "P" </TEXT>
+			<TEXT> "U" </TEXT>
+			<TEXT> "A" </TEXT>
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+
+	<!-- List View Abbreviations - Kind prefix for Voice / Mobile / Fax / Pager / Assistant / Email -->
+	<!-- Set the '^0' sequence in place of the Family suffix if you want one to be displayed -->
+	<STRING_LIST_RESOURCE RESOURCE_ID="1855" LOCALE="itIT" COMMENT="AbbreviationsByKind">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<TEXT> "^0" </TEXT>
+			<TEXT> "C^0" </TEXT>
+			<TEXT> "F^0" </TEXT>
+			<TEXT> "P" </TEXT>
+			<TEXT> "AU" </TEXT>
+			<TEXT> "E^0" </TEXT>
+			<TEXT> "I" </TEXT>
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+
+	<!-- Default "ORDER BY" for the address book -->
+	<STRING_LIST_RESOURCE RESOURCE_ID="2805" LOCALE="itIT" COMMENT="Order By">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<!-- Sort by Last Name, First Name -->
+			<TEXT> "ORDER BY (LastName, FirstName, WorkCompany) ASCENDING CASED, FirstName ASCENDING CASED" </TEXT>
+			<!-- Sort by Company, Last Name -->
+			<TEXT> "ORDER BY (WorkCompany, LastName, FirstName) ASCENDING CASED, (LastName, FirstName) ASCENDING CASED" </TEXT>
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+
+	<STRING_LIST_RESOURCE RESOURCE_ID="2815" LOCALE="itIT" COMMENT="Order Name">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<!-- Sort by Last Name, First Name -->
+			<TEXT> "Cognome, Nome" </TEXT>
+			<!-- Sort by Company, Last Name -->
+			<TEXT> "Società, Cognome" </TEXT>
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+
+	<!-- Contain the Column ID kAddrColumnIDLastName & kAddrColumnIDFirstName & kAddrColumnIDWorkCompany -->
+	<RAW_RESOURCE RESOURCE_ID="2900" LOCALE="itIT" COMMENT="OrderBy Lookup by Name ColumnID List">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>
+			C8 00 00 00
+			90 01 00 00
+			B8 0B 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- Contain the Column ID kAddrColumnIDWorkCompany & kAddrColumnIDLastName & kAddrColumnIDFirstName -->
+	<RAW_RESOURCE RESOURCE_ID="2910" LOCALE="itIT" COMMENT="OrderBy Lookup by Company ColumnID List">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>
+			B8 0B 00 00
+			C8 00 00 00
+			90 01 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- Contain the parameters values for the PDI writer. May vary depending of the locale -->
+	<SOFT_CONSTANT_RESOURCE RESOURCE_ID="1000" LOCALE="itIT" COMMENT="kPdiEnableQuotedPrintable | kPdiBypassLocaleCharEncoding">
+		<VALUE> 0x00000022 </VALUE>
+	</SOFT_CONSTANT_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

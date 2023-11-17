@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"GenerateXRD from 'E:\\projects_new\\Apps\\Datebook\\5.0\\68k\\Rsc\\.DateMonth.rsrc'\n"
+	</COMMENT_TEXT>
+
+	<FORM_RESOURCE RESOURCE_ID="1200" LOCALE="zhCN" COMMENT="Month View">
+		<FORM_ID> 1200 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 0 </LEFT>
+			<TOP> 0 </TOP>
+			<WIDTH> 160 </WIDTH>
+			<HEIGHT> 160 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> FALSE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 0 </HELP_ID>
+		<MENU_ID> 1003 </MENU_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE_BAR_FOCUSABLE> TRUE </TITLE_BAR_FOCUSABLE>
+		<TITLE_ICON> TRUE </TITLE_ICON>
+		<FORM_OBJECTS>
+			<FORM_GADGET COMMENT="Heading Image or Gradient">
+				<ID> 1213 </ID>
+				<BOUNDS>
+					<LEFT> 0 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 160 </WIDTH>
+					<HEIGHT> 160 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EXTENDED> TRUE </EXTENDED>
+				<VISIBLE> TRUE </VISIBLE>
+			</FORM_GADGET>
+			<FORM_TITLE>
+				<TEXT> "XXXXXXXXXXXX 1995" </TEXT>
+			</FORM_TITLE>
+			<FORM_POPUP_TRIGGER COMMENT="Category">
+				<ID> 1211 </ID>
+				<BOUNDS>
+					<LEFT> 143 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 17 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> FALSE </LEFT_ANCHOR>
+				<TEXT> "全部" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_POPUP>
+				<CONTROL_ID> 1211 </CONTROL_ID>
+				<LIST_ID> 1212 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LIST COMMENT="Categories List">
+				<ID> 1212 </ID>
+				<BOUNDS>
+					<LEFT> 86 </LEFT>
+					<TOP> 1 </TOP>
+					<WIDTH> 72 </WIDTH>
+					<HEIGHT> 0 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 0 </NUM_VIS_ITEMS>
+				<LIST_ITEMS/>
+			</FORM_LIST>
+			<FORM_REPEATING_BUTTON COMMENT="Prev Month">
+				<ID> 1202 </ID>
+				<BOUNDS>
+					<LEFT> 138 </LEFT>
+					<TOP> 146 </TOP>
+					<WIDTH> 8 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "\x02" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> SYMBOL_11_FONT </FONT_ID>
+				<BUTTON_FRAME> NO_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_REPEATING_BUTTON>
+			<FORM_REPEATING_BUTTON COMMENT="Next Month">
+				<ID> 1203 </ID>
+				<BOUNDS>
+					<LEFT> 150 </LEFT>
+					<TOP> 146 </TOP>
+					<WIDTH> 8 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "\x03" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> SYMBOL_11_FONT </FONT_ID>
+				<BUTTON_FRAME> NO_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_REPEATING_BUTTON>
+			<FORM_GRAPHIC_PUSH_BUTTON COMMENT="DayView">
+				<ID> 1204 </ID>
+				<BOUNDS>
+					<LEFT> 2 </LEFT>
+					<TOP> 147 </TOP>
+					<WIDTH> 9 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<BITMAP_ID> 2000 </BITMAP_ID>
+				<SELECTED_BITMAP_ID> 0 </SELECTED_BITMAP_ID>
+				<GROUP_ID> 1 </GROUP_ID>
+			</FORM_GRAPHIC_PUSH_BUTTON>
+			<FORM_GRAPHIC_PUSH_BUTTON COMMENT="WeekView">
+				<ID> 1205 </ID>
+				<BOUNDS>
+					<LEFT> 12 </LEFT>
+					<TOP> 147 </TOP>
+					<WIDTH> 9 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<BITMAP_ID> 2001 </BITMAP_ID>
+				<SELECTED_BITMAP_ID> 0 </SELECTED_BITMAP_ID>
+				<GROUP_ID> 1 </GROUP_ID>
+			</FORM_GRAPHIC_PUSH_BUTTON>
+			<FORM_GRAPHIC_PUSH_BUTTON COMMENT="MonthView">
+				<ID> 1206 </ID>
+				<BOUNDS>
+					<LEFT> 22 </LEFT>
+					<TOP> 147 </TOP>
+					<WIDTH> 9 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<BITMAP_ID> 2002 </BITMAP_ID>
+				<SELECTED_BITMAP_ID> 0 </SELECTED_BITMAP_ID>
+				<GROUP_ID> 1 </GROUP_ID>
+			</FORM_GRAPHIC_PUSH_BUTTON>
+			<FORM_GRAPHIC_PUSH_BUTTON COMMENT="LunarView">
+				<ID> 1207 </ID>
+				<BOUNDS>
+					<LEFT> 32 </LEFT>
+					<TOP> 147 </TOP>
+					<WIDTH> 9 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<BITMAP_ID> 2004 </BITMAP_ID>
+				<SELECTED_BITMAP_ID> 0 </SELECTED_BITMAP_ID>
+				<GROUP_ID> 1 </GROUP_ID>
+			</FORM_GRAPHIC_PUSH_BUTTON>
+			<FORM_GRAPHIC_PUSH_BUTTON COMMENT="AgendaView">
+				<ID> 1208 </ID>
+				<BOUNDS>
+					<LEFT> 42 </LEFT>
+					<TOP> 147 </TOP>
+					<WIDTH> 9 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<BITMAP_ID> 2003 </BITMAP_ID>
+				<SELECTED_BITMAP_ID> 0 </SELECTED_BITMAP_ID>
+				<GROUP_ID> 1 </GROUP_ID>
+			</FORM_GRAPHIC_PUSH_BUTTON>
+			<FORM_BUTTON COMMENT="Go To">
+				<ID> 1209 </ID>
+				<BOUNDS>
+					<LEFT> 53 </LEFT>
+					<TOP> 146 </TOP>
+					<WIDTH> 25 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "转到" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_GADGET COMMENT="Day Selector">
+				<ID> 1210 </ID>
+				<BOUNDS>
+					<LEFT> 0 </LEFT>
+					<TOP> 34 </TOP>
+					<WIDTH> 160 </WIDTH>
+					<HEIGHT> 110 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EXTENDED> TRUE </EXTENDED>
+				<VISIBLE> TRUE </VISIBLE>
+			</FORM_GADGET>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1200" LOCALE="zhCN" COMMENT="Month View Title">
+		<TEXT> "^4r年^3r月" </TEXT>
+	</STRING_RESOURCE>
+
+
+	<STRING_LIST_RESOURCE RESOURCE_ID="1210" LOCALE="zhCN" COMMENT="Lunar Days" OVERLAY_STATUS="ADD">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<TEXT> "(unused)" </TEXT>
+			<TEXT> "01" </TEXT>
+			<TEXT> "02" </TEXT>
+			<TEXT> "03" </TEXT>
+			<TEXT> "04" </TEXT>
+			<TEXT> "05" </TEXT>
+			<TEXT> "06" </TEXT>
+			<TEXT> "07" </TEXT>
+			<TEXT> "08" </TEXT>
+			<TEXT> "09" </TEXT>
+			<TEXT> "0:" </TEXT>
+			<TEXT> ":1" </TEXT>
+			<TEXT> ":2" </TEXT>
+			<TEXT> ":3" </TEXT>
+			<TEXT> ":4" </TEXT>
+			<TEXT> ":5" </TEXT>
+			<TEXT> ":6" </TEXT>
+			<TEXT> ":7" </TEXT>
+			<TEXT> ":8" </TEXT>
+			<TEXT> ":9" </TEXT>
+			<TEXT> "2:" </TEXT>
+			<TEXT> ";1" </TEXT>
+			<TEXT> ";2" </TEXT>
+			<TEXT> ";3" </TEXT>
+			<TEXT> ";4" </TEXT>
+			<TEXT> ";5" </TEXT>
+			<TEXT> ";6" </TEXT>
+			<TEXT> ";7" </TEXT>
+			<TEXT> ";8" </TEXT>
+			<TEXT> ";9" </TEXT>
+			<TEXT> "3:" </TEXT>
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+
+	<STRING_LIST_RESOURCE RESOURCE_ID="1211" LOCALE="zhCN" COMMENT="Lunar Months" OVERLAY_STATUS="ADD">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<TEXT> "(unused)" </TEXT>
+			<TEXT> ">=" </TEXT>
+			<TEXT> "2=" </TEXT>
+			<TEXT> "3=" </TEXT>
+			<TEXT> "4=" </TEXT>
+			<TEXT> "5=" </TEXT>
+			<TEXT> "6=" </TEXT>
+			<TEXT> "7=" </TEXT>
+			<TEXT> "8=" </TEXT>
+			<TEXT> "9=" </TEXT>
+			<TEXT> ":=" </TEXT>
+			<TEXT> ":1=" </TEXT>
+			<TEXT> ":2=" </TEXT>
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+
+	<STRING_LIST_RESOURCE RESOURCE_ID="1212" LOCALE="zhCN" COMMENT="Lunar Leap Months" OVERLAY_STATUS="ADD">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<TEXT> "(unused)" </TEXT>
+			<TEXT> "&lt;1" </TEXT>
+			<TEXT> "&lt;2" </TEXT>
+			<TEXT> "&lt;3" </TEXT>
+			<TEXT> "&lt;4" </TEXT>
+			<TEXT> "&lt;5" </TEXT>
+			<TEXT> "&lt;6" </TEXT>
+			<TEXT> "&lt;7" </TEXT>
+			<TEXT> "&lt;8" </TEXT>
+			<TEXT> "&lt;9" </TEXT>
+			<TEXT> "&lt;:" </TEXT>
+			<TEXT> "&lt;:1" </TEXT>
+			<TEXT> ":2=" </TEXT>
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+
+
+</PALMOS_RESOURCE_FILE>

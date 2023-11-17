@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+	<FORM_RESOURCE RESOURCE_ID="2500" LOCALE="zhCN" COMMENT="Export Ask dialog">
+		<FORM_ID> 2500 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 92 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 66 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 2500 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 2502 </DEFAULT_BUTTON>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "导出地址" </TEXT>
+			</FORM_TITLE>
+			<FORM_LABEL>
+				<ID> 2503 </ID>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 18 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT>
+					"导出部分："
+				</TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP_TRIGGER>
+				<ID> 2505 </ID>
+				<BOUNDS>
+					<LEFT> 57 </LEFT>
+					<TOP> 18 </TOP>
+					<WIDTH> 12 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_POPUP>
+				<CONTROL_ID> 2505 </CONTROL_ID>
+				<LIST_ID> 2504 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LIST>
+				<ID> 2504 </ID>
+				<BOUNDS>
+					<LEFT> 57 </LEFT>
+					<TOP> 18 </TOP>
+					<WIDTH> 40 </WIDTH>
+					<HEIGHT> 44 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 4 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "全部" </TEXT>
+					<TEXT> "个人" </TEXT>
+					<TEXT> "商务" </TEXT>
+					<TEXT> "其他" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_CHECKBOX COMMENT="Add Note">
+				<ID> 2506 </ID>
+				<BOUNDS>
+					<LEFT> 3 </LEFT>
+					<TOP> 33 </TOP>
+					<WIDTH> 148 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "添加注解" </TEXT>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>			
+			<FORM_BUTTON>
+				<ID> 2501 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 52 </TOP>
+					<WIDTH> 37 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "确定" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON>
+				<ID> 2502 </ID>
+				<BOUNDS>
+					<LEFT> 48 </LEFT>
+					<TOP> 52 </TOP>
+					<WIDTH> 37 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "取消" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+	
+	<STRING_RESOURCE RESOURCE_ID="2500" LOCALE="zhCN" COMMENT="ExportAskHelpString">
+		<TEXT>
+			"可以选择要发送的通讯录条目的部分。 请注意：根据对方不同的设备，某些字段可能会有所丢失。\n· 全部： 发送整个条目。\n· 个人： 只有个人信息。\n· 商务： 只有商务信息。\n· 其他： 任何其他信息。\n"
+		</TEXT>
+	</STRING_RESOURCE>
+	
+</PALMOS_RESOURCE_FILE>

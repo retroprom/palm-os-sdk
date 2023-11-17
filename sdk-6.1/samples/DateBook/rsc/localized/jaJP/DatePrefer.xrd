@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"GenerateXRD from 'E:\\projects_new\\Apps\\Datebook\\5.0\\68k\\Rsc\\Localized\\jpJP\\.DatePrefer.rsrc'\n"
+	</COMMENT_TEXT>
+
+	<FORM_RESOURCE RESOURCE_ID="1800" LOCALE="jaJP">
+		<FORM_ID> 1800 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 2 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 156 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 1812 </HELP_ID>
+		<MENU_ID> 10000 </MENU_ID>
+		<DEFAULT_BUTTON> 1815 </DEFAULT_BUTTON>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "設定" </TEXT>
+			</FORM_TITLE>
+			<FORM_LABEL COMMENT="Remind Me">
+				<ID> 1801 </ID>
+				<LOCATION>
+					<X> 59 </X>
+					<Y> 102 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "回数:" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL COMMENT="Work hours">
+				<ID> 1823 </ID>
+				<LOCATION>
+					<X> 10 </X>
+					<Y> 20 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "就業時間:" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL COMMENT="From:">
+				<ID> 1802 </ID>
+				<LOCATION>
+					<X> 41 </X>
+					<Y> 35 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "開始時刻:" </TEXT>
+			</FORM_LABEL>
+			<FORM_REPEATING_BUTTON COMMENT="Start Time Up">
+				<ID> 1803 </ID>
+				<BOUNDS>
+					<LEFT> 140 </LEFT>
+					<TOP> 32 </TOP>
+					<WIDTH> 13 </WIDTH>
+					<HEIGHT> 8 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "\x01" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> SYMBOL_7_FONT </FONT_ID>
+				<BUTTON_FRAME> NO_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_REPEATING_BUTTON>
+			<FORM_REPEATING_BUTTON COMMENT="Start Time Down">
+				<ID> 1804 </ID>
+				<BOUNDS>
+					<LEFT> 140 </LEFT>
+					<TOP> 40 </TOP>
+					<WIDTH> 13 </WIDTH>
+					<HEIGHT> 8 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "\x02" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> SYMBOL_7_FONT </FONT_ID>
+				<BUTTON_FRAME> NO_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_REPEATING_BUTTON>
+			<FORM_LABEL COMMENT="To:">
+				<ID> 1805 </ID>
+				<LOCATION>
+					<X> 41 </X>
+					<Y> 52 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "終了時刻:" </TEXT>
+			</FORM_LABEL>
+			<FORM_REPEATING_BUTTON COMMENT="End Time Up">
+				<ID> 1806 </ID>
+				<BOUNDS>
+					<LEFT> 140 </LEFT>
+					<TOP> 49 </TOP>
+					<WIDTH> 13 </WIDTH>
+					<HEIGHT> 8 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "\x01" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> SYMBOL_7_FONT </FONT_ID>
+				<BUTTON_FRAME> NO_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_REPEATING_BUTTON>
+			<FORM_REPEATING_BUTTON COMMENT="End Time Down">
+				<ID> 1807 </ID>
+				<BOUNDS>
+					<LEFT> 140 </LEFT>
+					<TOP> 57 </TOP>
+					<WIDTH> 13 </WIDTH>
+					<HEIGHT> 8 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "\x02" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> SYMBOL_7_FONT </FONT_ID>
+				<BUTTON_FRAME> NO_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_REPEATING_BUTTON>
+			<FORM_LABEL COMMENT="Alarm Preset:">
+				<ID> 1808 </ID>
+				<LOCATION>
+					<X> 23 </X>
+					<Y> 70 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "アラーム設定:" </TEXT>
+			</FORM_LABEL>
+			<FORM_CHECKBOX COMMENT="Alarm preset">
+				<ID> 1809 </ID>
+				<BOUNDS>
+					<LEFT> 8 </LEFT>
+					<TOP> 69 </TOP>
+					<WIDTH> 19 </WIDTH>
+					<HEIGHT> 14 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_FIELD COMMENT="Alarm preset">
+				<ID> 1810 </ID>
+				<BOUNDS>
+					<LEFT> 84 </LEFT>
+					<TOP> 70 </TOP>
+					<WIDTH> 15 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<EDITABLE> TRUE </EDITABLE>
+				<SINGLE_LINE> TRUE </SINGLE_LINE>
+				<DYNAMIC_SIZE> FALSE </DYNAMIC_SIZE>
+				<UNDERLINE> GRAY_UNDERLINE </UNDERLINE>
+				<JUSTIFICATION> RIGHT_ALIGN </JUSTIFICATION>
+				<AUTO_SHIFT> FALSE </AUTO_SHIFT>
+				<HAS_SCROLLBAR> FALSE </HAS_SCROLLBAR>
+				<NUMERIC> TRUE </NUMERIC>
+				<MAX_CHARS> 2 </MAX_CHARS>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<MAX_VISIBLE_LINES> 0 </MAX_VISIBLE_LINES>
+			</FORM_FIELD>
+			<FORM_LABEL COMMENT="Play Every">
+				<ID> 1811 </ID>
+				<LOCATION>
+					<X> 59 </X>
+					<Y> 118 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "間隔:" </TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP_TRIGGER COMMENT="Alarm preset">
+				<ID> 1812 </ID>
+				<BOUNDS>
+					<LEFT> 101 </LEFT>
+					<TOP> 70 </TOP>
+					<WIDTH> 17 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_POPUP COMMENT="Alarm Preset">
+				<CONTROL_ID> 1812 </CONTROL_ID>
+				<LIST_ID> 1813 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LIST COMMENT="Alarm Preset">
+				<ID> 1813 </ID>
+				<BOUNDS>
+					<LEFT> 102 </LEFT>
+					<TOP> 70 </TOP>
+					<WIDTH> 40 </WIDTH>
+					<HEIGHT> 33 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 3 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "分前" </TEXT>
+					<TEXT> "時間前" </TEXT>
+					<TEXT> "日前" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_BUTTON COMMENT="OK">
+				<ID> 1814 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 139 </TOP>
+					<WIDTH> 25 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "OK" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Cancel">
+				<ID> 1815 </ID>
+				<BOUNDS>
+					<LEFT> 36 </LEFT>
+					<TOP> 139 </TOP>
+					<WIDTH> 36 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "ｷｬﾝｾﾙ" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_LABEL COMMENT="Alarm Sound">
+				<ID> 1816 </ID>
+				<LOCATION>
+					<X> 32 </X>
+					<Y> 86 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "アラーム音:" </TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP_TRIGGER COMMENT="Alarm Sound Trigger">
+				<ID> 1817 </ID>
+				<BOUNDS>
+					<LEFT> 81 </LEFT>
+					<TOP> 85 </TOP>
+					<WIDTH> 17 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_POPUP COMMENT="Alarm Sound">
+				<CONTROL_ID> 1817 </CONTROL_ID>
+				<LIST_ID> 1818 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LIST COMMENT="Alarm Sound List">
+				<ID> 1818 </ID>
+				<BOUNDS>
+					<LEFT> 82 </LEFT>
+					<TOP> 85 </TOP>
+					<WIDTH> 67 </WIDTH>
+					<HEIGHT> 0 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 0 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_POPUP_TRIGGER COMMENT="Remind Me Trigger">
+				<ID> 1819 </ID>
+				<BOUNDS>
+					<LEFT> 81 </LEFT>
+					<TOP> 101 </TOP>
+					<WIDTH> 17 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_POPUP COMMENT="Remind Me">
+				<CONTROL_ID> 1819 </CONTROL_ID>
+				<LIST_ID> 1820 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LIST COMMENT="Remind Me List">
+				<ID> 1820 </ID>
+				<BOUNDS>
+					<LEFT> 82 </LEFT>
+					<TOP> 101 </TOP>
+					<WIDTH> 36 </WIDTH>
+					<HEIGHT> 55 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 5 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "1 回" </TEXT>
+					<TEXT> "2 回" </TEXT>
+					<TEXT> "3 回" </TEXT>
+					<TEXT> "5 回" </TEXT>
+					<TEXT> "10 回" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_POPUP_TRIGGER COMMENT="Play Every Trigger">
+				<ID> 1821 </ID>
+				<BOUNDS>
+					<LEFT> 81 </LEFT>
+					<TOP> 117 </TOP>
+					<WIDTH> 17 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_POPUP COMMENT="Play Every">
+				<CONTROL_ID> 1821 </CONTROL_ID>
+				<LIST_ID> 1822 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LIST COMMENT="Play Every List">
+				<ID> 1822 </ID>
+				<BOUNDS>
+					<LEFT> 82 </LEFT>
+					<TOP> 117 </TOP>
+					<WIDTH> 36 </WIDTH>
+					<HEIGHT> 44 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 4 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "1 分" </TEXT>
+					<TEXT> "5 分" </TEXT>
+					<TEXT> "10 分" </TEXT>
+					<TEXT> "30 分" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<SOFT_CONSTANT_RESOURCE RESOURCE_ID="1800" LOCALE="jaJP" COMMENT="Sound trigger label width">
+		<VALUE> 75 </VALUE>
+	</SOFT_CONSTANT_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1800" LOCALE="jaJP" COMMENT="Default MIDI sound name">
+		<TEXT> "アラーム" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1812" LOCALE="jaJP" COMMENT="Preferences: Help">
+		<TEXT>
+			"･ 1 "
+			"日の開始から終了までの時間を長く設定すると、夕方以降の時間帯が画面の表示範囲外になる場合があります。この場合、右下に表示される矢印をタッ"
+			"プして、隠れている画面をスクロール表示します。\n"
+			"\n"
+			"･ [アラーム設定] チェック "
+			"ボックスをオンにすると、新規に作成するすべての予定にアラームが設定されます。この場合、アラームは時間指定のない予"
+			"定にも設定され、アラーム通知時刻は、予定日の深夜 0:00 を予定開始時刻として、分、時間、または日のいずれかの単位で設定します。\n"
+			"\n"
+			"･ [回数] には初回のアラームに気付かなかった場合、その後に何回アラームを通知するかを、[間隔] "
+			"には何分おきにアラームを通知するかを、それぞれ設定します。"
+		</TEXT>
+	</STRING_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

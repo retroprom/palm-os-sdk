@@ -1,0 +1,10 @@
+EXPORTS
+	IdLookupLibMain			@1
+SysGetRefNum				@2
+__ExportDispatchTable		@3
+__GetRefNum			@4
+__SetPreloadedDispatchTable	@5
+__SetRefNum			@6
+	IdLookupLibSearchPhoneNumber
+	IdLookupLibSearchEmail
+	IdLookupLibSearchUrl

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"GenerateXRD from 'E:\\projects_new\\Apps\\Datebook\\5.0\\68k\\Rsc\\.DateDisplay.rsrc'\n"
+	</COMMENT_TEXT>
+
+	<FORM_RESOURCE RESOURCE_ID="1900" LOCALE="zhCN" COMMENT="Display Options">
+		<FORM_ID> 1900 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 2 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 156 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 1911 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 1910 </DEFAULT_BUTTON>
+		<FORM_OBJECTS>
+			<FORM_TITLE COMMENT="Display Options">
+				<TEXT> "显示选项" </TEXT>
+			</FORM_TITLE>
+			<FORM_LABEL COMMENT="Day View:">
+				<ID> 1902 </ID>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 18 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "以日查看：" </TEXT>
+			</FORM_LABEL>
+			<FORM_CHECKBOX COMMENT="Show time bars">
+				<ID> 1903 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 31 </TOP>
+					<WIDTH> 122 </WIDTH>
+					<HEIGHT> 15 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "显示时间栏" </TEXT>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX COMMENT="Compress Day View">
+				<ID> 1904 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 45 </TOP>
+					<WIDTH> 118 </WIDTH>
+					<HEIGHT> 14 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "以压缩日查看" </TEXT>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> TRUE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_LABEL COMMENT="Month View:">
+				<ID> 1905 </ID>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 70 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "以月查看：" </TEXT>
+			</FORM_LABEL>
+			<FORM_CHECKBOX COMMENT="Show Timed Events">
+				<ID> 1906 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 83 </TOP>
+					<WIDTH> 124 </WIDTH>
+					<HEIGHT> 15 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "显示已设定时间的事件" </TEXT>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX COMMENT="Show Untimed Events">
+				<ID> 1907 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 97 </TOP>
+					<WIDTH> 131 </WIDTH>
+					<HEIGHT> 15 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "显示未安排时间的事件" </TEXT>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX COMMENT="Show Daily Repeating Events">
+				<ID> 1908 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 111 </TOP>
+					<WIDTH> 118 </WIDTH>
+					<HEIGHT> 15 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "显示每日重复的事件" </TEXT>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_BUTTON COMMENT="OK">
+				<ID> 1909 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 139 </TOP>
+					<WIDTH> 25 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "确定" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Cancel">
+				<ID> 1910 </ID>
+				<BOUNDS>
+					<LEFT> 36 </LEFT>
+					<TOP> 139 </TOP>
+					<WIDTH> 48 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "取消" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1911" LOCALE="zhCN" COMMENT="Display Options: Help">
+		<TEXT>
+			"以日查看：\n"
+			"·取消勾选&#x201C;显示时间栏&#x201D;隐藏所有事件持续时间的时间栏。\n\n"
+			"·取消勾选&#x201C;以压缩日查看&#x201D;显示所有空白和以&#x201C;首选设置&#x201D;中设定的开始时间开始的时间栏。\n\n"
+			"以月查看：\n"
+			"·取消勾选&#x201C;显示已设定时间的事件&#x201D;将已设定时间的事件从月查看中隐藏。\n\n"
+			"·勾选&#x201C;显示未安排时间的事件&#x201D;在月查看中显示未安排时间的事件的标志。\n\n"
+			"·勾选&#x201C;显示每日重复事件&#x201D;在月查看中显示需重复事件的标志。"
+		</TEXT>
+	</STRING_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<STRING_RESOURCE RESOURCE_ID="20010" COMMENT="Headset service name">
+		<TEXT> "Headset" </TEXT>
+	</STRING_RESOURCE>
+	
+	<STRING_RESOURCE RESOURCE_ID="20011" COMMENT="Headset service description">
+		<TEXT> 
+		"This service allows a Bluetooth headset to connect to your device."
+		</TEXT> 
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="20012" COMMENT="Handsfree service name">
+		<TEXT> "Hands-Free" </TEXT>
+	</STRING_RESOURCE>
+	
+	<STRING_RESOURCE RESOURCE_ID="20013" COMMENT="Handsfree service description">
+		<TEXT> 
+			"This service allows a Bluetooth \"hands-free\" car phone kit to connect to your device."
+		</TEXT> 
+	</STRING_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+
+	<FORM_RESOURCE RESOURCE_ID="1300" LOCALE = "enUS" COMMENT="EventDetails">
+		<FORM_ID> 1300 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 2 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 156 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 1300 </HELP_ID>
+		<MENU_ID> 10000 </MENU_ID>
+		<DEFAULT_BUTTON> 1302 </DEFAULT_BUTTON>
+		<TITLE_BAR_FOCUSABLE> TRUE </TITLE_BAR_FOCUSABLE>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "" </TEXT>
+			</FORM_TITLE>
+			<FORM_BUTTON COMMENT="OK">
+				<ID> 1301 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 139 </TOP>
+					<WIDTH> 25 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "OK" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Cancel">
+				<ID> 1302 </ID>
+				<BOUNDS>
+					<LEFT> 36 </LEFT>
+					<TOP> 139 </TOP>
+					<WIDTH> 33 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Cancel" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Delete">
+				<ID> 1303 </ID>
+				<BOUNDS>
+					<LEFT> 75 </LEFT>
+					<TOP> 139 </TOP>
+					<WIDTH> 33 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Delete" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Note">
+				<ID> 1304 </ID>
+				<BOUNDS>
+					<LEFT> 114 </LEFT>
+					<TOP> 139 </TOP>
+					<WIDTH> 28 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Note" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_GRAFFITI_STATE COMMENT="Graffiti Shift Indicator">
+				<LOCATION>
+					<X> 145 </X>
+					<Y> 142 </Y>
+				</LOCATION>
+			</FORM_GRAFFITI_STATE>
+						
+			<FORM_LABEL COMMENT="Time">
+				<ID> 1305 </ID>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 19 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Time:" </TEXT>
+			</FORM_LABEL>
+			<FORM_SELECTOR_TRIGGER COMMENT="StartTime">
+				<ID> 1306 </ID>
+				<BOUNDS>
+					<LEFT> 38 </LEFT>
+					<TOP> 18 </TOP>
+					<WIDTH> 43 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "XXXXXXXXXXXXXXXXXX" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_SELECTOR_TRIGGER>
+			
+			<FORM_LABEL COMMENT="to">
+				<ID> 1307 </ID>
+				<LOCATION>
+					<X> 89 </X>
+					<Y> 19 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "to" </TEXT>
+			</FORM_LABEL>
+			<FORM_SELECTOR_TRIGGER COMMENT="EndTime">
+				<ID> 1308 </ID>
+				<BOUNDS>
+					<LEFT> 104 </LEFT>
+					<TOP> 18 </TOP>
+					<WIDTH> 43 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "XXXXXXXXXXXXXXXXXX" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_SELECTOR_TRIGGER>
+			
+			<FORM_LABEL COMMENT="Date">
+				<ID> 1309 </ID>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 39 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Date:" </TEXT>
+			</FORM_LABEL>
+			<FORM_SELECTOR_TRIGGER COMMENT="Date">
+				<ID> 1310 </ID>
+				<BOUNDS>
+					<LEFT> 38 </LEFT>
+					<TOP> 38 </TOP>
+					<WIDTH> 109 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "Mon, 12/25/2003 - Tue, 12/26/2003" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_SELECTOR_TRIGGER>
+			
+			
+
+			
+			<FORM_GADGET COMMENT="BookTabs">
+				<ID> 1311 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 56 </TOP>
+					<WIDTH> 146 </WIDTH>
+					<HEIGHT> 14 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EXTENDED> TRUE </EXTENDED>
+				<VISIBLE> FALSE </VISIBLE>
+			</FORM_GADGET>
+			
+			<FORM_GADGET COMMENT="BookBody">
+				<ID> 1312 </ID>
+				<BOUNDS>
+					<LEFT> -1 </LEFT>
+					<TOP> 70 </TOP>
+					<WIDTH> 158 </WIDTH>
+					<HEIGHT> 62 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EXTENDED> TRUE </EXTENDED>
+				<VISIBLE> FALSE </VISIBLE>
+			</FORM_GADGET>
+			
+			<FORM_LABEL COMMENT="Repeat Label">
+				<ID> 1313 </ID>
+				<LOCATION>
+					<X> 19 </X>
+					<Y> 78 </Y>
+				</LOCATION>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Repeat:" </TEXT>
+			</FORM_LABEL>
+			
+			<FORM_SELECTOR_TRIGGER COMMENT="Repeat">
+				<ID> 1314 </ID>
+				<BOUNDS>
+					<LEFT> 67 </LEFT>
+					<TOP> 77 </TOP>
+					<WIDTH> 25 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "none" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_SELECTOR_TRIGGER>
+			<FORM_LABEL COMMENT="Alarm">
+				<ID> 1315 </ID>
+				<LOCATION>
+					<X> 27 </X>
+					<Y> 96 </Y>
+				</LOCATION>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Alarm:" </TEXT>
+			</FORM_LABEL>
+			<FORM_CHECKBOX COMMENT="Alarm">
+				<ID> 1316 </ID>
+				<BOUNDS>
+					<LEFT> 64 </LEFT>
+					<TOP> 96 </TOP>
+					<WIDTH> 12 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			
+			<FORM_FIELD COMMENT="AlarmAdvance">
+				<ID> 1317 </ID>
+				<BOUNDS>
+					<LEFT> 79 </LEFT>
+					<TOP> 96 </TOP>
+					<WIDTH> 15 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<EDITABLE> TRUE </EDITABLE>
+				<SINGLE_LINE> TRUE </SINGLE_LINE>
+				<DYNAMIC_SIZE> FALSE </DYNAMIC_SIZE>
+				<UNDERLINE> GRAY_UNDERLINE </UNDERLINE>
+				<JUSTIFICATION> RIGHT_ALIGN </JUSTIFICATION>
+				<AUTO_SHIFT> FALSE </AUTO_SHIFT>
+				<HAS_SCROLLBAR> FALSE </HAS_SCROLLBAR>
+				<NUMERIC> TRUE </NUMERIC>
+				<MAX_CHARS> 2 </MAX_CHARS>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<MAX_VISIBLE_LINES> 0 </MAX_VISIBLE_LINES>
+			</FORM_FIELD>
+		
+			<FORM_POPUP_TRIGGER COMMENT="AlarmAdvance">
+				<ID> 1318 </ID>
+				<BOUNDS>
+					<LEFT> 99 </LEFT>
+					<TOP> 96 </TOP>
+					<WIDTH> 42 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "Popup" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_POPUP>
+				<CONTROL_ID> 1318 </CONTROL_ID>
+				<LIST_ID> 1319 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LIST COMMENT="AlarmAdvance">
+				<ID> 1319 </ID>
+				<BOUNDS>
+					<LEFT> 99 </LEFT>
+					<TOP> 96 </TOP>
+					<WIDTH> 50 </WIDTH>
+					<HEIGHT> 33 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 3 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "Minute(s)" </TEXT>
+					<TEXT> "Hour(s)" </TEXT>
+					<TEXT> "Day(s)" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>			
+
+			<FORM_LABEL COMMENT="Private">
+				<ID> 1320 </ID>
+				<LOCATION>
+					<X> 18 </X>
+					<Y> 114 </Y>
+				</LOCATION>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Private:" </TEXT>
+			</FORM_LABEL>
+			
+			<FORM_CHECKBOX COMMENT="Private">
+				<ID> 1321 </ID>
+				<BOUNDS>
+					<LEFT> 64 </LEFT>
+					<TOP> 114 </TOP>
+					<WIDTH> 12 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			
+			<FORM_LABEL COMMENT="Location">
+				<ID> 1325 </ID>
+				<LOCATION>
+					<X> 13 </X>
+					<Y> 78 </Y>
+				</LOCATION>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Location:" </TEXT>
+			</FORM_LABEL>
+			
+			<FORM_FIELD COMMENT="Location">
+				<ID> 1326 </ID>
+				<BOUNDS>
+					<LEFT> 66 </LEFT>
+					<TOP> 78 </TOP>
+					<WIDTH> 84 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<EDITABLE> TRUE </EDITABLE>
+				<SINGLE_LINE> TRUE </SINGLE_LINE>
+				<DYNAMIC_SIZE> FALSE </DYNAMIC_SIZE>
+				<UNDERLINE> GRAY_UNDERLINE </UNDERLINE>
+				<JUSTIFICATION> LEFT_ALIGN </JUSTIFICATION>
+				<AUTO_SHIFT> FALSE </AUTO_SHIFT>
+				<HAS_SCROLLBAR> FALSE </HAS_SCROLLBAR>
+				<NUMERIC> FALSE </NUMERIC>
+				<MAX_CHARS> 80 </MAX_CHARS>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<MAX_VISIBLE_LINES> 0 </MAX_VISIBLE_LINES>
+			</FORM_FIELD>
+			
+			<FORM_LABEL COMMENT="Category">
+				<ID> 1322 </ID>
+				<LOCATION>
+					<X> 10 </X>
+					<Y> 96 </Y>
+				</LOCATION>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Category:" </TEXT>
+			</FORM_LABEL>
+			
+			<FORM_SELECTOR_TRIGGER COMMENT="Category">
+				<ID> 1323 </ID>
+				<BOUNDS>
+					<LEFT> 67 </LEFT>
+					<TOP> 95 </TOP>
+					<WIDTH> 5 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_SELECTOR_TRIGGER>
+				
+			<FORM_POPUP>
+				<CONTROL_ID> 1323 </CONTROL_ID>
+				<LIST_ID> 1324 </LIST_ID>
+			</FORM_POPUP>
+			
+			
+			<FORM_LIST COMMENT="Category">
+				<ID> 1324 </ID>
+				<BOUNDS>
+					<LEFT> 66 </LEFT>
+					<TOP> 95 </TOP>
+					<WIDTH> 72 </WIDTH>
+					<HEIGHT> 0 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 0 </NUM_VIS_ITEMS>
+				<LIST_ITEMS/>
+			</FORM_LIST>
+			
+			<FORM_LABEL COMMENT="TimeZone">
+				<ID> 1327 </ID>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 114 </Y>
+				</LOCATION>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Time Zone:" </TEXT>
+			</FORM_LABEL>
+			<FORM_SELECTOR_TRIGGER COMMENT="TimeZone">
+				<ID> 1328 </ID>
+				<BOUNDS>
+					<LEFT> 67 </LEFT>
+					<TOP> 113 </TOP>
+					<WIDTH> 5 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_SELECTOR_TRIGGER>
+		
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	
+
+	<STRING_RESOURCE RESOURCE_ID="1300" LOCALE="enUS" COMMENT="Details: Help">
+		<TEXT>
+			"• To create an event that starts on a time not shown on the screen, "
+			"tap the time next to a blank event.  This displays the Set Time "
+			"dialog.\n"
+			"\n"
+			"• Events that begin on one day and end on the next day can be "
+			"created by setting both the start and end time. Single events can "
+			"not span 24 or more hours. \n"
+			"\n"
+			"• To create an event that lasts several days, such as a trip, set a "
+			"daily repeat with an end date.\n"
+			"\n"
+			"• Tap the Time Zone trigger, in the Event Information tab, to associate"
+			" a specific time zone with your event. You can also specify the location "
+			"for the event on the Event Information tab.\n"
+			"\n"
+			"• Tap the Alarm check box to set an alarm for an event.  An audible "
+			"tone and an on-screen alert can be set to appear minutes, hours, or "
+			"days before the event.\n"
+			"\n"
+			"• Alarms are silent for untimed events.  For an untimed event, you can "
+			"set the alarm reminder to appear minutes, hours, or days before "
+			"midnight (the beginning of the untimed event's day).\n"
+		</TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1335" LOCALE="enUS" COMMENT="TimeZone selector">
+		<TEXT> "Event Time Zone" </TEXT>
+	</STRING_RESOURCE>
+	
+	<STRING_LIST_RESOURCE RESOURCE_ID="1300" LOCALE="enUS" COMMENT="Event Details Book's Tab Labels">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<TEXT> "Event Information" </TEXT>
+			<TEXT> "Options" </TEXT>
+
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+	
+	<RAW_RESOURCE RESOURCE_ID="1300" LOCALE="enUS" COMMENT="Event Details Book's Tab Ids">
+		<RES_TYPE> 'u16L' </RES_TYPE>
+		<RES_DATA>
+			28 05
+			1E 05
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="1310" LOCALE="enUS" COMMENT="Option Tabs Item ids list">
+		<RES_TYPE> 'u16L' </RES_TYPE>
+		<RES_DATA>
+			21 05
+			22 05
+			23 05
+			24 05
+			28 05
+			29 05
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="1320" LOCALE="enUS" COMMENT="Event Information Tabs Item ids list">
+		<RES_TYPE> 'u16L' </RES_TYPE>
+		<RES_DATA>
+			2A 05
+			2B 05
+			2D 05
+			2E 05
+			2F 05
+			30 05
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

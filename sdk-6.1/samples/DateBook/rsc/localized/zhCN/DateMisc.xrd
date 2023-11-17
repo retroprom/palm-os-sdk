@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"GenerateXRD from 'E:\\projects_new\\Apps\\Datebook\\5.0\\68k\\Rsc\\.DateMisc.rsrc'\n"
+	</COMMENT_TEXT>
+
+	<ALERT_RESOURCE RESOURCE_ID="2001" LOCALE="zhCN" COMMENT="Delete Note">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "删除注解" </TITLE>
+		<MESSAGE> "删除当前注解?" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "是" </TEXT>
+			<TEXT> "否" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2002" LOCALE="zhCN" COMMENT="Select item">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "选择事项" </TITLE>
+		<MESSAGE>
+			"在执行该命令前您必须先选定一条记录。  要选择一条记录，请点击事件描述。"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "确定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2006" LOCALE="zhCN" COMMENT="Repeat type changed">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "重复事件" </TITLE>
+		<MESSAGE>
+			"您已修改了此事件的重复设置。  所有过往出现过的事件将被删除。"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "确定" </TEXT>
+			<TEXT> "取消" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2007" LOCALE="zhCN" COMMENT="Invalid alarm setting">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "无效警告" </TITLE>
+		<MESSAGE> "此闹钟设置只允许数字(0－9)。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "确定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2008" LOCALE="zhCN" COMMENT="Untimed event TZ setting">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "时区限制" </TITLE>
+		<MESSAGE>
+			"对于未安排时间的约会，其时区是未知的。如果需要设置时区，则必须选择约会的开始时间和结束时间。"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "确定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2009" LOCALE="zhCN" COMMENT="OutOfRange event TZ">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "约会超出范围" </TITLE>
+		<MESSAGE>
+			"日程表无法更改时区，因为生成的约会日期不在 1904 年 1 月 1 日到 2031 年 12 月 31 日之间。"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "确定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<APP_ICON_NAME_RESOURCE RESOURCE_ID="1000" LOCALE="zhCN" COMMENT="App Icon Name">
+		<TEXT> "日程表" </TEXT>
+	</APP_ICON_NAME_RESOURCE>
+
+	<MENU_BAR_RESOURCE RESOURCE_ID="1000" LOCALE="zhCN" COMMENT="Day View Menu">
+		<VISIBLE> TRUE </VISIBLE>
+		<MENUS>
+			<MENU COMMENT="Item">
+				<TITLE> "记录" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 6 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 104 </WIDTH>
+					<HEIGHT> 82 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 4 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 43 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 100 </ID>
+						<TITLE> "新建事件" </TITLE>
+						<COMMAND> "N" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 101 </ID>
+						<TITLE> "删除事件..." </TITLE>
+						<COMMAND> "D" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 102 </ID>
+						<TITLE> "附加注解" </TITLE>
+						<COMMAND> "A" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 103 </ID>
+						<TITLE> "删除注解..." </TITLE>
+						<COMMAND> "O" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 104 </ID>
+						<TITLE> "清除..." </TITLE>
+						<COMMAND> "E" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 105 </ID>
+						<TITLE> "-" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 106 </ID>
+						<TITLE> "传送事件" </TITLE>
+						<COMMAND> "B" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 107 </ID>
+						<TITLE> "发送事件" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> TRUE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 108 </ID>
+						<TITLE> "附加事件" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> TRUE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+			<MENU COMMENT="Edit Menu">
+				<TITLE> "编辑" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 49 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 100 </WIDTH>
+					<HEIGHT> 82 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 47 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 27 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 10000 </ID>
+						<TITLE> "撤消" </TITLE>
+						<COMMAND> "U" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10001 </ID>
+						<TITLE> "剪切" </TITLE>
+						<COMMAND> "X" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10002 </ID>
+						<TITLE> "复制" </TITLE>
+						<COMMAND> "C" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10003 </ID>
+						<TITLE> "粘贴" </TITLE>
+						<COMMAND> "P" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10004 </ID>
+						<TITLE> "全选" </TITLE>
+						<COMMAND> "S" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10005 </ID>
+						<TITLE> "-" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10006 </ID>
+						<TITLE> "键盘" </TITLE>
+						<COMMAND> "K" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10007 </ID>
+						<TITLE> "Graffiti 2帮助" </TITLE>
+						<COMMAND> "G" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+			<MENU COMMENT="Options">
+				<TITLE> "选项" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 41 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 117 </WIDTH>
+					<HEIGHT> 66 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 74 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 47 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 300 </ID>
+						<TITLE> "字体..." </TITLE>
+						<COMMAND> "F" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 301 </ID>
+						<TITLE> "首选设置..." </TITLE>
+						<COMMAND> "R" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 302 </ID>
+						<TITLE> "显示选项..." </TITLE>
+						<COMMAND> "Y" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 303 </ID>
+						<TITLE> "查找电话" </TITLE>
+						<COMMAND> "L" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 305 </ID>
+						<TITLE> "私人资料..." </TITLE>
+						<COMMAND> "H" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 308 </ID>
+						<TITLE> "关于日程表" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+		</MENUS>
+	</MENU_BAR_RESOURCE>
+
+	<MENU_BAR_RESOURCE RESOURCE_ID="1002" LOCALE="zhCN" COMMENT="Week View Menu">
+		<VISIBLE> TRUE </VISIBLE>
+		<MENUS>
+			<MENU COMMENT="Options">
+				<TITLE> "选项" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 6 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 102 </WIDTH>
+					<HEIGHT> 33 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 4 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 47 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 300 </ID>
+						<TITLE> "首选设置..." </TITLE>
+						<COMMAND> "R" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 302 </ID>
+						<TITLE> "私人资料..." </TITLE>
+						<COMMAND> "H" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 305 </ID>
+						<TITLE> "关于日程表" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+		</MENUS>
+	</MENU_BAR_RESOURCE>
+
+	<MENU_BAR_RESOURCE RESOURCE_ID="1003" LOCALE="zhCN" COMMENT="Month View Menu">
+		<VISIBLE> TRUE </VISIBLE>
+		<MENUS>
+			<MENU COMMENT="Month Options Menu">
+				<TITLE> "选项" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 6 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 117 </WIDTH>
+					<HEIGHT> 44 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 4 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 47 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 300 </ID>
+						<TITLE> "首选设置..." </TITLE>
+						<COMMAND> "R" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 301 </ID>
+						<TITLE> "显示选项..." </TITLE>
+						<COMMAND> "Y" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 303 </ID>
+						<TITLE> "私人资料..." </TITLE>
+						<COMMAND> "H" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 306 </ID>
+						<TITLE> "关于日程表" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+		</MENUS>
+	</MENU_BAR_RESOURCE>
+
+	<STRING_LIST_RESOURCE RESOURCE_ID="100" LOCALE="zhCN" COMMENT="Frequency ordinals (2nd - other)">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<TEXT> "" </TEXT>
+			<TEXT> "2" </TEXT>
+			<TEXT> "2" </TEXT>
+			<TEXT> "2" </TEXT>
+			<TEXT> "2" </TEXT>
+			<TEXT> "2" </TEXT>
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+
+	<STRING_LIST_RESOURCE RESOURCE_ID="101" LOCALE="zhCN" COMMENT="Agenda View Title Date Formats">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<TEXT> "^2r^0r日(^1s)" </TEXT>
+			<TEXT> "^2r^0r日(^1s)" </TEXT>
+			<TEXT> "^2r^0r日(^1s)" </TEXT>
+			<TEXT> "^2r^0r日(^1s)" </TEXT>
+			<TEXT> "^2r^0r日(^1s)" </TEXT>
+			<TEXT> "^2r^0r日(^1s)" </TEXT>
+			<TEXT> "^2r^0r日(^1s)" </TEXT>
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="100" LOCALE="zhCN" COMMENT="Find Header Title">
+		<TEXT> "日程表" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="101" LOCALE="zhCN" COMMENT="Go To Title">
+		<TEXT> "转到日期" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="102" LOCALE="zhCN" COMMENT="Set Time Title">
+		<TEXT> "设置时间" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="103" LOCALE="zhCN" COMMENT="Start Date Date Picker Title">
+		<TEXT> "设置日期" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="104" LOCALE="zhCN" COMMENT="End Date Date Picker Title">
+		<TEXT> "结束于" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="105" LOCALE="zhCN" COMMENT="Days of week initials">
+		<TEXT> "日一二三四五六" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="126" LOCALE="zhCN" COMMENT="No Time">
+		<TEXT> "不设时间" </TEXT>
+	</STRING_RESOURCE>
+
+	<APP_INFO_STRINGS_RESOURCE RESOURCE_ID="127" LOCALE="zhCN" COMMENT="Repeat type names">
+		<STRINGS>
+			<TEXT> "无" </TEXT>
+			<TEXT> "每日" </TEXT>
+			<TEXT> "每周" </TEXT>
+			<TEXT> "每月" </TEXT>
+			<TEXT> "每月" </TEXT>
+			<TEXT> "每年" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+		</STRINGS>
+	</APP_INFO_STRINGS_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="128" LOCALE="zhCN" COMMENT="Daily: every [freq] day">
+		<TEXT> "每 ^f 天" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="129" LOCALE="zhCN" COMMENT="Weekly: every [freq] week on [1 day]">
+		<TEXT> "每 ^f 周的^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="130" LOCALE="zhCN" COMMENT="Weekly: every [freq] week on [2 days]">
+		<TEXT> "每 ^f 周的星期^d、^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="131" LOCALE="zhCN" COMMENT="Weekly: every [freq] week on [3 days]">
+		<TEXT> "每 ^f 周的星期^d、^d、^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="132" LOCALE="zhCN" COMMENT="Weekly: every [freq] week on [4 days]">
+		<TEXT> "每 ^f 周的星期^d、^d、^d、^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="133" LOCALE="zhCN" COMMENT="Weekly: every [freq] week on [5 days]">
+		<TEXT> "每 ^f 周的星期^d、^d、^d、^d、^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="134" LOCALE="zhCN" COMMENT="Weekly: every [freq] week on [6 days]">
+		<TEXT> "每 ^f 周的星期^d、^d、^d、^d、^d、^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="135" LOCALE="zhCN" COMMENT="Weekly: every [freq] week on [7 days]">
+		<TEXT> "每 ^f 周的星期^d、^d、^d、^d、^d、^d、^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="136" LOCALE="zhCN" COMMENT="Monthly: The [xth] [day] of every  [freq] month">
+		<TEXT> "每 ^f 个月的^w^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="137" LOCALE="zhCN" COMMENT="Monthly: The [xth] of every  [freq] month">
+		<TEXT> "每 ^f 个月的^x天" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="138" LOCALE="zhCN" COMMENT="Yearly: [month] [xth] every [freq] year">
+		<TEXT> "每 ^f 年的^m^x天" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="139" LOCALE="zhCN" COMMENT="Frequency ordinals (1st - 99th)">
+		<TEXT>
+			" 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 "
+		</TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="140" LOCALE="zhCN" COMMENT="Week ordinal (1st - last)">
+		<TEXT> "第一个 第二个 第三个 第四个 最后一个 " </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="141" LOCALE="zhCN" COMMENT="Day ordinals (1st - 31st)">
+		<TEXT>
+			"第1 第2 第3 第4 第5 第6 第7 第8 第9 第10 第11 第12 第13 第14 第15 第16 第17 第18 第19 第20 第21 第22 第23 第24 第25 第26 第27 第28 第29 第30 第31 "
+		</TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="142" LOCALE="zhCN" COMMENT="No Repeat">
+		<TEXT> "没有重复" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="143" LOCALE="zhCN" COMMENT="Daily: every day">
+		<TEXT> "每天" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="144" LOCALE="zhCN" COMMENT="Weekly: every week on [1 day]">
+		<TEXT> "每周的^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="145" LOCALE="zhCN" COMMENT="Weekly: every week on [2 days]">
+		<TEXT> "每周的星期^d、^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="146" LOCALE="zhCN" COMMENT="Weekly: every week on [3 days]">
+		<TEXT> "每周的星期^d、^d、^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="147" LOCALE="zhCN" COMMENT="Weekly: every week on [4 days]">
+		<TEXT> "每周的星期^d、^d、^d、^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="148" LOCALE="zhCN" COMMENT="Weekly: every week on [5 days]">
+		<TEXT> "每周的星期^d、^d、^d、^d、^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="149" LOCALE="zhCN" COMMENT="Weekly: every week on [6 days]">
+		<TEXT> "每周的星期^d、^d、^d、^d、^d、^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="150" LOCALE="zhCN" COMMENT="Weekly: every week on [7 days]">
+		<TEXT> "每周的星期^d、^d、^d、^d、^d、^d、^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="151" LOCALE="zhCN" COMMENT="Monthly: The [xth] [day] of every month">
+		<TEXT> "每月的^w^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="152" LOCALE="zhCN" COMMENT="Monthly: The [xth] of every month">
+		<TEXT> "每月的^x天" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="153" LOCALE="zhCN" COMMENT="Yearly: [month] [xth] every year">
+		<TEXT> "每年的^m^x天" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="154" LOCALE="zhCN" COMMENT="Repeat month names">
+		<TEXT>
+			"1月 2月 3月 4月 5月 6月 7月 8月 9月 10月 11月 12月 "
+		</TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="155" LOCALE="zhCN" COMMENT="Repeat full day of week names">
+		<TEXT> "星期日 星期一 星期二 星期三 星期四 星期五 星期六 " </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="156" LOCALE="zhCN" COMMENT="Repeat short day of week names">
+		<TEXT> "日 一 二 三 四 五 六 " </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1000" LOCALE="zhCN" COMMENT="Beam Description String">
+		<TEXT> "一个事件" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1001" LOCALE="zhCN" COMMENT="Beam Filename String">
+		<TEXT> "DateBook.vcs" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1009" LOCALE="zhCN" COMMENT="Exchange Description String">
+		<TEXT> "事件" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1010" LOCALE="zhCN" COMMENT="Exchange Description Unknown String">
+		<TEXT> "未知" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1011" LOCALE="zhCN" COMMENT="Exchange Description Multiple String">
+		<TEXT> "事件" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1012" LOCALE="zhCN" COMMENT="Exchange Description Multiple ToDo String">
+		<TEXT> "待办事项" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2201" LOCALE="zhCN" COMMENT="No Appointments Today">
+		<TEXT> "今天没有约会" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2202" LOCALE="zhCN" COMMENT="No Appointments This Day">
+		<TEXT> "今天没有约会" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2500" LOCALE="zhCN" COMMENT="Today">
+		<TEXT> "今天" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2501" LOCALE="zhCN" COMMENT="Ends next day">
+		<TEXT> "明天结束" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2502" LOCALE="zhCN" COMMENT="Unassigned timezone">
+		<TEXT> "未设置" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2503" LOCALE="zhCN" COMMENT="UnTimed events timezone">
+		<TEXT> "无时区" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2504" LOCALE="zhCN" COMMENT="Unnamed Appointment">
+		<TEXT> "未命名的事件" </TEXT>
+	</STRING_RESOURCE>
+
+	<!-- Contain the parameters values for the PDI writer. May vary depending of the locale -->
+	<SOFT_CONSTANT_RESOURCE RESOURCE_ID="1000" LOCALE="zhCN" COMMENT="kPdiEnableQuotedPrintable">
+		<VALUE> 0x00000002 </VALUE>
+	</SOFT_CONSTANT_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

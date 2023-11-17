@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"GenerateXRD from 'E:\\projects_new\\Apps\\Datebook\\5.0\\68k\\Rsc\\Localized\\frFR\\.DatePurge.rsrc'\n"
+	</COMMENT_TEXT>
+
+	<FORM_RESOURCE RESOURCE_ID="1500" LOCALE="frFR">
+		<FORM_ID> 1500 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 51 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 107 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 1510 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 1509 </DEFAULT_BUTTON>
+		<FORM_OBJECTS>
+			<FORM_TITLE COMMENT="Purge">
+				<TEXT> "Purger" </TEXT>
+			</FORM_TITLE>
+			<FORM_BITMAP COMMENT="Confirmation Icon">
+				<USABLE> TRUE </USABLE>
+				<LOCATION>
+					<X> 8 </X>
+					<Y> 19 </Y>
+				</LOCATION>
+				<BITMAP_ID> 1600 </BITMAP_ID>
+			</FORM_BITMAP>
+			<FORM_LABEL COMMENT="Delete question">
+				<ID> 1503 </ID>
+				<LOCATION>
+					<X> 32 </X>
+					<Y> 19 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT>
+					"Supprimer les \névénements antérieurs \nà:"
+				</TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP COMMENT="Time Range">
+				<CONTROL_ID> 1505 </CONTROL_ID>
+				<LIST_ID> 1506 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_POPUP_TRIGGER COMMENT="Time Range">
+				<ID> 1505 </ID>
+				<BOUNDS>
+					<LEFT> 44 </LEFT>
+					<TOP> 40 </TOP>
+					<WIDTH> 58 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "1 semaine" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_LIST COMMENT="Time Range">
+				<ID> 1506 </ID>
+				<BOUNDS>
+					<LEFT> 44 </LEFT>
+					<TOP> 40 </TOP>
+					<WIDTH> 47 </WIDTH>
+					<HEIGHT> 44 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 4 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "1 semaine" </TEXT>
+					<TEXT> "2 semaines" </TEXT>
+					<TEXT> "3 semaines" </TEXT>
+					<TEXT> "1 mois" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_CHECKBOX COMMENT="Save backup">
+				<ID> 1507 </ID>
+				<BOUNDS>
+					<LEFT> 12 </LEFT>
+					<TOP> 64 </TOP>
+					<WIDTH> 102 </WIDTH>
+					<HEIGHT> 14 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Archivage sur PC" </TEXT>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> TRUE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_BUTTON COMMENT="Purge: Ok">
+				<ID> 1508 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 90 </TOP>
+					<WIDTH> 37 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "OK" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Purge: Cancel">
+				<ID> 1509 </ID>
+				<BOUNDS>
+					<LEFT> 48 </LEFT>
+					<TOP> 90 </TOP>
+					<WIDTH> 37 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Annuler" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1510" LOCALE="frFR" COMMENT="Purge: Help">
+		<TEXT>
+			"L'option Archivage sur PC permet de stocker les enregistrements supprimés dans un fichier d'archives situé sur Palm Desktop lors de la prochaine HotSync."
+		</TEXT>
+	</STRING_RESOURCE>
+	
+	<WINDOW_CONSTRAINTS_RESOURCE RESOURCE_ID="1500" LOCALE="frFR">
+		<VERSION> 1 </VERSION>
+		<WINDOW_CREATE_FLAGS> 0x00000000 </WINDOW_CREATE_FLAGS>
+		<WINDOW_X_POS> -32768 </WINDOW_X_POS>
+		<WINDOW_Y_POS> -32768 </WINDOW_Y_POS>
+		<WINDOW_WIDTH_MIN> 156 </WINDOW_WIDTH_MIN>
+		<WINDOW_WIDTH_MAX> 156 </WINDOW_WIDTH_MAX>
+		<WINDOW_WIDTH_PREF> 156 </WINDOW_WIDTH_PREF>
+		<WINDOW_HEIGHT_MIN> 107 </WINDOW_HEIGHT_MIN>
+		<WINDOW_HEIGHT_MAX> 107 </WINDOW_HEIGHT_MAX>
+		<WINDOW_HEIGHT_PREF> 107 </WINDOW_HEIGHT_PREF>
+	</WINDOW_CONSTRAINTS_RESOURCE>	
+
+</PALMOS_RESOURCE_FILE>

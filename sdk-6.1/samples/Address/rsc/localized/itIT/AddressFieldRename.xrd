@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"These resources have not to be localized. Each locale have its own file that will/should contains its own locale resources"
+	</COMMENT_TEXT>
+
+</PALMOS_RESOURCE_FILE>
+

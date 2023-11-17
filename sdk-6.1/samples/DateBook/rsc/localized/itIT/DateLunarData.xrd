@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<SOFT_CONSTANT_RESOURCE RESOURCE_ID="10200" LOCALE="itIT" COMMENT="Is Lunar Calendar Supported?">
+		<VALUE> 0 </VALUE>
+	</SOFT_CONSTANT_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

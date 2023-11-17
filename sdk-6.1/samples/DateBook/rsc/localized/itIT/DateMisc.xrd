@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"GenerateXRD from 'E:\\projects_new\\Apps\\Datebook\\5.0\\68k\\Rsc\\Localized\\itIT\\.DateMisc.rsrc'\n"
+	</COMMENT_TEXT>
+
+	<ALERT_RESOURCE RESOURCE_ID="2001" LOCALE="itIT" COMMENT="Delete Note">
+		<ALERT_TYPE> CONFIRMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "Elimina nota" </TITLE>
+		<MESSAGE> "Eliminare la nota corrente?" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "Sì" </TEXT>
+			<TEXT> "No" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2002" LOCALE="itIT" COMMENT="Select item">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Seleziona voce" </TITLE>
+		<MESSAGE>
+			"Per eseguire questo comando, è necessario selezionare un record. Per selezionare un record, toccare la descrizione dell'evento."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2006" LOCALE="itIT" COMMENT="Repeat type changed">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 1 </DEFAULT_BUTTON>
+		<TITLE> "Evento ricorrente" </TITLE>
+		<MESSAGE>
+			"L'impostazione di ripetizione dell'evento è stata modificata.  Tutte le Occorrenze precedenti verranno eliminate."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+			<TEXT> "Annulla" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2007" LOCALE="itIT" COMMENT="Invalid alarm setting">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Sveglia non valida" </TITLE>
+		<MESSAGE>
+			"L'mpostazione della sveglia può contenere soltanto cifre \n(dall'1 al 9)"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2008" LOCALE="itIT" COMMENT="Untimed event TZ setting">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Limitazioni sui fusi orari" </TITLE>
+		<MESSAGE>
+			"Gli appuntamenti senza orario non riportano alcun fuso orario; per impostare un fuso orario, occorre selezionare un'ora di inizio e di fine per il proprio appuntamento."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2009" LOCALE="itIT" COMMENT="OutOfRange event TZ">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "Appuntamento fuori intervallo" </TITLE>
+		<MESSAGE>
+			"Impossibile cambiare il fuso orario. La data dell'appuntamento risultante è fuori dall'intervallo 1/1/1904 - 31/12/2031."
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<APP_ICON_NAME_RESOURCE RESOURCE_ID="1000" LOCALE="itIT" COMMENT="App Icon Name">
+		<TEXT> "Agenda" </TEXT>
+	</APP_ICON_NAME_RESOURCE>
+
+	<MENU_BAR_RESOURCE RESOURCE_ID="1000" LOCALE="itIT" COMMENT="Day View Menu">
+		<VISIBLE> TRUE </VISIBLE>
+		<MENUS>
+			<MENU COMMENT="Item">
+				<TITLE> "Evento" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 6 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 104 </WIDTH>
+					<HEIGHT> 82 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 4 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 43 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 100 </ID>
+						<TITLE> "Nuovo evento" </TITLE>
+						<COMMAND> "N" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 101 </ID>
+						<TITLE> "Elimina evento..." </TITLE>
+						<COMMAND> "E" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 102 </ID>
+						<TITLE> "Allega nota" </TITLE>
+						<COMMAND> "O" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 103 </ID>
+						<TITLE> "Elimina nota..." </TITLE>
+						<COMMAND> "L" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 104 </ID>
+						<TITLE> "Elimina vecchi eventi..." </TITLE>
+						<COMMAND> "M" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 105 </ID>
+						<TITLE> "-" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 106 </ID>
+						<TITLE> "Trasm.  evento via IR" </TITLE>
+						<COMMAND> "I" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 107 </ID>
+						<TITLE> "Trasmetti evento" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> TRUE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 108 </ID>
+						<TITLE> "Allega evento" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> TRUE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+			<MENU COMMENT="Edit Menu">
+				<TITLE> "Modifica" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 49 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 100 </WIDTH>
+					<HEIGHT> 82 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 47 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 27 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 10000 </ID>
+						<TITLE> "Annulla" </TITLE>
+						<COMMAND> "Z" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10001 </ID>
+						<TITLE> "Taglia" </TITLE>
+						<COMMAND> "X" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10002 </ID>
+						<TITLE> "Copia" </TITLE>
+						<COMMAND> "C" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10003 </ID>
+						<TITLE> "Incolla" </TITLE>
+						<COMMAND> "V" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10004 </ID>
+						<TITLE> "Seleziona tutto" </TITLE>
+						<COMMAND> "A" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10005 </ID>
+						<TITLE> "-" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10006 </ID>
+						<TITLE> "Tastiera" </TITLE>
+						<COMMAND> "T" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 10007 </ID>
+						<TITLE> "Guida di Graffiti 2" </TITLE>
+						<COMMAND> "G" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+			<MENU COMMENT="Options">
+				<TITLE> "Opzioni" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 41 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 117 </WIDTH>
+					<HEIGHT> 66 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 74 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 47 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 300 </ID>
+						<TITLE> "Carattere..." </TITLE>
+						<COMMAND> "F" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 301 </ID>
+						<TITLE> "Preferenze..." </TITLE>
+						<COMMAND> "P" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 302 </ID>
+						<TITLE> "Opzioni di visualizz..." </TITLE>
+						<COMMAND> "Y" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 303 </ID>
+						<TITLE> "Ricerca telefono" </TITLE>
+						<COMMAND> "R" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 305 </ID>
+						<TITLE> "Privacy..." </TITLE>
+						<COMMAND> "H" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 308 </ID>
+						<TITLE> "Informazioni su Agenda" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+		</MENUS>
+	</MENU_BAR_RESOURCE>
+
+	<MENU_BAR_RESOURCE RESOURCE_ID="1002" LOCALE="itIT" COMMENT="Week View Menu">
+		<VISIBLE> TRUE </VISIBLE>
+		<MENUS>
+			<MENU COMMENT="Options">
+				<TITLE> "Opzioni" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 6 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 102 </WIDTH>
+					<HEIGHT> 33 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 4 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 47 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 300 </ID>
+						<TITLE> "Preferenze..." </TITLE>
+						<COMMAND> "P" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 302 </ID>
+						<TITLE> "Privacy..." </TITLE>
+						<COMMAND> "H" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 305 </ID>
+						<TITLE> "Informazioni su Agenda" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+		</MENUS>
+	</MENU_BAR_RESOURCE>
+
+	<MENU_BAR_RESOURCE RESOURCE_ID="1003" LOCALE="itIT" COMMENT="Month View Menu">
+		<VISIBLE> TRUE </VISIBLE>
+		<MENUS>
+			<MENU COMMENT="Month Options Menu">
+				<TITLE> "Opzioni" </TITLE>
+				<HIDDEN> FALSE </HIDDEN>
+				<BOUNDS>
+					<LEFT> 6 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 117 </WIDTH>
+					<HEIGHT> 44 </HEIGHT>
+				</BOUNDS>
+				<TITLE_BOUNDS>
+					<LEFT> 4 </LEFT>
+					<TOP> 0 </TOP>
+					<WIDTH> 47 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</TITLE_BOUNDS>
+				<MENU_ITEMS>
+					<MENU_ITEM>
+						<ID> 300 </ID>
+						<TITLE> "Preferenze..." </TITLE>
+						<COMMAND> "P" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 301 </ID>
+						<TITLE> "Opzioni di visualizz..." </TITLE>
+						<COMMAND> "Y" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 303 </ID>
+						<TITLE> "Privacy..." </TITLE>
+						<COMMAND> "H" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+					<MENU_ITEM>
+						<ID> 306 </ID>
+						<TITLE> "Informazioni su Agenda" </TITLE>
+						<COMMAND> "" </COMMAND>
+						<HIDDEN> FALSE </HIDDEN>
+					</MENU_ITEM>
+				</MENU_ITEMS>
+			</MENU>
+		</MENUS>
+	</MENU_BAR_RESOURCE>
+
+	<STRING_LIST_RESOURCE RESOURCE_ID="100" LOCALE="itIT" COMMENT="Frequency ordinals (2nd - other)">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<TEXT> "" </TEXT>
+			<TEXT> "2" </TEXT>
+			<TEXT> "2" </TEXT>
+			<TEXT> "2" </TEXT>
+			<TEXT> "2" </TEXT>
+			<TEXT> "2" </TEXT>
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+
+	<STRING_LIST_RESOURCE RESOURCE_ID="101" LOCALE="itIT" COMMENT="Agenda View Title Date Formats">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<TEXT> "^1r ^2r ^0r" </TEXT>
+			<TEXT> "^1r ^0r ^2r" </TEXT>
+			<TEXT> "^1r ^0r. ^2r" </TEXT>
+			<TEXT> "^1r ^0r ^2r" </TEXT>
+			<TEXT> "^1r ^2r ^0r" </TEXT>
+			<TEXT> "^1r ^3r.^0r" </TEXT>
+			<TEXT> "^1r ^2r ^0r" </TEXT>
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="100" LOCALE="itIT" COMMENT="Find Header Title">
+		<TEXT> "Agenda" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="101" LOCALE="itIT" COMMENT="Go To Title">
+		<TEXT> "Vai a data" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="102" LOCALE="itIT" COMMENT="Set Time Title">
+		<TEXT> "Imposta ora" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="103" LOCALE="itIT" COMMENT="Start Date Date Picker Title">
+		<TEXT> "Imposta data" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="104" LOCALE="itIT" COMMENT="End Date Date Picker Title">
+		<TEXT> "Fine" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="105" LOCALE="itIT" COMMENT="Days of week initials">
+		<TEXT> "DLMMGVS" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="126" LOCALE="itIT" COMMENT="No time">
+		<TEXT> "Nessun orario" </TEXT>
+	</STRING_RESOURCE>
+
+	<APP_INFO_STRINGS_RESOURCE RESOURCE_ID="127" LOCALE="itIT" COMMENT="Repeat type names">
+		<STRINGS>
+			<TEXT> "mai" </TEXT>
+			<TEXT> "Ogni giorno" </TEXT>
+			<TEXT> "Ogni settimana" </TEXT>
+			<TEXT> "Ogni mese" </TEXT>
+			<TEXT> "Ogni mese" </TEXT>
+			<TEXT> "Ogni anno" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+			<TEXT> "" </TEXT>
+		</STRINGS>
+	</APP_INFO_STRINGS_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="128" LOCALE="itIT" COMMENT="Daily: every [freq] day">
+		<TEXT> "Ogni ^f giorni" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="129" LOCALE="itIT" COMMENT="Weekly: every [freq] week on [1 day]">
+		<TEXT> "Ogni ^f settimane di ^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="130" LOCALE="itIT" COMMENT="Weekly: every [freq] week on [2 days]">
+		<TEXT> "Ogni ^f settimane di ^d e ^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="131" LOCALE="itIT" COMMENT="Weekly: every [freq] week on [3 days]">
+		<TEXT> "Ogni ^f settimane di ^d, ^d, e ^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="132" LOCALE="itIT" COMMENT="Weekly: every [freq] week on [4 days]">
+		<TEXT> "Ogni ^f settimane di ^d, ^d, ^d,  e ^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="133" LOCALE="itIT" COMMENT="Weekly: every [freq] week on [5 days]">
+		<TEXT> "Ogni ^f settimane di ^d, ^d, ^d, ^d e ^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="134" LOCALE="itIT" COMMENT="Weekly: every [freq] week on [6 days]">
+		<TEXT> "Ogni ^f settimane di ^d, ^d, ^d, ^d, ^d e ^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="135" LOCALE="itIT" COMMENT="Weekly: every [freq] week on [7 days]">
+		<TEXT> "Ogni ^f settimane di ^d, ^d, ^d, ^d, ^d, ^d e ^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="136" LOCALE="itIT" COMMENT="Monthly: The [xth] [day] of every  [freq] month">
+		<TEXT> "^w ^d ogni ^f mesi" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="137" LOCALE="itIT" COMMENT="Monthly: The [xth] of every  [freq] month">
+		<TEXT> "Il ^x ogni ^f mesi" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="138" LOCALE="itIT" COMMENT="Yearly: [month] [xth] every [freq] year">
+		<TEXT> "Il ^x ^m ogni ^f anni" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="139" LOCALE="itIT" COMMENT="Frequency ordinals (1st - 99th)">
+		<TEXT>
+			" 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 "
+		</TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="140" LOCALE="itIT" COMMENT="Week ordinal (1st - last)">
+		<TEXT> "1º 2º 3º 4º ultim° " </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="141" LOCALE="itIT" COMMENT="Day ordinals (1st - 31st)">
+		<TEXT>
+			"1º 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 "
+		</TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="142" LOCALE="itIT" COMMENT="No Repeat">
+		<TEXT> "Nessuna ripetizione" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="143" LOCALE="itIT" COMMENT="Daily: every day">
+		<TEXT> "Ogni giorno" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="144" LOCALE="itIT" COMMENT="Weekly: every week on [1 day]">
+		<TEXT> "Ogni settimana di ^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="145" LOCALE="itIT" COMMENT="Weekly: every week on [2 days]">
+		<TEXT> "Ogni settimana di ^d e ^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="146" LOCALE="itIT" COMMENT="Weekly: every week on [3 days]">
+		<TEXT> "Ogni settimana di ^d, ^d, e ^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="147" LOCALE="itIT" COMMENT="Weekly: every week on [4 days]">
+		<TEXT> "Ogni settimana di ^d, ^d, ^d, e ^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="148" LOCALE="itIT" COMMENT="Weekly: every week on [5 days]">
+		<TEXT> "Ogni settimana di ^d, ^d, ^d, ^d e ^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="149" LOCALE="itIT" COMMENT="Weekly: every week on [6 days]">
+		<TEXT> "Ogni settimana di ^d, ^d, ^d, ^d, ^d e ^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="150" LOCALE="itIT" COMMENT="Weekly: every week on [7 days]">
+		<TEXT> "Ogni settimana di ^d, ^d, ^d, ^d, ^d, ^d e ^d" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="151" LOCALE="itIT" COMMENT="Monthly: The [xth] [day] of every month">
+		<TEXT> "Il ^w ^d di ogni mese" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="152" LOCALE="itIT" COMMENT="Monthly: The [xth] of every month">
+		<TEXT> "Il ^x ogni mese" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="153" LOCALE="itIT" COMMENT="Yearly: [month] [xth] every year">
+		<TEXT> "Il ^x di ^m ogni anno" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="154" LOCALE="itIT" COMMENT="Repeat month names">
+		<TEXT>
+			"gennaio febbraio marzo aprile maggio giugno luglio agosto settembre ottobre novembre dicembre "
+		</TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="155" LOCALE="itIT" COMMENT="Repeat full day of week names">
+		<TEXT> "domenica lunedì martedì mercoledì giovedì venerdì sabato " </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="156" LOCALE="itIT" COMMENT="Repeat short day of week names">
+		<TEXT> "Dom Lun Mar Mer Gio Ven Sab " </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1000" LOCALE="itIT" COMMENT="Beam Description String">
+		<TEXT> "un evento" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1001" LOCALE="itIT" COMMENT="Beam Filename String">
+		<TEXT> "Agenda.vcs" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1009" LOCALE="itIT" COMMENT="Exchange Description String">
+		<TEXT> "Evento" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1010" LOCALE="itIT" COMMENT="Exchange Description Unknown String">
+		<TEXT> "Sconosciuto" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1011" LOCALE="itIT" COMMENT="Exchange Description Multiple String">
+		<TEXT> "Eventi" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1012" LOCALE="itIT" COMMENT="Exchange Description Multiple ToDo String">
+		<TEXT> "Impegni" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2201" LOCALE="itIT" COMMENT="No Appointments Today">
+		<TEXT> "Nessun appuntamento oggi" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2202" LOCALE="itIT" COMMENT="No Appointments This Day">
+		<TEXT> "Nessun appunt. questo giorno" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2500" LOCALE="itIT" COMMENT="Today">
+		<TEXT> "Oggi" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2501" LOCALE="itIT" COMMENT="Ends next day">
+		<TEXT> "Termina il giorno successivo" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2502" LOCALE="itIT" COMMENT="Unassigned timezone">
+		<TEXT> "Non assegnato" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2503" LOCALE="itIT" COMMENT="UnTimed events timezone">
+		<TEXT> "Nessun fuso orario" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2504" LOCALE="itIT" COMMENT="Unnamed Appointment">
+		<TEXT> "Evento senza nome" </TEXT>
+	</STRING_RESOURCE>
+
+	<!-- Contain the parameters values for the PDI writer. May vary depending of the locale -->
+	<SOFT_CONSTANT_RESOURCE RESOURCE_ID="1000" LOCALE="itIT" COMMENT="kPdiEnableQuotedPrintable | kPdiBypassLocaleCharEncoding">
+		<VALUE> 0x00000022 </VALUE>
+	</SOFT_CONSTANT_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

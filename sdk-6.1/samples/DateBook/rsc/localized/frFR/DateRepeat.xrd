@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"GenerateXRD from 'E:\\projects_new\\Apps\\Datebook\\5.0\\68k\\Rsc\\Localized\\frFR\\.DateRepeat.rsrc'\n"
+	</COMMENT_TEXT>
+
+	<FORM_RESOURCE RESOURCE_ID="1400" LOCALE="frFR">
+		<FORM_ID> 1400 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 2 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 156 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 1432 </HELP_ID>
+		<MENU_ID> 10000 </MENU_ID>
+		<DEFAULT_BUTTON> 1431 </DEFAULT_BUTTON>
+		<TITLE_BAR_FOCUSABLE> TRUE </TITLE_BAR_FOCUSABLE>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "Modifier répétition" </TEXT>
+			</FORM_TITLE>
+			<FORM_PUSH_BUTTON COMMENT="None">
+				<ID> 1402 </ID>
+				<BOUNDS>
+					<LEFT> 7 </LEFT>
+					<TOP> 20 </TOP>
+					<WIDTH> 24 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Sans" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 1 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_PUSH_BUTTON COMMENT="Day">
+				<ID> 1403 </ID>
+				<BOUNDS>
+					<LEFT> 32 </LEFT>
+					<TOP> 20 </TOP>
+					<WIDTH> 23 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Jour" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 1 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_PUSH_BUTTON COMMENT="Week">
+				<ID> 1404 </ID>
+				<BOUNDS>
+					<LEFT> 56 </LEFT>
+					<TOP> 20 </TOP>
+					<WIDTH> 39 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Semaine" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 1 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_PUSH_BUTTON COMMENT="Month">
+				<ID> 1405 </ID>
+				<BOUNDS>
+					<LEFT> 96 </LEFT>
+					<TOP> 20 </TOP>
+					<WIDTH> 22 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Mois" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 1 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_PUSH_BUTTON COMMENT="Year">
+				<ID> 1406 </ID>
+				<BOUNDS>
+					<LEFT> 119 </LEFT>
+					<TOP> 20 </TOP>
+					<WIDTH> 28 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Année" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 1 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_GADGET COMMENT="RepeatInfoGadget">
+				<ID> 1441 </ID>
+				<BOUNDS>
+					<LEFT> 3 </LEFT>
+					<TOP> 36 </TOP>
+					<WIDTH> 150 </WIDTH>
+					<HEIGHT> 52 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EXTENDED> TRUE </EXTENDED>
+				<VISIBLE> FALSE </VISIBLE>
+			</FORM_GADGET>
+			<FORM_LABEL COMMENT="Every">
+				<ID> 1407 </ID>
+				<LOCATION>
+					<X> 25 </X>
+					<Y> 38 </Y>
+				</LOCATION>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Tous les:" </TEXT>
+			</FORM_LABEL>
+			<FORM_FIELD COMMENT="Every">
+				<ID> 1408 </ID>
+				<BOUNDS>
+					<LEFT> 72 </LEFT>
+					<TOP> 38 </TOP>
+					<WIDTH> 17 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<EDITABLE> TRUE </EDITABLE>
+				<SINGLE_LINE> TRUE </SINGLE_LINE>
+				<DYNAMIC_SIZE> FALSE </DYNAMIC_SIZE>
+				<UNDERLINE> GRAY_UNDERLINE </UNDERLINE>
+				<JUSTIFICATION> RIGHT_ALIGN </JUSTIFICATION>
+				<AUTO_SHIFT> FALSE </AUTO_SHIFT>
+				<HAS_SCROLLBAR> FALSE </HAS_SCROLLBAR>
+				<NUMERIC> TRUE </NUMERIC>
+				<MAX_CHARS> 2 </MAX_CHARS>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<MAX_VISIBLE_LINES> 0 </MAX_VISIBLE_LINES>
+			</FORM_FIELD>
+			<FORM_LABEL COMMENT="Day(s)">
+				<ID> 1409 </ID>
+				<LOCATION>
+					<X> 92 </X>
+					<Y> 38 </Y>
+				</LOCATION>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "jour(s)" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL COMMENT="Week(s)">
+				<ID> 1410 </ID>
+				<LOCATION>
+					<X> 93 </X>
+					<Y> 38 </Y>
+				</LOCATION>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "semaine(s)" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL COMMENT="Month(s)">
+				<ID> 1411 </ID>
+				<LOCATION>
+					<X> 93 </X>
+					<Y> 38 </Y>
+				</LOCATION>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "mois" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL COMMENT="Year(s)">
+				<ID> 1412 </ID>
+				<LOCATION>
+					<X> 94 </X>
+					<Y> 38 </Y>
+				</LOCATION>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "an(s)" </TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL COMMENT="End on">
+				<ID> 1413 </ID>
+				<LOCATION>
+					<X> 51 </X>
+					<Y> 55 </Y>
+				</LOCATION>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Fin:" </TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP_TRIGGER COMMENT="End on">
+				<ID> 1415 </ID>
+				<BOUNDS>
+					<LEFT> 71 </LEFT>
+					<TOP> 55 </TOP>
+					<WIDTH> 93 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_POPUP>
+				<CONTROL_ID> 1415 </CONTROL_ID>
+				<LIST_ID> 1416 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LIST COMMENT="End on">
+				<ID> 1416 </ID>
+				<BOUNDS>
+					<LEFT> 72 </LEFT>
+					<TOP> 56 </TOP>
+					<WIDTH> 70 </WIDTH>
+					<HEIGHT> 22 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 2 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "Sans date" </TEXT>
+					<TEXT> "Choisir date..." </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_LABEL COMMENT="Repeat on">
+				<ID> 1417 </ID>
+				<LOCATION>
+					<X> 11 </X>
+					<Y> 72 </Y>
+				</LOCATION>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Répéter le:" </TEXT>
+			</FORM_LABEL>
+			<FORM_PUSH_BUTTON COMMENT="Day 1">
+				<ID> 1418 </ID>
+				<BOUNDS>
+					<LEFT> 72 </LEFT>
+					<TOP> 72 </TOP>
+					<WIDTH> 10 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "D" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_PUSH_BUTTON COMMENT="Day 2">
+				<ID> 1419 </ID>
+				<BOUNDS>
+					<LEFT> 83 </LEFT>
+					<TOP> 72 </TOP>
+					<WIDTH> 10 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "L" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_PUSH_BUTTON COMMENT="Day 3">
+				<ID> 1420 </ID>
+				<BOUNDS>
+					<LEFT> 94 </LEFT>
+					<TOP> 72 </TOP>
+					<WIDTH> 10 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "M" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_PUSH_BUTTON COMMENT="Day 4">
+				<ID> 1421 </ID>
+				<BOUNDS>
+					<LEFT> 105 </LEFT>
+					<TOP> 72 </TOP>
+					<WIDTH> 10 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "M" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_PUSH_BUTTON COMMENT="Day 5">
+				<ID> 1422 </ID>
+				<BOUNDS>
+					<LEFT> 116 </LEFT>
+					<TOP> 72 </TOP>
+					<WIDTH> 10 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "J" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_PUSH_BUTTON COMMENT="Day 6">
+				<ID> 1423 </ID>
+				<BOUNDS>
+					<LEFT> 127 </LEFT>
+					<TOP> 72 </TOP>
+					<WIDTH> 10 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "V" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_PUSH_BUTTON COMMENT="Day 7">
+				<ID> 1424 </ID>
+				<BOUNDS>
+					<LEFT> 138 </LEFT>
+					<TOP> 72 </TOP>
+					<WIDTH> 10 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "S" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_LABEL COMMENT="Repeat by">
+				<ID> 1425 </ID>
+				<LOCATION>
+					<X> 3 </X>
+					<Y> 72 </Y>
+				</LOCATION>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Répéter par:" </TEXT>
+			</FORM_LABEL>
+			<FORM_PUSH_BUTTON COMMENT="By day">
+				<ID> 1426 </ID>
+				<BOUNDS>
+					<LEFT> 72 </LEFT>
+					<TOP> 72 </TOP>
+					<WIDTH> 34 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Jour" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 2 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_PUSH_BUTTON COMMENT="By date">
+				<ID> 1427 </ID>
+				<BOUNDS>
+					<LEFT> 107 </LEFT>
+					<TOP> 72 </TOP>
+					<WIDTH> 36 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Date" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 2 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_GADGET COMMENT="Repeat Info Rect">
+				<ID> 1440 </ID>
+				<BOUNDS>
+					<LEFT> 3 </LEFT>
+					<TOP> 90 </TOP>
+					<WIDTH> 150 </WIDTH>
+					<HEIGHT> 45 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EXTENDED> TRUE </EXTENDED>
+				<VISIBLE> FALSE </VISIBLE>
+			</FORM_GADGET>
+			<FORM_FIELD COMMENT="Description">
+				<ID> 1428 </ID>
+				<BOUNDS>
+					<LEFT> 8 </LEFT>
+					<TOP> 94 </TOP>
+					<WIDTH> 139 </WIDTH>
+					<HEIGHT> 38 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EDITABLE> FALSE </EDITABLE>
+				<SINGLE_LINE> FALSE </SINGLE_LINE>
+				<DYNAMIC_SIZE> FALSE </DYNAMIC_SIZE>
+				<UNDERLINE> NO_UNDERLINE </UNDERLINE>
+				<JUSTIFICATION> LEFT_ALIGN </JUSTIFICATION>
+				<AUTO_SHIFT> FALSE </AUTO_SHIFT>
+				<HAS_SCROLLBAR> FALSE </HAS_SCROLLBAR>
+				<NUMERIC> FALSE </NUMERIC>
+				<MAX_CHARS> 100 </MAX_CHARS>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<MAX_VISIBLE_LINES> 0 </MAX_VISIBLE_LINES>
+			</FORM_FIELD>
+			<FORM_LABEL COMMENT="No repeat type message">
+				<ID> 1429 </ID>
+				<LOCATION>
+					<X> 7 </X>
+					<Y> 38 </Y>
+				</LOCATION>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT>
+					"Appuyez sur un bouton\ndu haut pour définir\nl'intervalle de répétition"
+				</TEXT>
+			</FORM_LABEL>
+			<FORM_BUTTON COMMENT="Ok">
+				<ID> 1430 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 139 </TOP>
+					<WIDTH> 25 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "OK" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Cancel">
+				<ID> 1431 </ID>
+				<BOUNDS>
+					<LEFT> 36 </LEFT>
+					<TOP> 139 </TOP>
+					<WIDTH> 36 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Annuler" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1432" LOCALE="frFR" COMMENT="Repeat: Help">
+		<TEXT>
+			"Pour créer un événement qui dure plusieurs jours (par ex., un voyage), imposez une répétition quotidienne et une date de fin."
+		</TEXT>
+	</STRING_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

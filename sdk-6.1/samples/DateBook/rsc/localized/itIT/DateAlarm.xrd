@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"GenerateXRD from 'E:\\projects_new\\Apps\\Datebook\\5.0\\68k\\Rsc\\Localized\\itIT\\.DateAlarm.rsrc'\n"
+	</COMMENT_TEXT>
+
+	<STRING_RESOURCE RESOURCE_ID="2001" LOCALE="itIT" COMMENT="Alarm date template">
+		<TEXT> "^0, ^1" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2002" LOCALE="itIT" COMMENT="Private Appointment">
+		<TEXT> "Appuntamento privato" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2003" LOCALE="itIT" COMMENT="Today">
+		<TEXT> "Oggi" </TEXT>
+	</STRING_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

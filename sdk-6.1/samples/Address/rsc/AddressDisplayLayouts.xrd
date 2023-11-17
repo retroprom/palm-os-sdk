@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<!-- ################################################################################ -->
+
+	<!-- Common separator, prefix and suffix string -->
+	<STRING_RESOURCE RESOURCE_ID="3000" COMMENT="Left Parenthesis">
+		<TEXT> "(" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="3001" COMMENT="Right Parenthesis">
+		<TEXT> ")" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="3002" COMMENT="Default separator">
+		<TEXT> " " </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="3003" COMMENT="Comma separator">
+		<TEXT> ", " </TEXT>
+	</STRING_RESOURCE>
+
+	<!-- ################################################################################ -->
+
+	<!-- ***** DISPLAY NAME LAYOUT - SORT BY LASTNAME - VBLT Resource definition - Country dependant ***** -->
+
+	<!-- The common layout with 3 fallback for all countries is:
+
+		1 - LastName[, FirstName]
+		2 - FirstName
+		3 - [Company]
+	-->
+
+	<!-- Display Name Layout for all countries fallback
+		 When a layout is searched for a country, try to find it. If not found, try to find the
+		 default system layout and if not found, take this one.
+		 This is to avoid to duplicate the same resource in each locale, if it's the same .
+	-->
+	<RAW_RESOURCE RESOURCE_ID="3000" COMMENT="Display name by name layouts all countries fallback">
+		<RES_TYPE> 'VBLT' </RES_TYPE>
+		<RES_DATA>
+			03 00 00 00
+			00 00 01 00 B9 0B 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 BA 0B 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 BB 0B 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+
+	<!-- Display Name Layout for country China (CN):
+
+		1 - LastName[FirstName]		if LastName or FirstName are double byte
+		2 - LastName[, FirstName]
+		3 - FirstName
+		4 - English Name
+		5 - [Company]
+	-->
+	<RAW_RESOURCE RESOURCE_ID="3174" COMMENT="Display name by name layouts CN">
+		<RES_TYPE> 'VBLT' </RES_TYPE>
+		<RES_DATA>
+			05 00 00 00
+			01 00 01 00 BD 0B 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 B9 0B 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 BA 0B 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 BC 0B 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 BB 0B 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- ################################################################################ -->
+
+	<!-- ***** DISPLAY NAME LAYOUT - SORT BY COMPANY - VBLT Resource definition - Country dependant ***** -->
+
+	<!-- The common layout with 4 fallback for all countries is:
+
+		1 - Company, LastName
+		2 - Company[, FirstName]
+		3 - LastName[, FirstName]
+		4 - FirstName
+	-->
+
+	<!-- Display Name Layout for all countries fallback
+		 When a layout is searched for a country, try to find it. If not found, try to find the
+		 default system layout and if not found, take this one.
+		 This is to avoid to duplicate the same resource in each locale, if it's the same.
+	-->
+	<RAW_RESOURCE RESOURCE_ID="4000" COMMENT="Display name by company layouts for all countries fallback">
+		<RES_TYPE> 'VBLT' </RES_TYPE>
+		<RES_DATA>
+			04 00 00 00
+			00 00 01 00 A1 0F 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 A2 0F 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 B9 0B 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 BA 0B 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- Display Name Layout for country China (CN):
+
+		1 - Company, LastName
+		2 - Company, FirstName
+		3 - Company[,EnglishName]
+		4 - LastName[FirstName]
+		5 - LastName[, FirstName]
+		6 - FirstName
+		7 - English Name
+	-->
+	<RAW_RESOURCE RESOURCE_ID="4174" COMMENT="Display name by company layouts CN">
+		<RES_TYPE> 'VBLT' </RES_TYPE>
+		<RES_DATA>
+			07 00 00 00
+			00 00 01 00 A1 0F 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 A3 0F 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 A4 0F 00 00 00 00 00 00 00 00 00 00
+			01 00 01 00 BD 0B 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 B9 0B 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 BA 0B 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 BC 0B 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- ################################################################################ -->
+
+	<!-- ***** FREE FORM NAME LAYOUT - VBLT Resource definition - Country dependant ***** -->
+
+	<!-- The common layout with 3 fallback for all countries is:
+
+		1 - Prefix Firstname Middlename Lastname(Mandatory) Suffix
+		2 - Prefix Firstname(Mandatory) Middlename Suffix
+		3 - Company Name
+	-->
+
+	<!-- Display Name Layout for all countries fallback
+		 When a layout is searched for a country, try to find it. If not found, try to find the
+		 default system layout and if not found, take this one.
+		 This is to avoid to duplicate the same resource in each locale, if it's the same.
+	-->
+	<RAW_RESOURCE RESOURCE_ID="5000" COMMENT="Free form name layouts for all countries fallback">
+		<RES_TYPE> 'VBLT' </RES_TYPE>
+		<RES_DATA>
+			03 00 00 00
+			00 00 01 00 89 13 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 8A 13 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 8B 13 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- Free Form Name Layout for country Japan (JP)
+		 This country has 2 templates with higer priority depending of the char encoding
+		 1 - Prefix Last(Mandatory) First Suffix (jaJP specific)
+		 2 - Prefix First(Mandatory) Suffix (jaJP specific)
+		 ... Then the 3 common templates ...
+	-->
+	<RAW_RESOURCE RESOURCE_ID="5386" COMMENT="Free form name layouts JP">
+		<RES_TYPE> 'VBLT' </RES_TYPE>
+		<RES_DATA>
+			05 00 00 00
+			01 00 01 00 8C 13 00 00 00 00 00 00 00 00 00 00
+			01 00 01 00 8D 13 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 89 13 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 8A 13 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 8B 13 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- Free Form Name Layout for country Chinese (CN)
+		 This country has 2 templates with higer priority depending of the char encoding
+		 1 - Lastname(Mandatory)Firstname Prefix [(Englishname)] (zhCN specific)
+		 2 - Firstname(Mandatory) Prefix [(Englishname)] (zhCN specific)
+		 2 - Englishname (zhCN specific)
+		 ... Then the 3 common templates ...
+	-->
+	<RAW_RESOURCE RESOURCE_ID="5174" COMMENT="Free form name layouts CN">
+		<RES_TYPE> 'VBLT' </RES_TYPE>
+		<RES_DATA>
+			06 00 00 00
+			01 00 01 00 8E 13 00 00 00 00 00 00 00 00 00 00
+			01 00 01 00 8F 13 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 90 13 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 89 13 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 8A 13 00 00 00 00 00 00 00 00 00 00
+			00 00 01 00 8B 13 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- ################################################################################ -->
+
+	<!-- ***** ADDRESS LAYOUT - VBLT Resource definition - Country dependant ***** -->
+
+	<!-- NO DEFAULT LAYOUT 6000 -->
+
+	<!-- Address Layout for country United State (US)
+		 1 Layout on 3 lines:
+	     Street
+	     City, State Zip
+	     Country
+	-->
+	<RAW_RESOURCE RESOURCE_ID="6719" COMMENT="Address layouts US">
+		<RES_TYPE> 'VBLT' </RES_TYPE>
+		<RES_DATA>
+			01 00 00 00
+			00 00 03 00 71 17 75 17 72 17 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- Address Layout for country Spain (ES)
+		 2 Layouts (1 fallback if Country doesn't exist) on 3 lines:
+	     Street
+	     Zip City
+	     Country (State) | State
+	-->
+	<RAW_RESOURCE RESOURCE_ID="6239" COMMENT="Address layouts ES">
+		<RES_TYPE> 'VBLT' </RES_TYPE>
+		<RES_DATA>
+			02 00 00 00
+			00 00 03 00 71 17 79 17 74 17 00 00 00 00 00 00
+			00 00 03 00 71 17 79 17 73 17 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- Address Layout for country France (FR)
+		 2 Layouts (1 fallback if Country doesn't exist) on 3 lines:
+		 Street
+		 Zip City
+		 Country (State) | State
+	-->
+	<RAW_RESOURCE RESOURCE_ID="6268" COMMENT="Address layouts FR">
+		<RES_TYPE> 'VBLT' </RES_TYPE>
+		<RES_DATA>
+			02 00 00 00
+			00 00 03 00 71 17 79 17 74 17 00 00 00 00 00 00
+			00 00 03 00 71 17 79 17 73 17 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- Address Layout for country Germany (DE)
+		 3 Layouts (2 fallback depending of Zip/City/State) on 3 lines:
+		 Street
+		 Zip [City] (State) | [Zip] City (State) | State
+		 Country
+	-->
+	<RAW_RESOURCE RESOURCE_ID="6195" COMMENT="Address layouts DE">
+		<RES_TYPE> 'VBLT' </RES_TYPE>
+		<RES_DATA>
+			03 00 00 00
+			00 00 03 00 71 17 77 17 72 17 00 00 00 00 00 00
+			00 00 03 00 71 17 78 17 72 17 00 00 00 00 00 00
+			00 00 03 00 71 17 73 17 72 17 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- Address Layout for country Italia (IT)
+		 1 Layout on 4 lines:
+	     Street
+	     <Blank Line>
+	     Zip City State
+	     Country
+	-->
+	<RAW_RESOURCE RESOURCE_ID="6360" COMMENT="Address layouts IT">
+		<RES_TYPE> 'VBLT' </RES_TYPE>
+		<RES_DATA>
+			01 00 00 00
+			00 00 04 00 71 17 28 23 76 17 72 17 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- Address Layout for country Japan (JP)
+		 2 Layouts (1 fallback if fields are not double byte) on 4 lines for the first layout, 3 lines for the second:
+		 <Postal Mark>Zip	| Street
+		 StateCityStreet	| City, State Zip
+		 <Blank Line>		| Country
+		 Country
+	-->
+	<RAW_RESOURCE RESOURCE_ID="6386" COMMENT="Address layouts JP">
+		<RES_TYPE> 'VBLT' </RES_TYPE>
+		<RES_DATA>
+			02 00 00 00
+			01 00 04 00 7A 17 7B 17 28 23 72 17 00 00 00 00
+			00 00 03 00 71 17 75 17 72 17 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- Address Layout for country Chinese (CN)
+	 1 Layout
+	Country
+	StateCity
+	<Address>
+	Zip Code:<zip>
+
+	-->
+	<RAW_RESOURCE RESOURCE_ID="6174" COMMENT="Address layouts CN">
+		<RES_TYPE> 'VBLT' </RES_TYPE>
+		<RES_DATA>
+			01 00 00 00
+			00 00 04 00 72 17 7C 17 71 17 7E 17 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- ################################################################################ -->
+
+	<!-- ***** DISPLAY NAME LAYOUT - VRLT Resource definition *****
+
+		 The COMMENT parameter describes the content of the line
+		 with the separator.
+	-->
+
+	<RAW_RESOURCE RESOURCE_ID="3001" COMMENT="LastName[, FirstName]">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			02 00 00 00
+			20 10 00 00 00 00 00 00 00 00 42 01
+			80 10 00 00 BB 0B 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="3002" COMMENT="FirstName">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			01 00 00 00
+			80 10 00 00 00 00 00 00 00 00 64 01
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="3003" COMMENT="[Company]">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			01 00 00 00
+			10 00 01 00 00 00 00 00 00 00 64 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="3004" COMMENT="EnglishName">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			01 00 00 00
+			00 18 00 00 00 00 00 00 00 00 64 01
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="3005" COMMENT="LastName[FirstName]">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			02 00 00 00
+			20 10 00 00 00 00 00 00 00 00 42 01
+			80 10 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="4001" COMMENT="Company, LastName">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			02 00 00 00
+			10 00 01 00 00 00 00 00 00 00 32 01
+			20 10 00 00 BB 0B 00 00 00 00 00 01
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="4002" COMMENT="Company[, FirstName]">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			02 00 00 00
+			10 00 01 00 00 00 00 00 00 00 42 01
+			80 10 00 00 BB 0B 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="4003" COMMENT="Company, FirstName">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			02 00 00 00
+			10 00 01 00 00 00 00 00 00 00 42 01
+			80 10 00 00 BB 0B 00 00 00 00 00 01
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="4004" COMMENT="Company[, EnglishName]">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			02 00 00 00
+			10 00 01 00 00 00 00 00 00 00 42 01
+			00 18 00 00 BB 0B 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+
+	<!-- ################################################################################ -->
+
+	<!-- ***** FREE FORM NAME LAYOUT - VRLT Resource definition *****
+
+		 The COMMENT parameter describes the content of the line
+		 with the separator.
+	-->
+
+	<RAW_RESOURCE RESOURCE_ID="5001" COMMENT="[Prefix ][FirstName ][MiddleName ]LastName [Suffix]">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			05 00 00 00
+			10 10 00 00 00 00 00 00 00 00 00 00
+			80 10 00 00 BA 0B 00 00 00 00 00 00
+			40 10 00 00 BA 0B 00 00 00 00 00 00
+			20 10 00 00 BA 0B 00 00 00 00 00 01
+			00 11 00 00 BA 0B 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="5002" COMMENT="[Prefix ]FirstName [MiddleName ][LastName ][Suffix]">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			05 00 00 00
+			10 10 00 00 00 00 00 00 00 00 00 00
+			80 10 00 00 BA 0B 00 00 00 00 00 01
+			40 10 00 00 BA 0B 00 00 00 00 00 00
+			20 10 00 00 BA 0B 00 00 00 00 00 00
+			00 11 00 00 BA 0B 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="5003" COMMENT="[CompanyName]">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			01 00 00 00
+			10 00 01 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="5004" COMMENT="[Prefix ]LastName [FirstName ][Suffix] - (jaJP specific)">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			04 00 00 00
+			10 10 00 00 00 00 00 00 00 00 00 00
+			20 10 00 00 BA 0B 00 00 00 00 00 01
+			80 10 00 00 BA 0B 00 00 00 00 00 00
+			00 11 00 00 BA 0B 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="5005" COMMENT="[Prefix ]FirstName [Suffix] - (jaJP specific)">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			03 00 00 00
+			10 10 00 00 00 00 00 00 00 00 00 00
+			80 10 00 00 BA 0B 00 00 00 00 00 01
+			00 11 00 00 BA 0B 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="5006" COMMENT="LastName[FirstName ][Prefix ][(EnglishName)] - (zhCN specific)">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			04 00 00 00
+			20 10 00 00 00 00 00 00 00 00 00 01
+			80 10 00 00 00 00 00 00 00 00 00 00
+			10 10 00 00 BA 0B 00 00 00 00 00 00
+			00 18 00 00 BA 0B B8 0B B9 0B 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="5007" COMMENT="FirstName [Prefix ][(EnglishName)] - (zhCN specific)">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			04 00 00 00
+			20 10 00 00 00 00 00 00 00 00 00 00
+			80 10 00 00 00 00 00 00 00 00 00 01
+			10 10 00 00 BA 0B 00 00 00 00 00 00
+			00 18 00 00 BA 0B B8 0B B9 0B 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="5008" COMMENT="EnglishName - (zhCN specific)">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			01 00 00 00
+			00 18 00 00 00 00 00 00 00 00 00 01
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- ################################################################################ -->
+
+	<!-- ***** ADDRESS LAYOUT - VRLT Resource definition *****
+
+		 The COMMENT parameter describes the content of the line
+		 with the separator.
+	-->
+
+	<RAW_RESOURCE RESOURCE_ID="6001" COMMENT="Street">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			01 00 00 00
+			10 20 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="6002" COMMENT="Country">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			01 00 00 00
+			00 21 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="6003" COMMENT="State">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			01 00 00 00
+			40 20 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="6004" COMMENT="Country (State)">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			02 00 00 00
+			00 21 00 00 00 00 00 00 00 00 00 01
+			40 20 00 00 BA 0B B8 0B B9 0B 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="6005" COMMENT="City, State Zip">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			03 00 00 00
+			20 20 00 00 00 00 00 00 00 00 00 00
+			40 20 00 00 BB 0B 00 00 00 00 00 00
+			80 20 00 00 BA 0B 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="6006" COMMENT="Zip City State">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			03 00 00 00
+			80 20 00 00 00 00 00 00 00 00 00 00
+			20 20 00 00 BA 0B 00 00 00 00 00 00
+			40 20 00 00 BA 0B 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="6007" COMMENT="Zip [City] (State)">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			03 00 00 00
+			80 20 00 00 00 00 00 00 00 00 00 01
+			20 20 00 00 BA 0B 00 00 00 00 00 00
+			40 20 00 00 BA 0B B8 0B B9 0B 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="6008" COMMENT="[Zip] City (State)">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			03 00 00 00
+			80 20 00 00 00 00 00 00 00 00 00 00
+			20 20 00 00 BA 0B 00 00 00 00 00 01
+			40 20 00 00 BA 0B B8 0B B9 0B 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="6009" COMMENT="Zip City">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			02 00 00 00
+			80 20 00 00 00 00 00 00 00 00 00 00
+			20 20 00 00 BA 0B 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- Japanese specific - String 3004 defined in jaJP locale file -->
+	<RAW_RESOURCE RESOURCE_ID="6010" COMMENT="/Postal Mark/Zip">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			01 00 00 00
+			80 20 00 00 00 00 BC 0B 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="6011" COMMENT="StateCityStreet">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			03 00 00 00
+			40 20 00 00 00 00 00 00 00 00 00 00
+			20 20 00 00 00 00 00 00 00 00 00 00
+			10 20 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<RAW_RESOURCE RESOURCE_ID="6012" COMMENT="[State][City]">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			02 00 00 00
+			40 20 00 00 00 00 00 00 00 00 00 00
+			20 20 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+<!--
+	<RAW_RESOURCE RESOURCE_ID="6013" COMMENT="[Country ][City ][Zip ][Street]">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			04 00 00 00
+			00 21 00 00 00 00 00 00 00 00 00 00
+			20 20 00 00 BA 0B 00 00 00 00 00 00
+			80 20 00 00 BA 0B 00 00 00 00 00 00
+			10 20 00 00 BA 0B 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+-->
+
+	<!-- Chinese specific - String 3005 defined in zhCN locale file -->
+	<RAW_RESOURCE RESOURCE_ID="6014" COMMENT="/ZipCode:/Zip">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			01 00 00 00
+			80 20 00 00 00 00 BD 0B 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+			00 00 00 00 00 00 00 00 00 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- ################################################################################ -->
+
+	<!-- Blank line -->
+	<RAW_RESOURCE RESOURCE_ID="9000" COMMENT="Blank line">
+		<RES_TYPE> 'VRLT' </RES_TYPE>
+		<RES_DATA>
+			FF FF 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- ################################################################################ -->
+
+	<!-- This resource contains the column ID needed to build the Display Name.
+		 This list is used with the Display Name Layout:
+		 - kAddrColumnIDFirstName
+		 - kAddrColumnIDLastName
+		 - kAddrColumnIDWorkCompany
+	-->
+	<RAW_RESOURCE RESOURCE_ID="3000" COMMENT="Display Name by Name Column ID">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>
+			90 01 00 00
+			C8 00 00 00
+			B8 0B 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- This resource contains the column ID needed to build the Display Name.
+		 This list is used with the Display Name Layout:
+		 - kAddrColumnIDFirstName
+		 - kAddrColumnIDLastName
+		 - kAddrColumnIDEnglishName
+		 - kAddrColumnIDWorkCompany
+	-->
+	<RAW_RESOURCE RESOURCE_ID="3174" COMMENT="Display Name by Name Column ID CN">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>
+			90 01 00 00
+			C8 00 00 00
+			F8 2A 00 00
+			B8 0B 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- This resource contains the column ID needed to build the Display Name.
+		 This list is used with the Display Name Layout:
+		 - kAddrColumnIDFirstName
+		 - kAddrColumnIDLastName
+		 - kAddrColumnIDWorkCompany
+	-->
+	<RAW_RESOURCE RESOURCE_ID="4000" COMMENT="Display Name by Company Column ID">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>
+			90 01 00 00
+			C8 00 00 00
+			B8 0B 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- This resource contains the column ID needed to build the Display Name.
+		 This list is used with the Display Name Layout:
+		 - kAddrColumnIDFirstName
+		 - kAddrColumnIDLastName
+		 - kAddrColumnIDEnglishName
+		 - kAddrColumnIDWorkCompany
+	-->
+	<RAW_RESOURCE RESOURCE_ID="4174" COMMENT="Display Name by Company Column ID CN">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>
+			90 01 00 00
+			C8 00 00 00
+			F8 2A 00 00
+			B8 0B 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+
+	<!-- ################################################################################ -->
+
+	<!-- This resource contains the column ID needed to build a Free Form Name.
+		 This list is used with the Free Form Name Layout
+		 - kAddrColumnIDTitle
+		 - kAddrColumnIDLastName
+		 - kAddrColumnIDMiddleName
+		 - kAddrColumnIDFirstName
+		 - kAddrColumnIDSuffix
+		 - kAddrColumnIDWorkCompany
+	-->
+	<RAW_RESOURCE RESOURCE_ID="5000" COMMENT="Free Form Name Column ID">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>
+			64 00 00 00
+			C8 00 00 00
+			2C 01 00 00
+			90 01 00 00
+			F4 01 00 00
+			B8 0B 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- This resource contains the column ID needed to build a Free Form Name.
+		 This list is used with the Free Form Name Layout
+		 - kAddrColumnIDTitle
+		 - kAddrColumnIDLastName
+		 - kAddrColumnIDFirstName
+		 - kAddrColumnIDSuffix
+		 - kAddrColumnIDWorkCompany
+	-->
+	<RAW_RESOURCE RESOURCE_ID="5386" COMMENT="Free Form Name Column ID JP">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>
+			64 00 00 00
+			C8 00 00 00
+			90 01 00 00
+			F4 01 00 00
+			B8 0B 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- This resource contains the column ID needed to build a Free Form Name.
+		 This list is used with the Free Form Name Layout
+		 - kAddrColumnIDTitle
+		 - kAddrColumnIDLastName
+		 - kAddrColumnIDFirstName
+		 - kAddrColumnIDWorkCompany
+		 - kAddrColumnIDEnglishName
+	-->
+	<RAW_RESOURCE RESOURCE_ID="5174" COMMENT="Free Form Name Column ID CN">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>
+			64 00 00 00
+			C8 00 00 00
+			90 01 00 00
+			B8 0B 00 00
+			F8 2A 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

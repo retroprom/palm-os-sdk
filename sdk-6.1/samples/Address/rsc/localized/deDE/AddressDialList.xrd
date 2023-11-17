@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"GenerateXRD from 'C:\\Dev\\Palmgate\\DeviceNew\\Apps\\Address\\5.0\\68K\\rsc\\Localized\\deDE\\.AddrDialList.rsrc'\n"
+	</COMMENT_TEXT>
+
+	<FORM_RESOURCE RESOURCE_ID="2300" LOCALE="deDE" COMMENT="DialList">
+		<FORM_ID> 2300 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 2 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 156 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 2300 </HELP_ID>
+		<MENU_ID> 10000 </MENU_ID>
+		<DEFAULT_BUTTON> 2302 </DEFAULT_BUTTON>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "Nummer wählen" </TEXT>
+			</FORM_TITLE>
+			<FORM_BUTTON COMMENT="Dial">
+				<ID> 2301 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 139 </TOP>
+					<WIDTH> 37 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Wählen" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Cancel">
+				<ID> 2302 </ID>
+				<BOUNDS>
+					<LEFT> 48 </LEFT>
+					<TOP> 139 </TOP>
+					<WIDTH> 50 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Abbrechen" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_LIST COMMENT="List">
+				<ID> 2303 </ID>
+				<BOUNDS>
+					<LEFT> 4 </LEFT>
+					<TOP> 38 </TOP>
+					<WIDTH> 148 </WIDTH>
+					<HEIGHT> 55 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 5 </NUM_VIS_ITEMS>
+				<LIST_ITEMS/>
+			</FORM_LIST>
+			<FORM_GADGET COMMENT="Description">
+				<ID> 2304 </ID>
+				<BOUNDS>
+					<LEFT> 4 </LEFT>
+					<TOP> 18 </TOP>
+					<WIDTH> 148 </WIDTH>
+					<HEIGHT> 15 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EXTENDED> TRUE </EXTENDED>
+				<VISIBLE> FALSE </VISIBLE>
+			</FORM_GADGET>
+			<FORM_FIELD COMMENT="Number">
+				<ID> 2305 </ID>
+				<BOUNDS>
+					<LEFT> 4 </LEFT>
+					<TOP> 118 </TOP>
+					<WIDTH> 148 </WIDTH>
+					<HEIGHT> 11 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EDITABLE> TRUE </EDITABLE>
+				<SINGLE_LINE> TRUE </SINGLE_LINE>
+				<DYNAMIC_SIZE> FALSE </DYNAMIC_SIZE>
+				<UNDERLINE> GRAY_UNDERLINE </UNDERLINE>
+				<JUSTIFICATION> LEFT_ALIGN </JUSTIFICATION>
+				<AUTO_SHIFT> TRUE </AUTO_SHIFT>
+				<HAS_SCROLLBAR> TRUE </HAS_SCROLLBAR>
+				<NUMERIC> FALSE </NUMERIC>
+				<MAX_CHARS> 80 </MAX_CHARS>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<MAX_VISIBLE_LINES> 0 </MAX_VISIBLE_LINES>
+			</FORM_FIELD>
+			<FORM_LABEL COMMENT="NumberToDial">
+				<ID> 2306 </ID>
+				<LOCATION>
+					<X> 4 </X>
+					<Y> 102 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Telefonnummer:" </TEXT>
+			</FORM_LABEL>
+			<FORM_GRAFFITI_STATE COMMENT="Unnamed2308">
+				<LOCATION>
+					<X> 144 </X>
+					<Y> 142 </Y>
+				</LOCATION>
+			</FORM_GRAFFITI_STATE>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2300" LOCALE="deDE" COMMENT="DialListHelp">
+		<TEXT>
+			"Sie können die Nummer in diesem Bildschirm vorübergehend ändern, um "
+			"z.B. auf Reisen eine erforderliche Vorwahl anzugeben.\n"
+			"\n"
+			"Diese Änderungen werden nicht in die Anwendung \"Adressen\" "
+			"übernommen. Um die Nummer dauerhaft zu ändern, müssen Sie die "
+			"Änderungen in der Ansicht \"Adresse bearbeiten\" in der Anwendung "
+			"\"Adressen\" eingeben."
+		</TEXT>
+	</STRING_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

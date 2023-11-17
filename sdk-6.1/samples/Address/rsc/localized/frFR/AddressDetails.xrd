@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"GenerateXRD from 'C:\\Dev\\Palmgate\\DeviceNew\\Apps\\Address\\5.0\\68K\\rsc\\Localized\\frFR\\.AddressDetails.rsrc'\n"
+	</COMMENT_TEXT>
+
+	<FORM_RESOURCE RESOURCE_ID="1200" LOCALE="frFR" COMMENT="Details Dialog">
+		<FORM_ID> 1200 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 74 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 84 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 1216 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 1209 </DEFAULT_BUTTON>
+		<FORM_OBJECTS>
+			<FORM_TITLE COMMENT="Address Entry Details">
+				<TEXT> "Détails de l'adresse" </TEXT>
+			</FORM_TITLE>
+			<FORM_LABEL COMMENT="Category">
+				<ID> 1202 </ID>
+				<LOCATION>
+					<X> 9 </X>
+					<Y> 33 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Catégorie:" </TEXT>
+			</FORM_LABEL>
+			<FORM_SELECTOR_TRIGGER COMMENT="Category">
+				<ID> 1204 </ID>
+				<BOUNDS>
+					<LEFT> 66 </LEFT>
+					<TOP> 33 </TOP>
+					<WIDTH> 5 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_SELECTOR_TRIGGER>
+			<FORM_LIST COMMENT="Categories List">
+				<ID> 1205 </ID>
+				<BOUNDS>
+					<LEFT> 63 </LEFT>
+					<TOP> 33 </TOP>
+					<WIDTH> 80 </WIDTH>
+					<HEIGHT> 0 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 0 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_LABEL COMMENT="Private">
+				<ID> 1206 </ID>
+				<LOCATION>
+					<X> 9 </X>
+					<Y> 48 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Personnel:" </TEXT>
+			</FORM_LABEL>
+			<FORM_CHECKBOX COMMENT="Private">
+				<ID> 1207 </ID>
+				<BOUNDS>
+					<LEFT> 63 </LEFT>
+					<TOP> 48 </TOP>
+					<WIDTH> 19 </WIDTH>
+					<HEIGHT> 15 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_BUTTON COMMENT="OK">
+				<ID> 1208 </ID>
+				<BOUNDS>
+					<LEFT> 4 </LEFT>
+					<TOP> 67 </TOP>
+					<WIDTH> 21 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "OK" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Cancel">
+				<ID> 1209 </ID>
+				<BOUNDS>
+					<LEFT> 29 </LEFT>
+					<TOP> 67 </TOP>
+					<WIDTH> 35 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Annuler" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Delete">
+				<ID> 1210 </ID>
+				<BOUNDS>
+					<LEFT> 68 </LEFT>
+					<TOP> 67 </TOP>
+					<WIDTH> 54 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Supprimer..." </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Note">
+				<ID> 1211 </ID>
+				<BOUNDS>
+					<LEFT> 126 </LEFT>
+					<TOP> 67 </TOP>
+					<WIDTH> 26 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Note" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_LABEL COMMENT="Show in List">
+				<ID> 1212 </ID>
+				<LOCATION>
+					<X> 10 </X>
+					<Y> 18 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Dans liste:" </TEXT>
+			</FORM_LABEL>
+			<FORM_LIST COMMENT="Phone Label List">
+				<ID> 1213 </ID>
+				<BOUNDS>
+					<LEFT> 63 </LEFT>
+					<TOP> 18 </TOP>
+					<WIDTH> 48 </WIDTH>
+					<HEIGHT> 0 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 0 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_POPUP_TRIGGER COMMENT="Phone List Trigger">
+				<ID> 1214 </ID>
+				<BOUNDS>
+					<LEFT> 62 </LEFT>
+					<TOP> 18 </TOP>
+					<WIDTH> 17 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_POPUP COMMENT="Phone">
+				<CONTROL_ID> 1214 </CONTROL_ID>
+				<LIST_ID> 1213 </LIST_ID>
+			</FORM_POPUP>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1216" LOCALE="frFR" COMMENT="Details: Help">
+		<TEXT>
+			"• Pour créer une entrée apparaissant tout le temps en haut de la liste "
+			"d'adresses, il suffit de la créer en commençant par un symbole, comme "
+			"dans -SI TROUVE CONTACTER-.  Cette entrée peut contenir des "
+			"informations relatives à un contact pouvant être récupérées en cas de "
+			"perte de votre ordinateur de poche.\n"
+			"\n"
+			"• Pour choisir le numéro de téléphone apparaissant dans la liste des "
+			"numéros, sélectionnez une entrée dans la liste de sélection.\n"
+			"\n"
+			"• La catégorie actuellement affichée dans la liste des adresses est "
+			"attribuée automatiquement aux nouvelles adresses.\n"
+			"\n"
+			"• Pour créer une note à partir de la liste des adresses, appuyez sur "
+			"la zone vierge située à droite du numéro de téléphone.\n"
+		</TEXT>
+	</STRING_RESOURCE>
+
+	<WINDOW_CONSTRAINTS_RESOURCE RESOURCE_ID="1200" LOCALE="frFR">
+		<VERSION> 1 </VERSION>
+<WINDOW_CREATE_FLAGS> 0x00000000 </WINDOW_CREATE_FLAGS>
+		<WINDOW_X_POS> -32768 </WINDOW_X_POS>
+		<WINDOW_Y_POS> -32768 </WINDOW_Y_POS>
+		<WINDOW_WIDTH_MIN> 156 </WINDOW_WIDTH_MIN>
+		<WINDOW_WIDTH_MAX> 156 </WINDOW_WIDTH_MAX>
+		<WINDOW_WIDTH_PREF> 156 </WINDOW_WIDTH_PREF>
+		<WINDOW_HEIGHT_MIN> 84 </WINDOW_HEIGHT_MIN>
+		<WINDOW_HEIGHT_MAX> 84 </WINDOW_HEIGHT_MAX>
+		<WINDOW_HEIGHT_PREF> 84 </WINDOW_HEIGHT_PREF>
+	</WINDOW_CONSTRAINTS_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

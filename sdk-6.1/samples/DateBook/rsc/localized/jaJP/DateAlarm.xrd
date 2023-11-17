@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"GenerateXRD from 'E:\\projects_new\\Apps\\Datebook\\5.0\\68k\\Rsc\\Localized\\jpJP\\.DateAlarm.rsrc'\n"
+	</COMMENT_TEXT>
+
+	<STRING_RESOURCE RESOURCE_ID="2001" LOCALE="jaJP" COMMENT="Alarm date template">
+		<TEXT> "^1 (^0)" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2002" LOCALE="jaJP" COMMENT="Private Appointment">
+		<TEXT> "プライベートな予定" </TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2003" LOCALE="jaJP" COMMENT="Today">
+		<TEXT> "今日" </TEXT>
+	</STRING_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"These resources have not to be localized. Each locale have its own file that will/should contains its own locale resources"
+	</COMMENT_TEXT>
+
+
+	<!-- Rename schema database fields for country = Australia in enUS ROM only -->
+
+	<RAW_RESOURCE RESOURCE_ID="1121" LOCALE="enUS" COMMENT="Australia ('AU')">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>	
+			80 20 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<STRING_LIST_RESOURCE RESOURCE_ID="1121" LOCALE="enUS" COMMENT="Australia ('AU')">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<TEXT> "Post Code" </TEXT>
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+	
+	
+	<!-- Rename schema database fields for country = Canada in enUS ROM only -->
+
+	<RAW_RESOURCE RESOURCE_ID="1161" LOCALE="enUS" COMMENT="Canada ('CA')">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>	
+			40 20 00 00
+			80 20 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<STRING_LIST_RESOURCE RESOURCE_ID="1161" LOCALE="enUS" COMMENT="Canada ('CA')">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<TEXT> "Province" </TEXT>
+			<TEXT> "Postal Code" </TEXT>
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+
+
+	<!-- Rename schema database fields for country = UK in enUS ROM only -->
+	
+	<RAW_RESOURCE RESOURCE_ID="1282" LOCALE="enUS" COMMENT="United Kingdom ('GB')">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>	
+			20 20 00 00
+			40 20 00 00
+			80 20 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+	
+	<STRING_LIST_RESOURCE RESOURCE_ID="1282" LOCALE="enUS" COMMENT="United Kingdom ('GB')">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<TEXT> "Town" </TEXT>
+			<TEXT> "County" </TEXT>
+			<TEXT> "Post Code" </TEXT>
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>
+

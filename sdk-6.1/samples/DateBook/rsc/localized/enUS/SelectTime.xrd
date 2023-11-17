@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<FORM_RESOURCE RESOURCE_ID="5000" LOCALE="enUS" COMMENT="TimeSelector Form">
+		<FORM_ID> 5000 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 2 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 156 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 5000 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 5002 </DEFAULT_BUTTON>
+		<TITLE_BAR_FOCUSABLE> FALSE </TITLE_BAR_FOCUSABLE>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "Set Time" </TEXT>
+			</FORM_TITLE>
+			<FORM_GADGET>
+				<ID> 5018 </ID>
+				<BOUNDS>
+					<LEFT> 0 </LEFT>
+					<TOP> 137 </TOP>
+					<WIDTH> 156 </WIDTH>
+					<HEIGHT> 19 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EXTENDED> TRUE </EXTENDED>
+				<VISIBLE> TRUE </VISIBLE>
+			</FORM_GADGET>
+			<FORM_GADGET>
+				<ID> 5019 </ID>
+				<BOUNDS>
+					<LEFT> 80 </LEFT>
+					<TOP> 14 </TOP>
+					<WIDTH> 74 </WIDTH>
+					<HEIGHT> 139 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EXTENDED> TRUE </EXTENDED>
+				<VISIBLE> TRUE </VISIBLE>
+			</FORM_GADGET>
+			<FORM_BUTTON COMMENT="OK">
+				<ID> 5001 </ID>
+				<BOUNDS>
+					<LEFT> 8 </LEFT>
+					<TOP> 141 </TOP>
+					<WIDTH> 28 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "OK" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Cancel">
+				<ID> 5002 </ID>
+				<BOUNDS>
+					<LEFT> 42 </LEFT>
+					<TOP> 141 </TOP>
+					<WIDTH> 39 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Cancel" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="AllDay">
+				<ID> 5003 </ID>
+				<BOUNDS>
+					<LEFT> 8 </LEFT>
+					<TOP> 86 </TOP>
+					<WIDTH> 74 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "All Day" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_FIELD COMMENT="AllDay Work hours Field">
+				<ID> 5004 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 101 </TOP>
+					<WIDTH> 82 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EDITABLE> FALSE </EDITABLE>
+				<SINGLE_LINE> TRUE </SINGLE_LINE>
+				<DYNAMIC_SIZE> FALSE </DYNAMIC_SIZE>
+				<UNDERLINE> NO_UNDERLINE </UNDERLINE>
+				<JUSTIFICATION> LEFT_ALIGN </JUSTIFICATION>
+				<AUTO_SHIFT> FALSE </AUTO_SHIFT>
+				<HAS_SCROLLBAR> FALSE </HAS_SCROLLBAR>
+				<NUMERIC> FALSE </NUMERIC>
+				<MAX_CHARS> 80 </MAX_CHARS>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<MAX_VISIBLE_LINES> 0 </MAX_VISIBLE_LINES>
+			</FORM_FIELD>
+			<FORM_BUTTON COMMENT="NoTime">
+				<ID> 5005 </ID>
+				<BOUNDS>
+					<LEFT> 8 </LEFT>
+					<TOP> 118 </TOP>
+					<WIDTH> 74 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "No Time" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_LABEL COMMENT="StartTime">
+				<ID> 5006 </ID>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 19 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Start:" </TEXT>
+			</FORM_LABEL>
+			<FORM_PUSH_BUTTON COMMENT="StartTime Push Button">
+				<ID> 5007 </ID>
+				<BOUNDS>
+					<LEFT> 40 </LEFT>
+					<TOP> 18 </TOP>
+					<WIDTH> 40 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_FIELD COMMENT="StartTime Date Field">
+				<ID> 5008 </ID>
+				<BOUNDS>
+					<LEFT> 14 </LEFT>
+					<TOP> 34 </TOP>
+					<WIDTH> 72 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EDITABLE> FALSE </EDITABLE>
+				<SINGLE_LINE> TRUE </SINGLE_LINE>
+				<DYNAMIC_SIZE> FALSE </DYNAMIC_SIZE>
+				<UNDERLINE> NO_UNDERLINE </UNDERLINE>
+				<JUSTIFICATION> LEFT_ALIGN </JUSTIFICATION>
+				<AUTO_SHIFT> FALSE </AUTO_SHIFT>
+				<HAS_SCROLLBAR> FALSE </HAS_SCROLLBAR>
+				<NUMERIC> FALSE </NUMERIC>
+				<MAX_CHARS> 80 </MAX_CHARS>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<MAX_VISIBLE_LINES> 0 </MAX_VISIBLE_LINES>
+			</FORM_FIELD>
+			<FORM_LABEL COMMENT="EndTime Label">
+				<ID> 5009 </ID>
+				<LOCATION>
+					<X> 17 </X>
+					<Y> 51 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "End:" </TEXT>
+			</FORM_LABEL>
+			<FORM_PUSH_BUTTON COMMENT="EndTime Push Button">
+				<ID> 5010 </ID>
+				<BOUNDS>
+					<LEFT> 40 </LEFT>
+					<TOP> 50 </TOP>
+					<WIDTH> 40 </WIDTH>
+					<HEIGHT> 13 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+			</FORM_PUSH_BUTTON>
+			<FORM_FIELD COMMENT="EndTime Date Field">
+				<ID> 5011 </ID>
+				<BOUNDS>
+					<LEFT> 14 </LEFT>
+					<TOP> 66 </TOP>
+					<WIDTH> 72 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<EDITABLE> FALSE </EDITABLE>
+				<SINGLE_LINE> TRUE </SINGLE_LINE>
+				<DYNAMIC_SIZE> FALSE </DYNAMIC_SIZE>
+				<UNDERLINE> NO_UNDERLINE </UNDERLINE>
+				<JUSTIFICATION> LEFT_ALIGN </JUSTIFICATION>
+				<AUTO_SHIFT> FALSE </AUTO_SHIFT>
+				<HAS_SCROLLBAR> FALSE </HAS_SCROLLBAR>
+				<NUMERIC> FALSE </NUMERIC>
+				<MAX_CHARS> 80 </MAX_CHARS>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<MAX_VISIBLE_LINES> 0 </MAX_VISIBLE_LINES>
+			</FORM_FIELD>
+			<FORM_LIST COMMENT="HoursAmPm">
+				<ID> 5012 </ID>
+				<BOUNDS>
+					<LEFT> 91 </LEFT>
+					<TOP> 18 </TOP>
+					<WIDTH> 15 </WIDTH>
+					<HEIGHT> 132 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 12 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "12" </TEXT>
+					<TEXT> "1" </TEXT>
+					<TEXT> "2" </TEXT>
+					<TEXT> "3" </TEXT>
+					<TEXT> "4" </TEXT>
+					<TEXT> "5" </TEXT>
+					<TEXT> "6" </TEXT>
+					<TEXT> "7" </TEXT>
+					<TEXT> "8" </TEXT>
+					<TEXT> "9" </TEXT>
+					<TEXT> "10" </TEXT>
+					<TEXT> "11" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_LIST COMMENT="MinutesAmPm">
+				<ID> 5013 </ID>
+				<BOUNDS>
+					<LEFT> 113 </LEFT>
+					<TOP> 18 </TOP>
+					<WIDTH> 15 </WIDTH>
+					<HEIGHT> 132 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 12 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "00" </TEXT>
+					<TEXT> "05" </TEXT>
+					<TEXT> "10" </TEXT>
+					<TEXT> "15" </TEXT>
+					<TEXT> "20" </TEXT>
+					<TEXT> "25" </TEXT>
+					<TEXT> "30" </TEXT>
+					<TEXT> "35" </TEXT>
+					<TEXT> "40" </TEXT>
+					<TEXT> "45" </TEXT>
+					<TEXT> "50" </TEXT>
+					<TEXT> "55" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_LIST COMMENT="MiddleDayAmPm">
+				<ID> 5014 </ID>
+				<BOUNDS>
+					<LEFT> 135 </LEFT>
+					<TOP> 18 </TOP>
+					<WIDTH> 15 </WIDTH>
+					<HEIGHT> 22 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 2 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "am" </TEXT>
+					<TEXT> "pm" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_LIST COMMENT="Hours24Hrs_1">
+				<ID> 5015 </ID>
+				<BOUNDS>
+					<LEFT> 91 </LEFT>
+					<TOP> 18 </TOP>
+					<WIDTH> 15 </WIDTH>
+					<HEIGHT> 132 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 12 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "00" </TEXT>
+					<TEXT> "01" </TEXT>
+					<TEXT> "02" </TEXT>
+					<TEXT> "03" </TEXT>
+					<TEXT> "04" </TEXT>
+					<TEXT> "05" </TEXT>
+					<TEXT> "06" </TEXT>
+					<TEXT> "07" </TEXT>
+					<TEXT> "08" </TEXT>
+					<TEXT> "09" </TEXT>
+					<TEXT> "10" </TEXT>
+					<TEXT> "11" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_LIST COMMENT="Hours24Hrs_2">
+				<ID> 5016 </ID>
+				<BOUNDS>
+					<LEFT> 113 </LEFT>
+					<TOP> 18 </TOP>
+					<WIDTH> 15 </WIDTH>
+					<HEIGHT> 132 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 12 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "12" </TEXT>
+					<TEXT> "13" </TEXT>
+					<TEXT> "14" </TEXT>
+					<TEXT> "15" </TEXT>
+					<TEXT> "16" </TEXT>
+					<TEXT> "17" </TEXT>
+					<TEXT> "18" </TEXT>
+					<TEXT> "19" </TEXT>
+					<TEXT> "20" </TEXT>
+					<TEXT> "21" </TEXT>
+					<TEXT> "22" </TEXT>
+					<TEXT> "23" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_LIST COMMENT="MiddleDayAmPm">
+				<ID> 5017 </ID>
+				<BOUNDS>
+					<LEFT> 135 </LEFT>
+					<TOP> 18 </TOP>
+					<WIDTH> 15 </WIDTH>
+					<HEIGHT> 132 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 12 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "00" </TEXT>
+					<TEXT> "05" </TEXT>
+					<TEXT> "10" </TEXT>
+					<TEXT> "15" </TEXT>
+					<TEXT> "20" </TEXT>
+					<TEXT> "25" </TEXT>
+					<TEXT> "30" </TEXT>
+					<TEXT> "35" </TEXT>
+					<TEXT> "40" </TEXT>
+					<TEXT> "45" </TEXT>
+					<TEXT> "50" </TEXT>
+					<TEXT> "55" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="5000" LOCALE="enUS" COMMENT="Help ID 5000">
+		<TEXT>
+			"There are three ways to access the Set Time dialog:\n"
+			"\n"
+			"1. Tap the time next to an event.\n"
+			"2. Tap the start or end time in the Event Details dialog.\n"
+			"3. Enter the time using text input."
+		</TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="5001" LOCALE="enUS" COMMENT="No Time">
+		<TEXT> "No Time" </TEXT>
+	</STRING_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

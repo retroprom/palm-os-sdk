@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<!-- ################################################################################ -->
+
+	<!-- This resource contains the column ID that could be used to concatenate the "Copy"
+		 string suffix when user duplicate a record.
+		 - kAddrColumnIDFirstName
+		 - kAddrColumnIDMiddleName
+		 - kAddrColumnIDLastName
+		 - kAddrColumnIDWorkCompany
+		 - kAddrColumnIDNickName
+	-->
+	<RAW_RESOURCE RESOURCE_ID="3500" LOCALE="itIT" COMMENT="Duplicate Name Column ID">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>
+			90 01 00 00
+			2C 01 00 00
+			C8 00 00 00
+			B8 0B 00 00
+			58 02 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

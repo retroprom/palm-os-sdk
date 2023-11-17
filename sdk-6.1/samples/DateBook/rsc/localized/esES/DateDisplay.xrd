@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"GenerateXRD from 'E:\\projects_new\\Apps\\Datebook\\5.0\\68k\\Rsc\\Localized\\esES\\.DateDisplay.rsrc'\n"
+	</COMMENT_TEXT>
+
+	<FORM_RESOURCE RESOURCE_ID="1900" LOCALE="esES" COMMENT="Display Options">
+		<FORM_ID> 1900 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 2 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 156 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 1911 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 1910 </DEFAULT_BUTTON>
+		<FORM_OBJECTS>
+			<FORM_TITLE COMMENT="Display Options">
+				<TEXT> "Opciones de presentación" </TEXT>
+			</FORM_TITLE>
+			<FORM_LABEL COMMENT="Day View:">
+				<ID> 1902 </ID>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 18 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Ver día:" </TEXT>
+			</FORM_LABEL>
+			<FORM_CHECKBOX COMMENT="Show time bars">
+				<ID> 1903 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 31 </TOP>
+					<WIDTH> 141 </WIDTH>
+					<HEIGHT> 25 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Mostrar Indicador de \nduración" </TEXT>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX COMMENT="Compress Day View">
+				<ID> 1904 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 55 </TOP>
+					<WIDTH> 114 </WIDTH>
+					<HEIGHT> 14 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Ver resumen de día" </TEXT>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> TRUE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_LABEL COMMENT="Month View:">
+				<ID> 1905 </ID>
+				<LOCATION>
+					<X> 5 </X>
+					<Y> 77 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "Ver mes:" </TEXT>
+			</FORM_LABEL>
+			<FORM_CHECKBOX COMMENT="Show Timed Events">
+				<ID> 1906 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 90 </TOP>
+					<WIDTH> 133 </WIDTH>
+					<HEIGHT> 15 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Mostrar citas con hora" </TEXT>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX COMMENT="Show Untimed Events">
+				<ID> 1907 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 104 </TOP>
+					<WIDTH> 130 </WIDTH>
+					<HEIGHT> 15 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Mostrar citas sin hora" </TEXT>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_CHECKBOX COMMENT="Show Daily Repeating Events">
+				<ID> 1908 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 118 </TOP>
+					<WIDTH> 151 </WIDTH>
+					<HEIGHT> 15 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Mostrar citas a rep. diaria" </TEXT>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<GROUP_ID> 0 </GROUP_ID>
+				<SELECTED> FALSE </SELECTED>
+			</FORM_CHECKBOX>
+			<FORM_BUTTON COMMENT="OK">
+				<ID> 1909 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 139 </TOP>
+					<WIDTH> 38 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "OK" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Cancel">
+				<ID> 1910 </ID>
+				<BOUNDS>
+					<LEFT> 49 </LEFT>
+					<TOP> 139 </TOP>
+					<WIDTH> 39 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "Cancelar" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="1911" LOCALE="esES" COMMENT="Display Options: Help">
+		<TEXT>
+			"Ver día:\n"
+			"• Desactive Mostrar Indicador de duración para ocultar las barras de "
+			"duración de todas las citas.\n"
+			"\n"
+			"• Desactive Ver resumen de día para mostrar todos los intervalos de "
+			"tiempo programados y los que estan en blanco a partir de la hora de "
+			"inicio fijada en Preferencias.\n"
+			"\n"
+			"Ver mes:\n"
+			"• Desactive Mostrar citas con hora para ocultar estas citas en la "
+			"vista mensual.\n"
+			"\n"
+			"• Active Mostrar citas sin hora para mostrar un símbolo junto a estas "
+			"citas en la vista mensual.\n"
+			"\n"
+			"• Active Mostrar citas rep. diaria para mostrar símbolos que "
+			"representen este tipo de citas en la vista mensual."
+		</TEXT>
+	</STRING_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

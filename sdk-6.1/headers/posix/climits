@@ -1,0 +1,12 @@
+/*
+ * Copyright (c) 2003, PalmSource Inc. All rights reserved.
+ *
+ * File: climits
+*/
+
+#ifndef _CLIMITS_
+#define _CLIMITS_
+
+#include <limits.h>
+
+#endif

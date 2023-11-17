@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<ALERT_RESOURCE RESOURCE_ID="2007" LOCALE="jaJP" COMMENT="PhoneIOImportAlert">
+		<ALERT_TYPE> WARNING_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "カテゴリの内容の削除" </TITLE>
+		<MESSAGE> "カテゴリ [^1] だけに属しているデータはすべて削除されます。実行しますか?" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "OK" </TEXT>
+			<TEXT> "ｷｬﾝｾﾙ" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<FORM_RESOURCE RESOURCE_ID="2400" LOCALE="jaJP" COMMENT="PhoneIOImportPhoneDirectory">
+		<FORM_ID> 2400 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 54 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 104 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 2400 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 2410 </DEFAULT_BUTTON>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "電話帳のインポート" </TEXT>
+			</FORM_TITLE>
+			<FORM_LABEL COMMENT="ImportLabel">
+				<ID> 2402 </ID>
+				<LOCATION>
+					<X> 14 </X>
+					<Y> 54 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT>
+					"注意:上記のカテゴリの\n"
+					"連絡先は削除されます。"
+				</TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 2403 </ID>
+				<LOCATION>
+					<X> 14 </X>
+					<Y> 22 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "電話帳:" </TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP_TRIGGER>
+				<ID> 2404 </ID>
+				<BOUNDS>
+					<LEFT> 46 </LEFT>
+					<TOP> 22 </TOP>
+					<WIDTH> 17 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_LIST>
+				<ID> 2405 </ID>
+				<BOUNDS>
+					<LEFT> 46 </LEFT>
+					<TOP> 22 </TOP>
+					<WIDTH> 55 </WIDTH>
+					<HEIGHT> 22 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 2 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "SIM" </TEXT>
+					<TEXT> "内部" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_POPUP>
+				<CONTROL_ID> 2404 </CONTROL_ID>
+				<LIST_ID> 2405 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LABEL>
+				<ID> 2406 </ID>
+				<LOCATION>
+					<X> 14 </X>
+					<Y> 36 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "カテゴリ:" </TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP_TRIGGER COMMENT="CategoryTrigger">
+				<ID> 2407 </ID>
+				<BOUNDS>
+					<LEFT> 54 </LEFT>
+					<TOP> 36 </TOP>
+					<WIDTH> 17 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_LIST COMMENT="CategoryList">
+				<ID> 2408 </ID>
+				<BOUNDS>
+					<LEFT> 54 </LEFT>
+					<TOP> 36 </TOP>
+					<WIDTH> 72 </WIDTH>
+					<HEIGHT> 0 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 0 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_POPUP>
+				<CONTROL_ID> 2407 </CONTROL_ID>
+				<LIST_ID> 2408 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_BUTTON COMMENT="Ok">
+				<ID> 2409 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 87 </TOP>
+					<WIDTH> 36 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "OK" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Cancel">
+				<ID> 2410 </ID>
+				<BOUNDS>
+					<LEFT> 47 </LEFT>
+					<TOP> 87 </TOP>
+					<WIDTH> 36 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "ｷｬﾝｾﾙ" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<FORM_RESOURCE RESOURCE_ID="2401" LOCALE="jaJP" COMMENT="PhoneIOExportPhoneDirectory">
+		<FORM_ID> 2401 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 54 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 104 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 2401 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 2410 </DEFAULT_BUTTON>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "電話帳のエクスポート" </TEXT>
+			</FORM_TITLE>
+			<FORM_LABEL COMMENT="ExportLabel">
+				<ID> 2402 </ID>
+				<LOCATION>
+					<X> 14 </X>
+					<Y> 54 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT>
+					"注意:上記の電話帳の\n"
+					"連絡先は削除されます。"
+				</TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 2403 </ID>
+				<LOCATION>
+					<X> 14 </X>
+					<Y> 22 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "電話帳:" </TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP_TRIGGER>
+				<ID> 2404 </ID>
+				<BOUNDS>
+					<LEFT> 46 </LEFT>
+					<TOP> 22 </TOP>
+					<WIDTH> 17 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_LIST>
+				<ID> 2405 </ID>
+				<BOUNDS>
+					<LEFT> 46 </LEFT>
+					<TOP> 22 </TOP>
+					<WIDTH> 55 </WIDTH>
+					<HEIGHT> 22 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 2 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "SIM" </TEXT>
+					<TEXT> "内部" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_POPUP>
+				<CONTROL_ID> 2404 </CONTROL_ID>
+				<LIST_ID> 2405 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_LABEL>
+				<ID> 2406 </ID>
+				<LOCATION>
+					<X> 14 </X>
+					<Y> 36 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "カテゴリ:" </TEXT>
+			</FORM_LABEL>
+			<FORM_POPUP_TRIGGER COMMENT="CategoryTrigger">
+				<ID> 2407 </ID>
+				<BOUNDS>
+					<LEFT> 54 </LEFT>
+					<TOP> 36 </TOP>
+					<WIDTH> 17 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_LIST COMMENT="CategoryList">
+				<ID> 2408 </ID>
+				<BOUNDS>
+					<LEFT> 54 </LEFT>
+					<TOP> 36 </TOP>
+					<WIDTH> 72 </WIDTH>
+					<HEIGHT> 0 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 0 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_POPUP>
+				<CONTROL_ID> 2407 </CONTROL_ID>
+				<LIST_ID> 2408 </LIST_ID>
+			</FORM_POPUP>
+			<FORM_BUTTON COMMENT="Ok">
+				<ID> 2409 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 87 </TOP>
+					<WIDTH> 36 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "OK" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON COMMENT="Cancel">
+				<ID> 2410 </ID>
+				<BOUNDS>
+					<LEFT> 47 </LEFT>
+					<TOP> 87 </TOP>
+					<WIDTH> 36 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "ｷｬﾝｾﾙ" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2400" LOCALE="jaJP" COMMENT="Import Directory: Help">
+		<TEXT>
+			"電話帳のすべての項目をカテゴリにインポートします。\n"
+			"既存のカテゴリまたは新しいカテゴリのいずれかをインポート先として選択できます。\n"
+			" \n"
+			"重要!既存のカテゴリを選択すると、そのカテゴリだけに属しているデータはすべて、電話帳のデータで置き換えられます。"
+		</TEXT>
+	</STRING_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="2401" LOCALE="jaJP" COMMENT="Export Directory: Help">
+		<TEXT>
+			"電話帳にエクスポートするアドレスのカテゴリを選択してください。\n"
+			"\n"
+			" 重要!その電話帳 (SIM または内部) に属している電話のデータはすべて、デバイスのデータで置き換えられます。"
+		</TEXT>
+	</STRING_RESOURCE>
+
+	<WINDOW_CONSTRAINTS_RESOURCE RESOURCE_ID="2400" LOCALE="jaJP">
+		<VERSION> 1 </VERSION>
+<WINDOW_CREATE_FLAGS> 0x00000000 </WINDOW_CREATE_FLAGS>
+		<WINDOW_X_POS> -32768 </WINDOW_X_POS>
+		<WINDOW_Y_POS> -32768 </WINDOW_Y_POS>
+		<WINDOW_WIDTH_MIN> 156 </WINDOW_WIDTH_MIN>
+		<WINDOW_WIDTH_MAX> 156 </WINDOW_WIDTH_MAX>
+		<WINDOW_WIDTH_PREF> 156 </WINDOW_WIDTH_PREF>
+		<WINDOW_HEIGHT_MIN> 104 </WINDOW_HEIGHT_MIN>
+		<WINDOW_HEIGHT_MAX> 104 </WINDOW_HEIGHT_MAX>
+		<WINDOW_HEIGHT_PREF> 104 </WINDOW_HEIGHT_PREF>
+	</WINDOW_CONSTRAINTS_RESOURCE>
+
+	<WINDOW_CONSTRAINTS_RESOURCE RESOURCE_ID="2401" LOCALE="jaJP">
+		<VERSION> 1 </VERSION>
+<WINDOW_CREATE_FLAGS> 0x00000000 </WINDOW_CREATE_FLAGS>
+		<WINDOW_X_POS> -32768 </WINDOW_X_POS>
+		<WINDOW_Y_POS> -32768 </WINDOW_Y_POS>
+		<WINDOW_WIDTH_MIN> 156 </WINDOW_WIDTH_MIN>
+		<WINDOW_WIDTH_MAX> 156 </WINDOW_WIDTH_MAX>
+		<WINDOW_WIDTH_PREF> 156 </WINDOW_WIDTH_PREF>
+		<WINDOW_HEIGHT_MIN> 104 </WINDOW_HEIGHT_MIN>
+		<WINDOW_HEIGHT_MAX> 104 </WINDOW_HEIGHT_MAX>
+		<WINDOW_HEIGHT_PREF> 104 </WINDOW_HEIGHT_PREF>
+	</WINDOW_CONSTRAINTS_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

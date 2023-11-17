@@ -1,0 +1,3 @@
+EXPORTS			
+			EditNote
+			EditNoteSelection

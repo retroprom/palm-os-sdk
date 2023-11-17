@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<ALERT_RESOURCE RESOURCE_ID="31000" COMMENT="PhoneDBEmpty" LOCALE="zhCN">
+		<ALERT_TYPE> ERROR_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "导入电话类别" </TITLE>
+		<MESSAGE> "电话簿空白。" </MESSAGE>
+		<BUTTONS>
+			<TEXT> "确定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+	
+	<ALERT_RESOURCE RESOURCE_ID="31001" LOCALE="zhCN" COMMENT="Already authenticating">
+		<ALERT_TYPE> INFORMATION_ALERT </ALERT_TYPE>
+		<HELP_ID> 0 </HELP_ID>
+		<DEFAULT_BUTTON> 0 </DEFAULT_BUTTON>
+		<TITLE> "已开始验证" </TITLE>
+		<MESSAGE>
+			"正在进行其他验证，请重试您的命令。"
+		</MESSAGE>
+		<BUTTONS>
+			<TEXT> "确定" </TEXT>
+		</BUTTONS>
+	</ALERT_RESOURCE>
+
+	<FORM_RESOURCE RESOURCE_ID="31000" LOCALE="zhCN">
+		<FORM_ID> 31000 </FORM_ID>
+		<BOUNDS>
+			<LEFT> 2 </LEFT>
+			<TOP> 60 </TOP>
+			<WIDTH> 156 </WIDTH>
+			<HEIGHT> 96 </HEIGHT>
+		</BOUNDS>
+		<USABLE> TRUE </USABLE>
+		<MODAL> TRUE </MODAL>
+		<SAVE_BEHIND> FALSE </SAVE_BEHIND>
+		<HELP_ID> 0 </HELP_ID>
+		<MENU_ID> 0 </MENU_ID>
+		<DEFAULT_BUTTON> 31102 </DEFAULT_BUTTON>
+		<FORM_OBJECTS>
+			<FORM_TITLE>
+				<TEXT> "电话导入/导出详情" </TEXT>
+			</FORM_TITLE>
+			<FORM_BUTTON>
+				<ID> 31101 </ID>
+				<BOUNDS>
+					<LEFT> 5 </LEFT>
+					<TOP> 80 </TOP>
+					<WIDTH> 36 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "确定" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_BUTTON>
+				<ID> 31102 </ID>
+				<BOUNDS>
+					<LEFT> 47 </LEFT>
+					<TOP> 80 </TOP>
+					<WIDTH> 36 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<TEXT> "取消" </TEXT>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<BUTTON_FRAME> STANDARD_BUTTON_FRAME </BUTTON_FRAME>
+			</FORM_BUTTON>
+			<FORM_LABEL>
+				<ID> 31103 </ID>
+				<LOCATION>
+					<X> 7 </X>
+					<Y> 20 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT>
+					"选择电话目录：\n"
+				</TEXT>
+			</FORM_LABEL>
+			<FORM_LABEL>
+				<ID> 31104 </ID>
+				<LOCATION>
+					<X> 7 </X>
+					<Y> 50 </Y>
+				</LOCATION>
+				<USABLE> TRUE </USABLE>
+				<FONT_ID> BOLD_FONT </FONT_ID>
+				<TEXT> "电话目录：" </TEXT>
+			</FORM_LABEL>
+			<FORM_LIST>
+				<ID> 31105 </ID>
+				<BOUNDS>
+					<LEFT> 59 </LEFT>
+					<TOP> 50 </TOP>
+					<WIDTH> 55 </WIDTH>
+					<HEIGHT> 22 </HEIGHT>
+				</BOUNDS>
+				<USABLE> FALSE </USABLE>
+				<FONT_ID> STD_FONT </FONT_ID>
+				<NUM_VIS_ITEMS> 2 </NUM_VIS_ITEMS>
+				<LIST_ITEMS>
+					<TEXT> "SIM" </TEXT>
+					<TEXT> "内部" </TEXT>
+				</LIST_ITEMS>
+			</FORM_LIST>
+			<FORM_POPUP_TRIGGER>
+				<ID> 31106 </ID>
+				<BOUNDS>
+					<LEFT> 59 </LEFT>
+					<TOP> 50 </TOP>
+					<WIDTH> 17 </WIDTH>
+					<HEIGHT> 12 </HEIGHT>
+				</BOUNDS>
+				<USABLE> TRUE </USABLE>
+				<ENABLED> TRUE </ENABLED>
+				<LEFT_ANCHOR> TRUE </LEFT_ANCHOR>
+				<TEXT> "" </TEXT>
+				<FONT_ID> STD_FONT </FONT_ID>
+			</FORM_POPUP_TRIGGER>
+			<FORM_POPUP>
+				<CONTROL_ID> 31106 </CONTROL_ID>
+				<LIST_ID> 31105 </LIST_ID>
+			</FORM_POPUP>
+		</FORM_OBJECTS>
+	</FORM_RESOURCE>
+	
+	<STRING_LIST_RESOURCE RESOURCE_ID="31000" LOCALE="zhCN" COMMENT="PhoneBookIOProgress">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<TEXT> "无效的" </TEXT>
+			<TEXT> "正在连接电话" </TEXT>
+			<TEXT> "正在导出" </TEXT>
+			<TEXT> "发送条目" </TEXT>
+			<TEXT> "正在导入" </TEXT>
+			<TEXT> "接收条目" </TEXT>
+			<TEXT> "正在删除过时的电话条目" </TEXT>
+			<TEXT> "正在断开连接" </TEXT>
+			<TEXT> "正在取消..." </TEXT>
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+
+	<STRING_LIST_RESOURCE RESOURCE_ID="31001" LOCALE="zhCN" COMMENT="PhoneBookIOErrorMessages">
+		<STRING_PREFIX> "" </STRING_PREFIX>
+		<STRINGS>
+			<TEXT> "超时错误，无法连接电话。" </TEXT>
+		</STRINGS>
+	</STRING_LIST_RESOURCE>
+
+	<STRING_RESOURCE RESOURCE_ID="31000" LOCALE="zhCN" COMMENT="PhoneBookTitle">
+		<TEXT> "电话簿导入/导出" </TEXT>
+	</STRING_RESOURCE>
+
+</PALMOS_RESOURCE_FILE>

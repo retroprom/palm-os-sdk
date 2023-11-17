@@ -1,0 +1,23 @@
+NOTEVIEWDIR = ../Libraries/NoteViewLib
+BOOKSDIR = ../Libraries/BooksLib
+SEARCHDIR = ../Libraries/SearchLib
+PHONEDIR = ../Libraries/PhoneBookIOLib
+IDLOOKDIR = ../Libraries/IdLookupLib
+TODO = .
+SUBDIRS = $(IDLOOKDIR) $(PHONEDIR) $(SEARCHDIR) $(BOOKSDIR) $(NOTEVIEWDIR) 
+# Default Target
+all: Libs
+	make;
+	
+Libs:
+	for i in $(SUBDIRS) ; do \
+	(cd $$i ; make ; make TARGET_PLATFORM=Device ;make DEBUG_OR_RELEASE=Release;make TARGET_PLATFORM=Device DEBUG_OR_RELEASE=Release) ; \
+	done
+	
+	
+	
+clean:
+	rm -f *~
+	for i in $(SUBDIRS) ; do \
+	( cd $$i ; make clean) ; \
+	done

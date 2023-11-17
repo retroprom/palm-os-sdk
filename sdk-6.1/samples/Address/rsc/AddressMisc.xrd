@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<PALMOS_RESOURCE_FILE>
+
+	<COMMENT_TEXT>
+		"GenerateXRD from 'C:\\Dev\\Palmgate\\DeviceNew\\Apps\\Address\\5.0\\68K\\rsc\\.AddressMisc.rsrc'\n"
+	</COMMENT_TEXT>
+
+	<!-- ################################################################################ -->
+
+	<!-- This resource MUST HAVE the same number of items as defined sort order (in tSTL 2805 or 2815)
+	
+		 The resource u32L 2805 contains resID. These ResID are u32L resources that define a
+		 priority list of field info. When a user create a new record, a default phone should be set.
+		 This phone is selected trying to find a phone field that match one of the field Info defined in
+		 these priority list.
+	     
+		 This feature has been defined globaly for all locales because there is no meaning to change the
+		 default phone feature by locale or country.
+	-->
+	
+	<!-- Contain the res ID of u32L resource that contain a list of field Info
+		 There is one item by sort definition. Currently, this list contains
+		 the 2 u32L defined below (res ID 2000 & 2005)
+	-->
+	<RAW_RESOURCE RESOURCE_ID="2805" COMMENT="OrderBy ListPhoneResID List">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>
+			D0 07 00 00
+			D5 07 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+
+	<!-- ################################################################################ -->
+
+	<!-- This resource MUST HAVE the same number of items as defined sort order (in tSTL 2805 or 2815)
+		 
+		 Each item is a Display Name Base Resource ID (defined in AddressDisplayLayouts.h)
+		 This base ID added with the '2 letter country res ID' (1101-1876) or the DefaultBaseIncrement (+1000)
+		 give the Display Name Layout (VBLT) resource ID to use.
+	-->
+		 
+	<RAW_RESOURCE RESOURCE_ID="2815" COMMENT="OrderBy DisplayNameLayoutResID List">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>
+			D0 07 00 00 
+			B8 0B 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+
+	<!-- ################################################################################ -->
+
+	<!-- This resource MUST HAVE the same number of items as defined sort order (in tSTL 2805 or 2815)
+
+		 Each item is a u32L resID that contains a list of Column ID to use when performing a Lookup
+		 For the 2 defined sort order, these lists are defined in each locale with ID 
+		 2900 & 2910 (OrderBySortByNameLookupColumnIDs & OrderBySortByCompanyColumnIDs)
+		 
+		 Define in each locale to take into account the specific fields of each locale, like
+		 Yomi for JP or English Name for ZH
+	-->
+	
+	<RAW_RESOURCE RESOURCE_ID="2825" COMMENT="OrderBy Lookup ColumnID List">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>
+			54 0B 00 00
+			5E 0B 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- ################################################################################ -->
+
+	<!-- This resource MUST HAVE the same number of items as defined sort order (in tSTL 2805 or 2815)
+	
+		 Unfortunatly, we don't find a solution to get rid of the "sort by name / company" concept.
+		 If we add a new sort order, By FirstName or Job Title for example, we need to know if its
+		 "by name" or "by company" sort order concept. This is used for example in the vCard Input/Output.
+		 
+		 The list should contain the constant kOrderByNameType or kOrderByCompanyType define in Address.h
+	-->
+
+	<RAW_RESOURCE RESOURCE_ID="2835" COMMENT="OrderBy Type List">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>
+			0A 00 00 00
+			14 00 00 00
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- ################################################################################ -->
+
+	<!-- This resource contains the default phone search order when the sort order
+		 is set on "Last Name, First Name", ie first entry in the tSTL 2805/2815
+		 The search will be performed in this order:
+		 - Personal Mobile
+		 - Personal voice
+		 - Business voice
+		 - Any phone number
+		 - Any email
+		 - Any Instant Messaging
+	-->
+	<RAW_RESOURCE RESOURCE_ID="2000" COMMENT="List Phone Name search list">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>
+			20 40 00 10
+			10 40 00 10
+			10 40 00 20
+			00 40 00 00
+			10 80 00 00
+			00 00 08 08
+		</RES_DATA>
+	</RAW_RESOURCE>
+
+	<!-- This resource contains the default phone search order when the sort order
+		 is set on "Company Name", ie second entry in the tSTL 2805/2815
+		 The search will be performed in this order:
+		 - Business voice
+		 - Personal Mobile
+		 - Personal voice
+		 - Any phone number
+		 - Any email
+		 - Any Instant Messaging
+	-->
+	<RAW_RESOURCE RESOURCE_ID="2005" COMMENT="List Phone Company search list">
+		<RES_TYPE> 'u32L' </RES_TYPE>
+		<RES_DATA>
+			10 40 00 20
+			20 40 00 10
+			10 40 00 10
+			00 40 00 00
+			10 80 00 00
+			00 00 08 08
+		</RES_DATA>
+	</RAW_RESOURCE>
+	
+</PALMOS_RESOURCE_FILE>
+
