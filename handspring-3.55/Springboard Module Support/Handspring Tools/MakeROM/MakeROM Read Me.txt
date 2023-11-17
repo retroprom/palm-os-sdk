@@ -1,0 +1,30 @@
+MakeROM
+=======
+
+Original version by Handspring, Inc.
+Metrowerks CodeWarrior port by Olivier Marquet <omarquet@metrowerks.com>
+
+Description:
+============
+Creates a ROM file image from a set of .prc files. Can also be used to print
+information on an existing ROM image, break down an existing ROM image into 
+a set of .prc files, or patch an existing ROM image by adding ROM tokens.
+
+For more information please consult the Handspring Development Kit 
+documentation, in particular the Handspring Development Tools Guide PDF.
+
+Build Instructions:
+===================
+(Last updated 09.14.01)
+
+Required tools: CodeWarrior for Windows or Mac OS, Version 7.0 with Palm OS 
+3.5 SDK headers installed. Use of the Palm OS 4.0 SDK to build the MakeROM 
+linker is not supported at this time. The Palm OS 3.5 SDK can be either
+copied from the CodeWarrior for Palm OS Platform, Version 7.0 CD or 
+downloaded from Palm's website at: http://www.palmos.com/dev/tech/tools
+				
+To build simply open the project MakeROM.mcp and hit the Make button. You
+can choose to build either the release or debug target. An application
+MakeROM (Mac OS) or MakeROM.exe (Windows) running from the command-line will 
+be generated.
+

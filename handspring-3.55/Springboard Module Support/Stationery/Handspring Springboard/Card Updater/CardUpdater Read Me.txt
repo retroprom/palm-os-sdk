@@ -1,0 +1,74 @@
+#######################################################################################
+
+ Copyright © 2001 Handspring, Inc. or its subsidiaries.
+ All rights reserved.
+
+ File: CardUpdater Read Me.txt
+
+#######################################################################################
+
+This is a stationery project for a CardUpdater application that runs on
+a Handspring device. This stationery enables you to easily create a custom 
+application for updating the flash memory on your Springboard(TM) flash module.
+You supply the ROMs resource file created by the ROM stationery, and the project 
+generates a "CardUpdater" application that runs on Handspring, Inc. handheld 
+devices runnning the PalmOS operating system.
+
+To customize your card updater application, edit the CardUpdaterRes.rsrc file.
+Objects that should be customized:
+
+- The application name
+
+- String resOvrStrIDHelpText (id 5000)
+
+	This string is used as the "tip" in the Update Software alert as well as
+	displayed when the user taps the "Info" button on the Updater's main form.
+	Here, you should provide helpful information about your Updater to the user.
+	Explain what it is, what it does, and what are the ramifications, etc. Keep
+	in mind who your target audience is.
+	
+- String resOvrStrIDMainFormTitleText (id 5001)
+	This string is used as the title of the main form, replace it with the
+	text that you want to appear in your Updater's title bar.
+	Make sure it will fit within the Updater's title bar.
+
+- String resOvrStrIDBuildDate (id 5002)
+	This string is used as the module build date.
+
+- String resOvrStrIDStartUpdateAlertMsg (id 5003)
+	This string is used into the "Update Software" alert (prompt) that is
+	displayed after the user taps the "Update Now" button.  The alert will have
+	"OK" and "Cancel" controls.  Here, provide a short description of what will
+	happen and ask if the user wants to continue.
+
+- String resOvrStrIDResetAlertMsg (id 5004)
+	This string is used into the alert that gets displayed at
+	the end of a successful update.  The alert will have a "Reset"
+	control.  Once the user taps the "Reset" control, the system
+	will soft-reset. Provide information that is appropriate at this
+	point.
+ 
+- String resOvrStrIDModuleProductName (id 5005)
+	This string specifies the name of the module product for using
+	in the updater's user interface (alerts, prompts, etc.).
+
+- String resOvrStrIDChipSelectAutoConfigScheme (id 5006)
+	Flash module configuration detection and chip-select configuration
+	setting -- DO NOT LOCALIZE!!!
+	0 (zero) = leave Springboard chip selects at their default values.
+	1 = auto-detect and configure flash module configurations where the
+	    flash chips' chip-enable inputs are driven directly by the 1 or
+	    both Springboard chip-select signals (i.e. -- those that don't
+	    rely on their own address decoding logic.
+	other values = reserved by Handspring, Inc. for future enhancements.
+	
+- String List resOvrSTLCompatibilityList (id 5000)
+	This string list object is used to specify a list of modules that the
+	Update is compatible with.  The generated Updater application will use
+	this information to determine whether the update image contained in the
+	Updater may be written to the module.
+
+
+Metrowerks Corp.
+20 August 2001
+

@@ -1,0 +1,29 @@
+
+***************************************************
+How to create a Springboard module updater program
+***************************************************
+
+Step 1 : Generate the ROM file
+
+- Create a new Handspring Springboard Stationery project
+- Select Springboard ROM
+- Drop in the project the PRC files you want
+- Use the Handspring preference panel to change some basic information
+- Build the project
+
+Step 2 : Create the updater PRC file
+
+- Create a new Handspring Springboard Stationery project
+- Select Card Updater
+- Drop in the project the .r file created by the Springboard ROM project
+- Edit the CardUpdaterRes.rsrc resource file to customize your application
+- Build the project
+
+Step 3 :
+
+- Download the card updater application to the device using the CodeWarrior 
+debugger or HotSync.
+- Execute the PRC file on the device and follow the instructions on the 
+screen.
+- You have now flashed your Springboard module.
+

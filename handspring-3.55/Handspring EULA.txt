@@ -1,0 +1,207 @@
+THIS IS A LICENSE AGREEMENT ("AGREEMENT") BETWEEN HANDSPRING,
+INC. ("HANDSPRING") AND YOU ("DEVELOPER").  THIS AGREEMENT PROVIDES
+DEVELOPER THE RIGHT TO USE ONE COPY OF THE ACCOMPANYING SOFTWARE
+AND/OR ANY RELATED DOCUMENTATION (COLLECTIVELY, THE "SOFTWARE"),
+SUBJECT TO THE TERMS OF THE FOLLOWING AGREEMENT.  HANDSPRING IS
+WILLING TO GRANT DEVELOPER THE FOLLOWING LICENSE (THE "LICENSE") TO
+USE THE SOFTWARE ACCORDING TO THIS AGREEMENT, ONLY ON THE CONDITION
+THAT DEVELOPER ACCEPTS ALL TERMS IN THIS AGREEMENT.
+  
+BY CLICKING ON THE "I AGREE" BUTTON BELOW, DEVELOPER ACKNOWLEDGES THAT
+DEVELOPER READ THIS AGREEMENT, UNDERSTANDS IT, AND AGREES TO BE BOUND
+BY IT.  IF DEVELOPER DOES NOT AGREE TO ANY OF THE TERMS BELOW,
+HANDSPRING DOES NOT LICENSE THE SOFTWARE TO DEVELOPER, AND DEVELOPER
+SHOULD CLICK ON THE "I DECLINE" BUTTON BELOW TO DISCONTINUE THE
+INSTALLATION PROCESS.
+
+1. SCOPE.  Handspring develops, distributes and markets a family of
+  handheld computers, based on the Palm Computing platform, some of
+  which contain an external "slot" (the "Springboard(TM) slot") into
+  which compatible third party plug-in hardware/software products can
+  be inserted, and some of which are integrated handheld
+  communications devices ("Communicators").  Handspring products which
+  have the Springboard(TM) slot are referred to in this agreement as
+  "Springboard(TM) Enabled Products."  In order to facilitate
+  development of such compatible plug-in products for Springboard(TM)
+  Enabled Products and development of hardware and/or software for
+  Communicators, Handspring will make available to third parties the
+  Software for use in developing such products in accordance with the
+  terms of this Agreement.
+
+2. LICENSE GRANT.  Subject to the terms and conditions of this
+  Agreement, Handspring hereby grants to Developer a non-exclusive,
+  non-transferable license under Handspring's intellectual property
+  rights in the Software (a) to use, reproduce and modify the
+  Software, in both source code and object code forms, solely in
+  connection with Developer's development and manufacture of products
+  which plug into the Springboard(TM) slot and meet Handspring's
+  Springboard(TM) compatibility requirements and/or products which are
+  designed for use with Communicators (collectively "Licensed
+  Plug-Ins"); and (b) to distribute Licensed Plug-Ins containing
+  executable versions of the Software and grant to end users of
+  Licensed Plug-Ins the right to use executable versions of the
+  Software, solely for use with such Licensed Plug-Ins, and provided
+  that each end user license granted by Developer is at least as
+  protective of Handspring's interests and intellectual property
+  rights as this Agreement and disclaims all warranties and
+  liabilities on behalf of Handspring.
+
+3. LICENSE RESTRICTIONS.  Except as otherwise expressly provided under
+  this Agreement, Handspring grants no rights and Developer obtains no
+  rights, express, implied, or by estoppel, in any Handspring
+  intellectual property.  Except as described in Section 1, Developer
+  shall have no right to, and specifically agrees not to: (a) transfer
+  or sublicense its license rights to any other party or entity; (b)
+  transfer the Software to any other party or entity; (c) use the
+  Software, in whole or part, to develop, manufacture or distribute
+  any products other than Licensed Plug-Ins; or (d) use the Software,
+  in whole or part, to develop, manufacture or distribute products
+  (including Licensed Plug-Ins) for use as a plug-in or accessory to
+  any product other than Springboard(TM) Enabled Products and/or
+  Communicators. For purposes of this Section, Software includes any
+  Developer-created derivatives of the original Software provided by
+  Handspring.
+
+4. NO TRADEMARK LICENSE.  Notwithstanding anything to the contrary,
+  Handspring does not grant to Developer any license or right to use
+  any of Handspring's trademarks, trade dress, service marks, artwork,
+  icons, logos, color schemes, or other industrial designs and
+  designations of source.  Developer agrees to modify the Software so
+  that any versions of the Software which are distributed to other
+  entities (including end users) shall not identify Handspring or its
+  licensors (including without limitation removing any identification
+  of Handspring from the "About box" in the Software).
+
+5. UPDATES AND SUPPORT.  From time to time, Handspring in its sole
+  discretion may make updates, upgrades and error corrections of the
+  Software available to Developer.  Any such updates, upgrades and
+  error corrections shall be considered "Software" and licensed to
+  Developer under the terms of this Agreement.  Notwithstanding the
+  foregoing, Handspring has no obligation to produce or make available
+  to Developer any updates, upgrades or error corrections, or to
+  otherwise support or maintain the Software.
+
+6. OWNERSHIP. Handspring is the sole and exclusive owner of all
+  rights, title and interest in and to the Software, including,
+  without limitation, all intellectual property rights therein.
+  Developer's rights in the Software are limited to those expressly
+  granted hereunder.  Handspring reserves all other rights and
+  licenses in and to the Software not expressly granted to Developer
+  under this Agreement.  Subject to Handspring's rights in the
+  Software, Developer shall retain all rights in modifications to the
+  Software developed by Developer in accordance with this Agreement;
+  provided, however, Developer hereby covenants and agrees that it
+  will not, at any time during the term of this Agreement or
+  thereafter, assert any claim of any kind against Handspring, any
+  Handspring customer, or any Handspring licensee of the Software,
+  alleging infringement of the Developer's intellectual property or
+  other rights is such modifications.
+
+7. CONFIDENTIALITY.  Each party acknowledges that it will acquire
+  information and materials from the other party and knowledge about
+  the business, products, customers, clients and suppliers of the
+  other party and that all such knowledge, information and materials
+  acquired, including without limitation the Software, are and will be
+  the trade secrets and confidential and proprietary information of
+  the disclosing party (collectively "Confidential
+  Information"). Confidential Information will not include, however,
+  any information that (i) is received by the receiving party from a
+  third party without restriction on use or disclosure, (ii) the
+  disclosing party gives to third parties without restriction on use
+  or disclosure, or (iii) is previously known to the receiving party
+  or independently developed by the receiving party.  For the term of
+  this Agreement and for a period of five (5) years following
+  termination of expiration of this Agreement, each party agrees to
+  use reasonable efforts to hold all such Confidential Information in
+  confidence, and not to disclose it to others or use it except for
+  purposes of this Agreement. For the purposes of this section, the
+  User Interface ("look and feel") of the Software (if applicable) or
+  any modifications by the Developer thereof is considered
+  Confidential Information of Handspring.
+
+8. DEVELOPER INDEMNIFICATION.  Developer will defend at its expense
+  any action brought against Handspring to the extent that it arises
+  from or relates to Developer's use, development, modification,
+  reproduction, marketing or distribution of the Software or end
+  user's use of the Software, and Developer will pay any settlements
+  and any costs, damages and attorneys' fees finally awarded against
+  Handspring in such action which are attributable to such claim;
+  provided, the foregoing obligation shall be subject to notifying
+  Developer promptly in writing of the claim, giving it the exclusive
+  control of the defense and settlement thereof, and providing all
+  reasonable assistance in connection therewith.
+
+9. WARRANTY DISCLAIMER.  HANDSPRING MAKES NO WARRANTIES, EITHER
+  EXPRESS OR IMPLIED, AS TO ANY MATTER WHATSOEVER, AND SPECIFICALLY
+  DISCLAIMS ALL WARRANTIES OR CONDITIONS OF MERCHANTABILITY, TITLE,
+  NONINFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE.  THE
+  SOFTWARE IS PROVIDED "AS IS."  HANDSPRING DOES NOT WARRANT THAT THE
+  SOFTWARE IS ERROR FREE, THAT HANDSPRING WILL CORRECT ANY ERRORS IN
+  THE SOFTWARE, THAT DEVELOPER WILL BE ABLE TO OPERATE THE SOFTWARE
+  WITHOUT PROBLEMS OR INTERRUPTION, OR THAT THE SOFTWARE WILL BE
+  SUITABLE FOR DEVELOPER'S NEEDS. ALSO, THERE IS NO WARRANTY, DUTY OR
+  CONDITION OF TITLE, QUIET ENJOYMENT, QUIET POSSESSION,
+  CORRESPONDENCE TO DESCRIPTION OR NON-INFRINGEMENT.  THE ENTIRE RISK
+  AS TO THE QUALITY, OR ARISING OUT OF THE USE OR PERFORMANCE OF THE
+  SOFTWARE REMAINS WITH THE USER.
+
+10. LIMITATION OF LIABILITY.  EXCEPT FOR BREACHES OF THE SECTIONS
+   ENTITLED "LICENSE GRANT", "NO TRADEMARK LICENSE", "LICENSE
+   RESTRICTIONS", OR "CONFIDENTIALITY", IN NO EVENT WILL EITHER PARTY
+   BE LIABLE TO THE OTHER FOR LOST PROFITS, LOST BUSINESS, OR ANY
+   CONSEQUENTIAL, EXEMPLARY OR INCIDENTAL DAMAGES ARISING OUT OF OR
+   RELATING TO THIS AGREEMENT, REGARDLESS OF WHETHER BASED IN CONTRACT
+   OR TORT, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH
+   DAMAGES. BECAUSE SOME STATES/JURISDICTIONS DO NOT ALLOW THE
+   EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR
+   INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO USER.
+
+11. TERM AND TERMINATION. This Agreement shall remain in effect for
+   the partial calendar year ending on the first March 31 following
+   the effective date, and shall automatically renew for additional
+   one (1) year terms ending on each subsequent March 31, except that
+   the Agreement shall automatically terminate if either party
+   materially breaches or is in default of any obligation hereunder or
+   if either party provides notice of non-renewal by January 1.  The
+   parties agree that Handspring may provide notice by making the
+   notice available in a manner similar to the manner in which the
+   Software was made available. The provisions of Section 5 through 9
+   shall survive any termination expiration of the Agreement.
+
+12. EXPORT RESTRICTIONS.  Developer acknowledges that the Software is
+   subject to U.S. export jurisdiction.  Developer agrees to comply
+   with all applicable international and national laws that apply to
+   the Software, including the U.S. Export Administration Regulations,
+   as well as end-user, end-use and destination restrictions issued by
+   U.S. and other governments.
+
+13. GENERAL.  This Agreement will be governed by and construed and
+interpreted in accordance with the internal laws of the State of
+California, excluding that body of law applicable to conflict of laws.
+No waiver, amendment or modification of any provision hereof or of any
+right or remedy hereunder will be effective unless made in writing and
+signed by the party against whom such waiver, amendment or
+modification is sought to be enforced.  No failure by any party to
+exercise, and no delay by any party in exercising, any right, power or
+remedy with respect to the obligations secured hereby will operate as
+a waiver of any such right, power or remedy.  Neither this Agreement
+nor any right or obligation hereunder may be assigned or delegated by
+Developer (including by operation of law) without Handspring's express
+prior written consent, which consent will not be unreasonably
+withheld, and any assignment or delegation without such consent will
+be void.  This Agreement will be binding upon and inure to the benefit
+of the successors and the permitted assigns of the respective parties
+hereto.  If any provision of this Agreement is declared by a court of
+competent jurisdiction to be invalid, void, or unenforceable, the
+parties will modify such provision to the extent possible to most
+nearly effect its intent.  In the event the parties cannot agree, then
+either party may terminate this Agreement on sixty (60) days notice.
+This Agreement constitutes the entire understanding and agreement of
+the parties hereto with respect to the subject matter hereof and
+supersedes all prior agreements or understandings, written or oral,
+between the parties hereto with respect to the subject matter hereof.
+THE SOFTWARE IS PROTECTED BY UNITED STATES COPYRIGHT LAW AND
+INTERNATIONAL TREATY.  UNAUTHORIZED REPRODUCTION OR DISTRIBUTION IS
+SUBJECT TO CIVIL AND CRIMINAL PENALTIES.
+  
+Copyright (C) 2001 Handspring, Inc.  All Rights Reserved.

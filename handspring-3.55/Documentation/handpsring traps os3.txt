@@ -1,0 +1,90 @@
+\ hsext 00.7.11 12:22 pm NAB
+
+needs core-ext
+needs toolkit
+
+0 enum rettype
+  rettype none
+  rettype Err
+  rettype DWord
+  rettype Ptr
+
+(hex) A349 constant HStrap#
+
+: HSTrap ( in out selector "name" -- )
+  create  , , ,
+  does>  ( i*x -- result )
+    dup >r
+    @ HStrap# systrap  d0  a0
+    r> cell+ 2@ >r
+    0 ?do  drop  loop
+    r@ Ptr <> if  2drop
+      else  2swap 2drop  then
+    r@ Err = if  drop  then
+    r> none = if  2drop  then ;
+
+4 DWord 0 HSTrap HsInfo
+( &paramP. paramSize item -- DWord. )
+
+10 Err 4 HSTrap HsDatabaseCopy
+( &dstDbIDP. hsDbCopyFlags. &dstNameP. dstCardNo srcDbID. srcCardNo -- Err )
+
+1 Err 5 HSTrap HsExtKeyboardEnable
+( enable -- Err )
+
+4 Err 6 HSTrap HsCardAttrGet
+( &valueP. attr cardNo -- Err )
+
+4 Err 7 HSTrap HsCardAttrSet
+( &valueP. attr cardNo -- Err )
+
+3 Err 8 HSTrap HsCardEventPost
+( evtParam evtNum cardNo -- Err )
+
+0 Ptr 9 HSTrap hsSelPrvErrCatchListP
+( -- &Ptr. )
+
+5 Err 10 HSTrap HsPrefGet
+( &prefSizeP. &bufP. pref -- Err )
+
+5 Err 11 HSTrap HsPrefSet
+( &prefSizeP. &bufP. pref -- Err )
+
+11 Err 12 HSTrap HsDmGetNextDBByTypeCreator
+( &dbIDP. &cardNoP. onlyLatestVers creator. type. &stateInfoP. -- Err )
+
+5 Err 13 HSTrap HsDmGetNextDBInit
+( cardNo flags. &stateInfoP. -- Err )
+
+3 Err 14 HSTrap HsCardHdrUpdate
+( &newCardHdrP. cardNo -- Err )
+
+4 Err 15 HSTrap HsAppEventHandlerSet
+( evtRefCon. &procP. -- Err )
+
+2 Err 16 HSTrap HsAppEventPost
+( evtParam evtNum -- Err )
+
+0 Ptr 17 HSTrap HsUsbCommStatePtr
+( -- &DWord. )
+
+3 Err 18 HSTrap HsCardPatchInstall
+( &procP. trapnum -- )
+
+1 Err 19 HSTrap HsCardPatchRemove
+( trapNum -- Err )
+
+3 Err 20 HSTrap HsEvtResetAutoOffTimer
+( userOn stayAwakeTicks. -- Err )
+
+6 Err 21 HSTrap HsDmDatabaseUniqueIDSeed
+( &uniqueIDSeed. set dbID. cardNo -- Err )
+
+7 none 22 HSTrap HsAboutHandspringApp
+( &extraCreditsStrP. &copyrightYearStrP. appDbId. appCardNo. -- Err )
+
+3 Err 23 hstrap HsDatabaseIsOpen
+( LocalID. cardNo -- Err )
+
+3 Err 24 HSTrap HsDatabaseIsProtected
+( LocalID. cardNo -- Err )

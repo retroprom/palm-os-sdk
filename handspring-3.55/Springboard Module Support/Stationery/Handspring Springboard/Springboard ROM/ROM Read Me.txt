@@ -1,0 +1,16 @@
+==============================================================================
+
+Copyright © 2001 Metrowerks Corporation or its subsidiaries.
+All rights reserved.
+
+File: ROM Read Me.txt
+
+==============================================================================
+
+This is a stationery project for a Handspring ROM file that can be flashed 
+onto a Handspring© Springboard(tm) module.
+
+Metrowerks Corporation
+August 14 2001
+
+

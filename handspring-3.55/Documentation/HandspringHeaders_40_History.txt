@@ -1,0 +1,19 @@
+====================================
+Handspring DTS Team
+http://www.handspring.com/developers
+====================================
+
+---------------------------------
+Handspring Extension Header Files
+---------------------------------
+May 1, 2002
+
+1. Compiling
+	* These are the header files required for devloping programs specific to the Handspring Treo 90
+	* The Handspring Treo 90 is running Palm OS v4.0
+	* Palm OS v4.0 SDK can be found at: http://www.palmos.com/dev/tools/sdk40.html
+	* The header files should be placed under /PalmDev/include/Handspring
+
+2. Revision History
+	* Version 4.00 (May 1, 2002)
+		- Initial Release.
